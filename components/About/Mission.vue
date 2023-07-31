@@ -23,7 +23,7 @@
           Contact us today for customized excellence-driven solutions.
         </p>
         <div class="flex mt-10 justify-start w-full">
-          <nuxt-link to="#" class="bg-blue-4 text-white rounded w-full md:w-auto text-center md:text-left py-4 px-8">
+          <nuxt-link to="/" class="bg-blue-4 text-white rounded w-full md:w-auto text-center md:text-left py-4 px-8">
             See Full Statement
           </nuxt-link>
         </div>

@@ -20,7 +20,7 @@
         organization's growth with our dedicated support.
       </p>
       <div class="flex mt-10">
-        <nuxt-link to="#" class="bg-blue-4 text-white rounded py-4 px-8">
+        <nuxt-link to="/about" class="bg-blue-4 text-white rounded py-4 px-8">
           Learn More
           <Icon class="ml-4" name="mdi:arrow-right" size="18px" />
         </nuxt-link>

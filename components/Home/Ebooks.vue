@@ -28,9 +28,9 @@ const services = ref([
     <div
       class="flex flex-col lg:flex-row lg:items-center justify-between w-full"
     >
-      <div class="w-full">
+      <div class="">
         <h2
-          class="font-bold leading-[48px] w-[200px] lg:leading-[54px] tracking-[-1.5px] text-[32px] lg:text-[48px]"
+          class="font-bold leading-[48px] w-[200px] md:w-auto lg:leading-[54px] tracking-[-1.5px] text-[32px] lg:text-[48px]"
         >
           Level Up with <span class="text-blue-4">Our Resources</span>
         </h2>
