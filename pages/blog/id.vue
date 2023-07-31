@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="text-blue-2">
+    <AppHeader />
     <BlogInfo />
     <BlogMission />
     <BlogTestimonials />

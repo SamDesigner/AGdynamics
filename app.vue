@@ -15,7 +15,6 @@
 </script>
 <template>
   <div class="body">
-    <AppHeader />
     <main>
       <NuxtPage />
     </main>

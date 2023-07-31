@@ -23,7 +23,7 @@ export default defineNuxtConfig({
       ]
     }
   },
-  css: ['~/assets/main.scss'],
+  css: ['~/assets/main.scss', '~/assets/fonts/fonts.css'],
   modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxtjs/google-fonts', 'nuxt-swiper'],
   vite: {
     css: {
@@ -32,12 +32,6 @@ export default defineNuxtConfig({
           additionalData: '@use "@/assets/_colors.scss" as *;'
         }
       }
-    }
-  },
-  googleFonts: {
-    families: {
-      Epilogue: [400, 500, 600, 700],
-      'League+Spartan': [400, 500, 600, 700]
     }
   }
 })

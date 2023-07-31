@@ -1,56 +1,27 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="md:bg-hero-bg md:bg-no-repeat md:bg-cover md:bg-black/40 md:bg-blend-multiply md:h-[85vh] pt-20 md:py-28 w-full md:mt-[120px]"
+    class="bg-blue h-screen pt-20 md:py-28 px-4 md:px-6 xl:px-0 w-full md:pt-[120px]"
   >
     <div
-      class="w-full max-w-[1240px] flex h-full items-end justify-end mx-auto"
+      class="w-full max-w-[1240px] flex justify-between pt-32 md:pt-20 mx-auto h-full"
     >
-      <div class="hidden md:block text-white w-full max-w-[542px]">
-        <h1 class="font-bold uppercase leading-snug text-2xl lg:text-4xl">
-          Ignite Growth & Success with Expert Management Consulting.
-        </h1>
-        <p class="font-medium text-white/80 lg:text-lg md:w-11/12">
-          Experience the power of our comprehensive approach, where we
-          seamlessly handle tenders, grants, and license applications.
-        </p>
-        <div class="flex">
-          <a
-            href="https://youtu.be/s5J4na-rGCM"
-            target="_blank"
-            class="bg-primary flex gap-2 items-center mt-4 px-6 py-3 rounded-lg"
-          >
-            <Icon name="mdi:youtube" size="24px" />
-            <p class="text-white font-semibold">Watch Our Story</p>
-          </a>
+      <div class="flex flex-col justify-between w-full h-full">
+        <div class="flex justify-between w-full">
+          <img class="hidden lg:block w-[146px]" src="/img/hero-left.png" alt="hero left image">
+          <div class="text-white text-center w-full max-w-[768px]">
+            <h1 class="font-black leading-[42px] md:leading-[54px] lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]">
+              Business Consultancy That Keeps You <span class="text-yellow">Smiling</span>
+            </h1>
+            <p class="font-medium text-white tracking-[0.2px] mx-4 mt-6 lg:text-lg">
+              Empower your organization's growth and elevate your impact.
+            </p>
+          </div>
+          <img class="hidden lg:block w-[146px]" src="/img/hero-right.png" alt="hero right image">
         </div>
-      </div>
-      <div
-        class="flex md:hidden flex-col md:flex-row justify-between items-center mx-auto w-full"
-      >
-        <div class="w-full px-4 mt-6 md:mt-0">
-          <h2
-            class="font-bold uppercase leading-snug text-2xl md:text-3xl text-black"
-          >
-            Ignite Growth & Success with
-            <span class="text-primary">Expert Management Consulting.</span>
-          </h2>
-          <p class="text-grey/80 md:text-lg mt-3">
-            Experience the power of our comprehensive approach, where we
-            seamlessly handle tenders, grants, and license applications.
-          </p>
-        </div>
-        <div
-          class="bg-hero-bg-mob bg-contain bg-black/40 bg-blend-multiply flex items-end justify-stretch w-full mt-4 p-4 h-[249px]"
-        >
-          <a
-            href="https://youtu.be/s5J4na-rGCM"
-            target="_blank"
-            class="bg-primary flex gap-2 justify-center items-center mt-4 px-6 py-3 w-full rounded-lg"
-          >
-            <Icon name="mdi:youtube" size="24px" color="#FFFFFF" />
-            <p class="text-white font-semibold">Watch Our Story</p>
-          </a>
+        <div class="-mb-20 md:-mb-40 relative">
+          <img class="absolute right-8 xl:-right-8 -top-8" src="/img/play-icon.png" alt="play icon">
+          <img src="/img/vid-placeholder.png" alt="placeholder for video">
         </div>
       </div>
     </div>

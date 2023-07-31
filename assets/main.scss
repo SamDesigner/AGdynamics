@@ -1,11 +1,11 @@
 body {
-  font-family: Epilogue, sans-serif;
+  font-family: 'Product Sans', sans-serif;
 }
 .router-link-exact-active {
-  color: $primary;
+  color: $blue-4;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Recoleta', sans-serif;
 }
 .swiper {
   width: 100%;
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Epilogue", sans-serif;
+    font-family: "Product Sans", sans-serif;
     @media screen and (max-width: 768px) {
       width: 100% !important;
     }

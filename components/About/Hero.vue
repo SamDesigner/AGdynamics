@@ -1,11 +1,12 @@
 <script setup lang="ts">
 </script>
 <template>
-  <div class="bg-about-bg-mob md:bg-about-bg bg-top bg-no-repeat bg-cover bg-black/60 md:bg-black/75 bg-blend-multiply h-auto md:h-[30vh] py-20 md:py-28 w-full mt-24 md:mt-[120px]">
-    <div class="w-full max-w-[1240px] flex h-full items-center text-center justify-center px-4 px-md-0 mx-auto">
-      <div class="text-white w-full max-w-[874px]">
-        <h1 class="font-bold uppercase text-primary leading-snug text-2xl lg:text-4xl mb-3">About Us</h1>
-        <p class="font-medium text-white/80 lg:text-lg md:w-11/12">Discover the journey that brought us here and our passion. Learn how we started, what drives us, and our commitment to delivering exceptional services.</p>
+  <div class="py-20 md:py-28 w-full">
+    <div class="w-full max-w-[1240px] flex h-full items-center text-center justify-center pt-[140px] px-4 md:px-6 xl:px-0 mx-auto">
+      <div class="">
+        <p class="text-blue-4 text-lg font-bold tracking-[0.2px]">A LITTLE ABOUT US</p>
+        <h1 class="font-black mb-10 text-blue-2 leading-[42px] md:leading-[54px] lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]">We're Here To Help You <span class="text-blue-4">Succeed</span>.</h1>
+        <img src="/img/vid-placeholder.png" alt="placeholder for video">
       </div>
     </div>
   </div>

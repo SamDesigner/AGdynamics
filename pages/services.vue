@@ -1,8 +1,9 @@
 <template>
-  <div class="text-grey/80">
+  <div class="text-blue-2">
+    <AppHeader />
     <ServicesHero />
-    <ServicesBecause />
-    <AboutTestimonials />
+    <ServicesJobs />
+    <AboutQandA />
     <ServicesEnroll />
   </div>
 </template>

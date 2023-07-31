@@ -1,11 +1,14 @@
 <template>
-  <div class="text-grey/80">
+  <div class="text-blue-2">
+    <AppHeader />
     <HomeHero />
-    <HomeAbout />
     <HomeServices />
-    <HomeEnroll />
+    <HomeAbout />
+    <HomeTestimonials />
+    <HomeTeam />
     <HomeEbooks />
-    <HomeVideos />
+    <HomeEnroll />
+    <!-- <HomeVideos /> -->
   </div>
 </template>
 

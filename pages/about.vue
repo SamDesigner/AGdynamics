@@ -1,10 +1,13 @@
 <template>
-  <div class="text-grey/80">
+  <AppHeaderLight />
+  <div class="text-blue-2">
     <AboutHero />
     <AboutBecause />
     <AboutMission />
-    <AboutTestimonials />
     <AboutEnroll />
+    <AboutTeam />
+    <AboutQandA />
+    <HomeEnroll />
   </div>
 </template>
 

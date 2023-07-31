@@ -1,16 +1,33 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 <template>
-  <div class="bg-services-bg-mob md:bg-services-bg bg-top bg-no-repeat bg-cover bg-black/60 md:bg-black/75 bg-blend-multiply h-auto md:h-[30vh] py-14 md:py-28 w-full mt-24 md:mt-[120px]">
-    <div class="w-full max-w-[1240px] flex h-full items-center text-center justify-center px-4 px-md-0 mx-auto">
-      <div class="text-white w-full max-w-[878px]">
-        <h1 class="font-bold uppercase text-primary leading-snug text-2xl lg:text-4xl mb-3">Services</h1>
-        <p class="text-white/80 text-lg md:w-11/12">Explore our comprehensive range of services designed to empower individuals and businesses for success. From strategic consulting to tailored solutions, we provide the support and expertise you need to achieve your goals.</p>
+  <div
+    class="bg-blue h-screen pt-20 md:py-28 px-4 md:px-6 xl:px-0 w-full md:pt-[120px]"
+  >
+    <div
+      class="w-full max-w-[1240px] flex justify-between pt-32 md:pt-20 mx-auto h-full"
+    >
+      <div class="flex flex-col justify-between w-full h-full">
+        <div class="flex justify-center w-full">
+          <div class="text-white text-center w-full">
+            <p class="text-yellow text-lg font-bold uppercase">the services we provide</p>
+            <h1 class="font-black leading-[42px] md:leading-[54px] mb-10 lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]">
+              Business Guidance To <span class="text-yellow">Excellence</span>
+            </h1>
+          </div>
+        </div>
+        <div class="-mb-20 md:-mb-40 relative">
+          <img src="/img/vid-placeholder.png" alt="placeholder for video">
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-
+.bg-hero-bg {
+  background-position: center;
+  @media screen and (max-width: 768px) {
+    background-position: center left -350px;
+  }
+}
 </style>
