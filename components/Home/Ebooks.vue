@@ -100,7 +100,7 @@ const services = ref([
               </p>
               <div class="mt-10 flex w-full">
                 <nuxt-link
-                  to="#"
+                  to="/about"
                   class="bg-blue-4 text-center text-white rounded p-4 w-full"
                 >
                   Learn More
