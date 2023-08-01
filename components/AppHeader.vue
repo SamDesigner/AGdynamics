@@ -16,8 +16,8 @@
           <li @click="open = !open"><nuxt-link to="/about">About Us<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></nuxt-link></li>
           <li @click="open = !open"><nuxt-link to="/services">Care Services<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></nuxt-link></li>
           <li @click="open = !open"><nuxt-link to="/projects">Training & Events <Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></nuxt-link></li>
-          <li @click="open = !open"><nuxt-link to="/contact">Resources</nuxt-link></li>
-          <li @click="open = !open"><nuxt-link to="/blog">News</nuxt-link></li>
+          <li @click="open = !open"><nuxt-link to="/blog">Resources</nuxt-link></li>
+          <li @click="open = !open"><nuxt-link to="/contact">News</nuxt-link></li>
           <div class="lg:hidden flex flex-col lg:flex-row lg:items-center gap-6">
             <button class="bg-white border-2 border-white font-semibold px-4 py-3 rounded text-blue-2">Request Service</button>        
           </div>

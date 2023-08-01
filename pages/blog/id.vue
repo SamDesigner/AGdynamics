@@ -1,9 +1,10 @@
 <template>
   <div class="text-blue-2">
-    <AppHeader />
+    <AppHeaderLight />
     <BlogInfo />
-    <BlogMission />
-    <BlogTestimonials />
+    <!-- <BlogMission />
+    <BlogTestimonials /> -->
+    <BlogMore />
   </div>
 </template>
 

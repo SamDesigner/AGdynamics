@@ -1,6 +1,6 @@
 <template>
   <div class="text-blue-2">
-    <AppHeader />
+    <AppHeaderLight />
     <EbooksHero />
     <EbooksBecause />
   </div>

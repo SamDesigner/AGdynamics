@@ -1,11 +1,12 @@
 <script setup lang="ts">
 </script>
 <template>
-  <div class="bg-ebooks-bg bg-top bg-no-repeat bg-cover bg-black/75 bg-blend-multiply h-auto md:h-[30vh] py-14 md:py-28 w-full mt-24 md:mt-[120px]">
-    <div class="w-full max-w-[1240px] flex h-full items-center text-center justify-center px-4 px-md-0 mx-auto">
-      <div class="text-white w-full md:w-5/6">
-        <h1 class="font-bold text-primary leading-snug text-2xl lg:text-4xl mb-3">UPCOMING eBOOKS</h1>
-        <p class="font-medium text-white/80 text-lg mx-auto">Stay ahead of the curve with our industry eBooks available on Amazon. Discover the latest trends, emerging technologies, and industry insights that can help you navigate the ever-changing landscape & make informed decisions.</p>
+  <div class="py-20 md:pt-28 w-full">
+    <div class="w-full max-w-[1240px] flex h-full items-center text-center justify-center pt-[140px] px-4 md:px-6 xl:px-0 mx-auto">
+      <div class="">
+        <p class="text-blue-4 text-lg font-bold tracking-[0.2px]">STAY AHEAD OF THE CURVE</p>
+        <h1 class="font-black mb-10 text-blue-2 leading-[42px] md:leading-[54px] lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]"><span class="text-blue-4">Insights</span> For The Changing Landscape.</h1>
+        <img src="/img/vid-placeholder.png" alt="placeholder for video">
       </div>
     </div>
   </div>

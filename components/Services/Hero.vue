@@ -24,10 +24,4 @@
 </template>
 
 <style lang="scss" scoped>
-.bg-hero-bg {
-  background-position: center;
-  @media screen and (max-width: 768px) {
-    background-position: center left -350px;
-  }
-}
 </style>

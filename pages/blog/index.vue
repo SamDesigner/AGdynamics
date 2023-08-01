@@ -2,8 +2,8 @@
   <div class="text-blue-2">
     <AppHeader />
     <BlogHero />
-    <BlogLatest />
     <BlogMore />
+    <AboutQandA />
   </div>
 </template>
 

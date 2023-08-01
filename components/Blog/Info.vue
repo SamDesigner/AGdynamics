@@ -1,219 +1,113 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="mx-auto text-black/80 text-lg leading-relaxed lg:leading-9 w-full max-w-[1240px] my-[100px] lg:my-[200px]"
+    class="mx-auto text-lg leading-relaxed lg:leading-9 w-full max-w-[1240px] px-4 md:px-6 xl:px-0 my-[100px] lg:my-[200px]"
   >
     <nuxt-link to="/blog" class="flex items-center gap-2 mb-4">
-      <button class="ml-3 md:hidden flex min-w-max rounded-full p-2 items-center justify-center bg-primary self-start">
-        <Icon name="ic:baseline-arrow-back-ios" size="24px" color="#FFFFFF" class="flex items-center pl-1 justify-center" />
+      <button
+        class="ml-3 flex min-w-max rounded-full p-2 items-center justify-center bg-grey-2 self-start"
+      >
+        <Icon
+          name="ic:baseline-arrow-back-ios"
+          size="24px"
+          color="#001D40"
+          class="flex items-center pl-1 justify-center"
+        />
       </button>
       <p class="leading-tight font-medium">Back</p>
     </nuxt-link>
-    <div class="flex flex-col text-center justify-center mb-10">
+    <div class="flex flex-col text-center justify-center items-center mb-10">
       <h1
-        class="font-semibold uppercase leading-snug text-2xl md:text-3xl text-black"
+        class="font-bold leading-snug text-2xl md:text-3xl lg:text-[56px] lg:leading-[64px] text-black max-w-[984px]"
       >
         Supported living: More than providing a house and a service
       </h1>
-      <div
-        class="text-grey-6 font-semibold uppercase flex items-center justify-center mt-3"
-      >
-        <span>By Admin </span>
-        <p class="h-[16px] mx-2 w-1 bg-primary"></p>
-        <span> April 23, 2023</span>
-      </div>
-    </div>
-    <img class="" src="/img/support.png" alt="people working" />
-    <p class="mt-6 px-4 md:px-0">
-      When most people think of supported living, they think of group homes or
-      other living arrangements for people with developmental disabilities. And
-      while it’s true that supported living services can be provided in group
-      homes, supported living is so much more than that. Supported living is
-      about providing people with the support they need to live independently in
-      the community. It’s about giving people the opportunity to pursue their
-      goals and dreams, and to live their lives to the fullest and this can be
-      done in various ways such as:
-    </p>
-    <div class="mt-3 px-4 md:px-0">
-      <span class="font-medium">Personal care services</span>
-      <p class="my-2">
-        Personal care services provide assistance with activities of daily
-        living such as bathing, dressing, and eating. These services can be
-        provided in the home or in a community setting, such as an adult daycare
-        center.
-      </p>
-      <span class="font-medium">Transportation services</span>
-      <p class="my-2">
-        Transportation services provide transportation to and from appointments,
-        errands, and social activities. This service can be provided in the form
-        of public transportation, such as buses or trains, or private
-        transportation, such as taxis or ride-sharing services.
-      </p>
-      <span class="font-medium">Respite care</span>
-      <p class="my-2">
-        Respite care is temporary care that is provided to give caregivers a
-        break from their caring responsibilities. Respite care can be provided
-        in the home, in a community setting, or in a specialized facility, such
-        as a respite center.
-      </p>
-      <span class="font-medium">Home-based services</span>
-      <p class="my-2">
-        Home-based services are designed to help individuals live independently
-        in their own homes.
-      </p>
-      <span class="font-medium">Community-based services</span>
-      <p class="my-2">
-        Community-based services are designed to help individuals live
-        independently in the community. Services can include housing assistance,
-        job training, and life skills training.
-      </p>
-      <span class="font-medium">Day programs</span>
-      <p class="my-2">
-        Day programs provide a variety of activities and social opportunities
-        for adults with disabilities during the day. Programs can be located in
-        the community or at a specialized facility and can offer activities such
-        as art classes, cooking classes, and fitness classes.
-      </p>
-    </div>
-    <div
-      class="px-4 md:px-0 flex flex-col justify-between lg:items-center lg:flex-row mx-auto mt-4 w-full"
-    >
-      <div class="w-full max-w-[612px]">
-        <div class="mt-3">
-          <span class="font-medium">Employment services</span>
-          <p class="my-2">
-            Employment services assist individuals with disabilities in finding
-            and keeping competitive employment. Services can include job
-            placement, job coaching, and on-the-job support.
-          </p>
-          <span class="font-medium">Housing assistance</span>
-          <p class="my-2">
-            Housing assistance provides individuals with disabilities with
-            access to safe and affordable housing options. Services can include
-            apartment search assistance, rent subsidies, and accessible housing
-            modifications.
-          </p>
-          <span class="font-medium">Financial assistance</span>
-          <p class="my-2">
-            Financial assistance provides individuals with disabilities with
-            access to financial resources to help cover the costs of living
-            expenses such as food, clothing, and shelter.
-          </p>
+      <div class="text-blue flex items-center justify-center mt-8 gap-6">
+        <div class="flex md:justify-center max-w-fit relative">
+          <img
+            class="absolute -right-2 -top-2"
+            src="/svg/logo-splash.svg"
+            alt="splash logo"
+          />
+          <nuxt-link
+            to="/services"
+            class="bg-blue-4 text-white uppercase rounded px-2"
+          >
+            Trending
+          </nuxt-link>
         </div>
-      </div>
-      <div class="w-full max-w-[523px]">
-        <img class="" src="/img/hands.png" alt="people working" />
+        <span> April 23, 2023</span>
+        <p class="h-6 w-1 bg-blue-4"></p>
+        <span>By Mrs Obi </span>
       </div>
     </div>
+    <img class="" src="/img/vid-placeholder.png" alt="people working" />
     <div
-      class="flex flex-col-reverse md:flex-row justify-between items-center my-4 w-full"
+      class="flex flex-col lg:flex-row-reverse justify-between items-center my-[64px] lg:my-[120px] mx-auto w-full max-w-[1240px]"
     >
-      <div class="w-full max-w-[523px]">
+      <div
+        class="w-full flex flex-col items-center lg:items-start text-center lg:px-4 xl:px-0 lg:text-left mg:text-left max-w-[542px] md:pr-4"
+      >
+        <h2
+          class="font-bold leading-[48px] lg:leading-[54px] px-6 md:px-0 tracking-[-1.5px] text-[28px] md:text-[32px] w-full max-w-[520px] lg:max-w-[436px]"
+        >
+          Building Lasting Relationships
+        </h2>
+        <p class="leading-[28px] text-lg mt-4">
+          At OC Management Consultants, we believe in the power of trust,
+          transparency, and lasting relationships. Our commitment to your
+          success goes beyond transactions; it's about forging strong, long-term
+          partnerships.
+        </p>
+      </div>
+      <div class="mt-10 lg:mt-0">
         <img
-          src="/img/support.png"
+          src="/img/picture-placeholder.png"
           alt="picture of people sitting having meeting"
         />
       </div>
-      <div class="w-full max-w-[612px] px-4 mt-6 md:mt-0">
-        <p class="text-grey-4/80 md:leading-9 md:text-lg mt-3">
-          Of course, these different ways of providing supported living services
-          can be further categorised for example under housing assistance we
-          have: Shared lives, Supported living apartments, Semi-independent
-          accommodation, Residential care homes, Nursing homes (not all),
-          Half-way houses, Hostels, Day services. Click here for more
-          information about categories of supported living The features of
-          supported living vary depending on the individual’s needs and
-          preferences, but there are a few commonalities. First, supported
-          living arrangements are typically individualized to meet the specific
-          needs of the person receiving services.
+    </div>
+    <p
+      class="mt-6 mb-10 px-4 md:px-0 max-w-[612px] mx-auto flex items-center justify-center text-center"
+    >
+      At OC Management Consultants, we believe in the power of trust,
+      transparency, and lasting relationships. Our commitment to your success
+      goes beyond transactions; it's about forging strong, long-term
+      partnerships.
+    </p>
+    <img class="" src="/img/vid-placeholder.png" alt="people working" />
+    <div
+      class="flex flex-col lg:flex-row justify-between items-center my-[64px] lg:my-[120px] mx-auto w-full max-w-[1240px]"
+    >
+      <div
+        class="w-full flex flex-col items-center lg:items-start text-center lg:px-4 xl:px-0 lg:text-left mg:text-left max-w-[542px] md:pr-4"
+      >
+        <h2
+          class="font-bold leading-[48px] lg:leading-[54px] px-6 md:px-0 tracking-[-1.5px] text-[28px] md:text-[32px] w-full max-w-[520px] lg:max-w-[436px]"
+        >
+          Building Lasting Relationships
+        </h2>
+        <p class="leading-[28px] text-lg mt-4">
+          At OC Management Consultants, we believe in the power of trust,
+          transparency, and lasting relationships. Our commitment to your
+          success goes beyond transactions; it's about forging strong, long-term
+          partnerships.
         </p>
       </div>
-    </div>
-    <p class="mt-6 px-4 md:px-0">
-      This means that services and supports are not one-size-fits-all, but
-      rather are tailored to the individual’s unique needs. Second, supported
-      living arrangements are typically person-centered, meaning that the
-      individual receiving services has control over his or her own life and
-      choices. Finally, supported living arrangements promote integration into
-      the community. This means that individuals have opportunities to interact
-      with people who do not have disabilities and to participate in activities
-      that are part of everyday community life.
-    </p>
-    <div class="mt-8 px-4 md:px-0">
-      <span class="font-medium"
-        >What are the benefits of supported living?</span
-      >
-      <p class="my-2">
-        There are many benefits of supported living for both individuals with
-        disabilities and society as a whole. Perhaps most importantly, supported
-        living promotes independence and self-sufficiency for people with
-        disabilities. Supported living also gives individuals the opportunity to
-        form natural supports – relationships with friends, neighbors, and
-        others in the community who can provide assistance and companionship.
-        Additionally, supported living contributes to inclusion by promoting
-        integration into the community. This allows people with disabilities to
-        interact with nondisabled people on a daily basis, which can help break
-        down barriers and misconceptions about disability. Supported living is a
-        relatively new concept that is quickly gaining popularity as an
-        alternative to traditional care settings such as institutions and
-        Nursing facilities. Supported living is all about giving people with
-        disabilities the opportunity to live independently in the community with
-        the necessary support services in place. There are many benefits of
-        supported living for both individuals with disabilities and society as a
-        whole. If you or someone you know is interested in exploring supported
-        living as an option, there are a number of resources available to help
-        you get started.
-      </p>
-    </div>
-    <div
-      class="px-4 md:px-0 flex flex-col justify-between lg:items-center lg:flex-row mx-auto mt-4 w-full"
-    >
-      <div class="w-full max-w-[593px]">
-        <div class="mt-3">
-          <span class="font-medium">10 Things to takeaway:</span>
-          <ul class="list-disc ml-5">
-            <li>Supported living is an individualized approach to care.</li>
-            <li>It focuses on the person’s strengths, abilities, and goals.</li>
-            <li>
-              It is not just a roof over someone’s head; it is about providing
-              the necessary support to live independently.
-            </li>
-            <li>
-              It is about assisting individuals in leading the lives they want
-              to lead.
-            </li>
-            <li>
-              Supported living should be affordable and accessible to everyone
-              who needs it.
-            </li>
-            <li>
-              It is a team effort that includes the individual, their family,
-              friends, and professionals.
-            </li>
-          </ul>
-        </div>
+      <div class="mt-10 lg:mt-0">
+        <img
+          src="/img/picture-placeholder.png"
+          alt="picture of people sitting having meeting"
+        />
       </div>
-      <div class="w-full max-w-[581px]">
-        <ul class="list-disc ml-5">
-          <li>
-            Supported living can be long-term or short-term, depending on the
-            needs of the individual.
-          </li>
-          <li>
-            It can be provided in a variety of settings, including one’s own
-            home, a group home, or an apartment complex
-          </li>
-          designed for individuals with disabilities.
-          <li>
-            There are many different types of support services available, so it
-            is important to find the right fit for each
-          </li>
-          individual.
-          <li>
-            Ultimately, supported living is about empowering individuals with
-            disabilities to live their best lives possible.
-          </li>
-        </ul>
+    </div>
+    <div class="flex w-full justify-end">
+
+      <div class="flex border border-blue-2 p-10 rounded-full justify-center md:justify-end w-auto max-w-fit gap-10">
+        <a href="#" target="_blank"><Icon name="mdi:linkedin" size="24px" color="#001D40" /></a>
+        <a href="#" target="_blank"><Icon name="ri:instagram-fill" size="24px" color="#001D40" /></a>
+        <a href="#" target="_blank"><Icon name="mdi:twitter-box" size="24px" color="#001D40" /></a>
+        <a href="#" target="_blank"><Icon name="ic:round-facebook" size="24px" color="#001D40" /></a>
       </div>
     </div>
   </div>
