@@ -4,11 +4,10 @@
     <CareServicesDropdown v-if="dataStore.careServices" />
     <AboutUsDropdown v-if="dataStore.about" />
     <TrainingDropdown v-if="dataStore.training" />
-    <ProjectsHero />
-    <ProjectsBecause />
-    <ProjectsMission />
-    <ProjectsInfo />
-    <AboutTestimonials />
+    <StrategyHero />
+    <StrategyJobs />
+    <AboutQandA />
+    <HomeEnroll />
   </div>
 </template>
 

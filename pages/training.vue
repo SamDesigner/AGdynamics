@@ -1,11 +1,10 @@
 <template>
   <div class="text-blue-2">
-    <AppHeader />
+    <AppHeaderLight />
     <CareServicesDropdown v-if="dataStore.careServices" />
     <AboutUsDropdown v-if="dataStore.about" />
     <TrainingDropdown v-if="dataStore.training" />
-    <ServicesHero />
-    <ServicesJobs />
+    <TrainingHero />
     <AboutQandA />
     <HomeEnroll />
   </div>

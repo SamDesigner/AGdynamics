@@ -7,7 +7,7 @@
       <p class="mt-3 lg:mt-0 md:text-lg w-full max-w-[523px]">We understand that navigating complex regulations can be a daunting task, but we are here to help. Our team of experienced consultants has a proven track record of success in helping organizations win tenders, secure funding, and comply with regulations.</p>
     </div>
     <div
-      class="child text-white mt-12 flex gap-5 md:gap-[13px] overflow-x-scroll overflow-y-hidden w-full relative"
+      class="child text-white mt-12 flex gap-5 md:gap-[13px] overflow-x-auto overflow-y-hidden w-full relative"
     >
       <div class="min-w-[300px] md:min-w-[300px] h-[360px] relative">
         <div

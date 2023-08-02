@@ -16,8 +16,8 @@
           <li @click="aboutUsToggled"><p class="hover:text-blue-4 cursor-pointer">About Us<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#001D40" /></p></li>
           <li @click="careServicesToggled"><p class="hover:text-blue-4 cursor-pointer">Care Services<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#001D40" /></p></li>
           <li @click="trainingToggled"><p class="hover:text-blue-4 cursor-pointer">Training & Events <Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#001D40" /></p></li>
-          <li @click="open = !open"><nuxt-link to="/blog">Resources</nuxt-link></li>
-          <li @click="open = !open"><nuxt-link to="/contact">News</nuxt-link></li>
+          <li @click="open = !open"><nuxt-link to="/ebooks">Resources</nuxt-link></li>
+          <li @click="open = !open"><nuxt-link to="/blog">News</nuxt-link></li>
           <div class="lg:hidden flex flex-col lg:flex-row lg:items-center gap-6">
             <button class="bg-blue-4 border-2 border-blue-4 font-medium px-4 py-3 rounded text-white">Request Service</button>        
           </div>
