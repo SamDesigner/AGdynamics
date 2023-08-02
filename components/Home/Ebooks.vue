@@ -20,6 +20,37 @@ const services = ref([
     image: "book-mockup",
   },
 ]);
+const videos = ref([
+  {
+    title: "CQC Regulation 13: Good Governance",
+    img: "video-placeholder",
+  },
+  {
+    title: "CQC Regulation 13: Good Governance",
+    img: "video-placeholder",
+  },
+  {
+    title: "CQC Regulation 13: Good Governance",
+    img: "video-placeholder",
+  },
+]);
+const posts = ref([
+  {
+    title: "£500 million fund to make patients top priority",
+    date: "April 23, 2023",
+    author: "Mrs Obi",
+  },
+  {
+    title: "workforce development fund: adult social care",
+    date: "April 23, 2023",
+    author: "Mrs Obi",
+  },
+  {
+    title: "supported living: the economical benefits",
+    date: "April 23, 2023",
+    author: "Mrs Obi",
+  },
+]);
 </script>
 <template>
   <div
@@ -65,7 +96,7 @@ const services = ref([
         </button>
       </div>
     </div>
-    <div class="w-full">
+    <div v-if="resource === 'Books'" class="w-full">
       <div class="flex justify-center mt-10">
         <div
           class="flex flex-col lg:flex-row justify-center flex-wrap gap-10 lg:gap-2"
@@ -80,7 +111,9 @@ const services = ref([
               class="flex items-center px-6 py-8 border bg-blue-2 text-white border-blue-2"
             >
               <div class="flex flex-col w-full">
-                <h3 class="font-semibold text-[22px] tracking-[-0.2px] uppercase">
+                <h3
+                  class="font-semibold text-[22px] tracking-[-0.2px] uppercase"
+                >
                   {{ service.name }}
                 </h3>
                 <p
@@ -104,7 +137,126 @@ const services = ref([
       <div class="flex mt-10 justify-center">
         <nuxt-link to="/ebooks" class="text-blue-4 rounded py-4 px-8">
           See More
-          <Icon class="ml-4" name="mdi:arrow-right" size="18px" color="#0073FF" />
+          <Icon
+            class="ml-4"
+            name="mdi:arrow-right"
+            size="18px"
+            color="#0073FF"
+          />
+        </nuxt-link>
+      </div>
+    </div>
+    <div v-else-if="resource === 'Videos'" class="w-full">
+      <div class="flex justify-center mt-10">
+        <div
+          class="flex flex-col lg:flex-row justify-center flex-wrap gap-10 lg:gap-6"
+        >
+          <div
+            v-for="(video, idx) in videos"
+            :key="idx"
+            class="flex flex-col w-full lg:w-[397px]"
+          >
+            <img class="w-full" :src="`/img/${video.img}.png`" />
+            <div
+              class="flex items-center px-4 py-8 border bg-blue-2 text-white border-blue-2"
+            >
+              <div class="flex items-center w-full gap-x-4">
+                <img class="h-10 w-10" src="/img/play.png" alt="play picture" />
+                <p
+                  class="cut-text text-lg leading-[28px] font-medium max-h-14 text-ellipsis overflow-hidden block"
+                >
+                  {{ video.title }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex mt-10 justify-center">
+        <nuxt-link to="/ebooks" class="text-blue-4 rounded py-4 px-8">
+          See More
+          <Icon
+            class="ml-4"
+            name="mdi:arrow-right"
+            size="18px"
+            color="#0073FF"
+          />
+        </nuxt-link>
+      </div>
+    </div>
+    <div v-else class="">
+      <div class="flex flex-col lg:flex-row gap-10 mt-10">
+        <nuxt-link to="/blog/id" class="w-full max-w-[612px]">
+          <img src="/img/book-mockup-1.png" alt="book mockup" />
+          <div class="bg-blue-2 px-6 py-12">
+            <div class="flex flex-col md:flex-row md:items-center gap-6">
+              <div class="flex md:justify-center max-w-fit relative">
+                <img
+                  class="absolute -right-2 -top-2"
+                  src="/svg/dark-logo-splash.svg"
+                  alt="splash logo"
+                />
+                <nuxt-link
+                  to="/services"
+                  class="bg-blue-4 text-white uppercase rounded py-2 px-4"
+                >
+                  Trending
+                </nuxt-link>
+              </div>
+              <div class="flex gap-6 items-center">
+                <p class="text-whiter">April 23, 2023</p>
+                <div class="w-2 h-9 bg-blue-4" />
+                <p class="text-whiter">By Mrs Obi</p>
+              </div>
+            </div>
+            <h2 class="font-bold text-whiter text-2xl max-w-[483px] mt-6">
+              SUPPORTED LIVING: MORE THAN PROVIDING A HOUSE AND A SERVICE
+            </h2>
+          </div>
+        </nuxt-link>
+        <div class="flex flex-col gap-6">
+          <nuxt-link
+            v-for="(post, index) in posts"
+            :key="index"
+            class="flex items-center"
+            to="/blog/id"
+          >
+            <img
+              class="w-[164px] hidden md:block"
+              src="/img/book-mockup-mob.png"
+              alt="small book mockup"
+            />
+            <img
+              class="w-[164px] md:hidden"
+              src="/img/book-mockup-mob-2.png"
+              alt="small book mockup"
+            />
+            <div class="flex flex-col gap-y-2 px-6 max-w-[424px]">
+              <h3
+                class="cut-text text-lg font-bold uppercase max-h-14 text-ellipsis overflow-hidden block"
+              >
+                {{ post.title }}
+              </h3>
+              <div
+                class="flex flex-col md:flex-row md:items-center gap-2 md:gap-6"
+              >
+                <p>{{ post.date }}</p>
+                <div class="w-7/12 md:w-1 h-1 md:h-7 bg-blue-4" />
+                <p>By {{ post.author }}</p>
+              </div>
+            </div>
+          </nuxt-link>
+        </div>
+      </div>
+      <div class="flex mt-10 justify-center">
+        <nuxt-link to="/ebooks" class="text-blue-4 rounded py-4 px-8">
+          View More
+          <Icon
+            class="ml-4"
+            name="mdi:arrow-right"
+            size="18px"
+            color="#0073FF"
+          />
         </nuxt-link>
       </div>
     </div>

@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="mb-[48px] px-4 md:px-6 xl:px-0 mt-[100px] lg:mt-[200px] mx-auto w-full max-w-[1240px]"
+    class="mb-[48px] px-4 md:px-6 xl:px-0  mt-[160px] lg:mt-[350px] mx-auto w-full max-w-[1240px]"
   >
     <div class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-16 lg:mb-[120px] bg-grey-2">
       <div class="flex flex-col lg:flex-row justify-between items-center">
