@@ -17,6 +17,7 @@
         </div>
         <div class="-mb-20 md:-mb-40 relative">
           <img src="/img/vid-placeholder.png" alt="placeholder for video">
+          <div id="licenses" />
         </div>
       </div>
     </div>

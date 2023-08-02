@@ -1,7 +1,7 @@
 <script setup lang="ts">
 </script>
 <template>
-  <div class="flex flex-col mt-[160px] lg:mt-[260px] mx-auto px-4 md:px-6 xl:px-0 w-full max-w-[1240px]">
+  <div class="flex flex-col mt-[160px] lg:mt-[350px] mx-auto px-4 md:px-6 xl:px-0 w-full max-w-[1240px]">
     <div class="flex flex-col text-center lg:text-left lg:flex-row items-center lg:items-start justify-between w-full">
       <h2 class="font-bold px-8 lg:px-0 leading-[36px] md:leading-[48px] lg:leading-[54px] tracking-[-1.5px] text-2xl md:text-[32px] lg:text-[48px] w-full max-w-[507px]">We Guide Businesses To <span class="text-blue-4">Achieve Excellence</span></h2>
       <p class="mt-3 lg:mt-0 md:text-lg w-full max-w-[523px]">We understand that navigating complex regulations can be a daunting task, but we are here to help. Our team of experienced consultants has a proven track record of success in helping organizations win tenders, secure funding, and comply with regulations.</p>

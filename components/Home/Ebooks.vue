@@ -64,72 +64,50 @@ const services = ref([
           Blog
         </button>
       </div>
-      <!-- <nuxt-link
-        to="/ebooks"
-        class="hidden md:flex min-w-max gap-2 items-center self-start mt-2 lg:mt-0"
-      >
-        <p class="text-primary font-semibold">See All</p>
-        <Icon
-          name="ic:baseline-arrow-forward-ios"
-          size="24px"
-          color="#03989E"
-        />
-      </nuxt-link> -->
     </div>
-    <div class="flex justify-center mt-10">
-      <div
-        class="flex flex-col lg:flex-row justify-center flex-wrap gap-10 lg:gap-2"
-      >
+    <div class="w-full">
+      <div class="flex justify-center mt-10">
         <div
-          v-for="(service, idx) in services"
-          :key="idx"
-          class="flex flex-col w-full lg:w-[408px]"
+          class="flex flex-col lg:flex-row justify-center flex-wrap gap-10 lg:gap-2"
         >
-          <img class="w-full" :src="`/img/${service.image}.png`" />
           <div
-            class="flex items-center px-6 py-8 border bg-blue-2 text-white border-blue-2"
+            v-for="(service, idx) in services"
+            :key="idx"
+            class="flex flex-col w-full lg:w-[408px]"
           >
-            <div class="flex flex-col w-full">
-              <h3 class="font-semibold text-[22px] tracking-[-0.2px] uppercase">
-                {{ service.name }}
-              </h3>
-              <p
-                class="cut-text text-lg leading-[28px] font-medium max-h-14 mt-4 text-ellipsis overflow-hidden block"
-              >
-                {{ service.title }}
-              </p>
-              <div class="mt-10 flex w-full">
-                <nuxt-link
-                  to="/about"
-                  class="bg-blue-4 text-center text-white rounded p-4 w-full"
+            <img class="w-full" :src="`/img/${service.image}.png`" />
+            <div
+              class="flex items-center px-6 py-8 border bg-blue-2 text-white border-blue-2"
+            >
+              <div class="flex flex-col w-full">
+                <h3 class="font-semibold text-[22px] tracking-[-0.2px] uppercase">
+                  {{ service.name }}
+                </h3>
+                <p
+                  class="cut-text text-lg leading-[28px] font-medium max-h-14 mt-4 text-ellipsis overflow-hidden block"
                 >
-                  Learn More
-                </nuxt-link>
+                  {{ service.title }}
+                </p>
+                <div class="mt-10 flex w-full">
+                  <nuxt-link
+                    to="/about"
+                    class="bg-blue-4 text-center text-white rounded p-4 w-full"
+                  >
+                    Learn More
+                  </nuxt-link>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="flex mt-10 justify-center">
+        <nuxt-link to="/ebooks" class="text-blue-4 rounded py-4 px-8">
+          See More
+          <Icon class="ml-4" name="mdi:arrow-right" size="18px" color="#0073FF" />
+        </nuxt-link>
+      </div>
     </div>
-    <div class="flex mt-10 justify-center">
-      <nuxt-link to="/blog" class="text-blue-4 rounded py-4 px-8">
-        See More
-        <Icon class="ml-4" name="mdi:arrow-right" size="18px" color="#0073FF" />
-      </nuxt-link>
-    </div>
-    <!-- <div class="flex w-full px-4 md:hidden">
-      <nuxt-link
-        to="/about"
-        class="border-2 border-primary bg-primary flex justify-center gap-2 items-center mt-4 px-10 py-4 rounded-lg w-full md:w-auto"
-      >
-        <p class="text-white font-semibold">See All</p>
-        <Icon
-          name="ic:baseline-arrow-forward-ios"
-          size="24px"
-          color="#FFFFFF"
-        />
-      </nuxt-link>
-    </div> -->
   </div>
 </template>
 

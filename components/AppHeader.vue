@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed right-0 left-0 top-10 font-medium text-white z-10 px-4 md:px-6 xl:px-0">
+  <div class="fixed right-0 left-0 top-0 md:py-6 font-medium text-white z-10 px-4 md:px-6 xl:px-0" :class="scrolled ? 'bg-blue-3' : 'bg-transparent'">
     <div class="bg-blue-3 flex h-24 md:h-[88px] items-center justify-between px-6 px-md-0 w-full max-w-[1240px] rounded-xl mx-auto">
       <nuxt-link to="/">
         <img class="w-[50px] md:w-20 h-[50px] md:h-20" src="/svg/logo.svg" />
@@ -13,9 +13,9 @@
         </button>
         <ul class="flex flex-col lg:flex-row lg:items-center gap-4 mt-10 lg:mt-0 lg:gap-10">
           <!-- <li @click="open = !open"><nuxt-link to="/">Home</nuxt-link></li> -->
-          <li @click="open = !open"><nuxt-link to="/about">About Us<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></nuxt-link></li>
-          <li @click="open = !open"><nuxt-link to="/services">Care Services<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></nuxt-link></li>
-          <li @click="open = !open"><nuxt-link to="/projects">Training & Events <Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></nuxt-link></li>
+          <li @click="aboutUsToggled"><p class="hover:text-blue-4 cursor-pointer">About Us<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></p></li>
+          <li @click="careServicesToggled"><p class="hover:text-blue-4 cursor-pointer">Care Services<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></p></li>
+          <li @click="trainingToggled"><p class="hover:text-blue-4 cursor-pointer">Training & Events <Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></p></li>
           <li @click="open = !open"><nuxt-link to="/blog">Resources</nuxt-link></li>
           <li @click="open = !open"><nuxt-link to="/contact">News</nuxt-link></li>
           <div class="lg:hidden flex flex-col lg:flex-row lg:items-center gap-6">
@@ -31,17 +31,45 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-
+import { useDataStore } from '@/stores/data'
+const dataStore = useDataStore();
+const scrolled = ref(false);
 const open = ref(false);
 const close = (e:HTMLInputElement) => {
   if (e.target.tagName !== 'svg' && e.target.tagName !== 'path') {
     open.value = false;
   }
 };
+
+const careServicesToggled = () => {
+  open.value = !open.value;
+  dataStore.careServices = !dataStore.careServices;
+}
+
+const aboutUsToggled = () => {
+  open.value = !open.value;
+  dataStore.about = !dataStore.about;
+}
+
+const trainingToggled = () => {
+  open.value = !open.value;
+  dataStore.training = !dataStore.training;
+}
+
+const handleScroll = () => {
+  scrolled.value = window.scrollY > 0
+}
+
+if (typeof window !== 'undefined') {
+  window.addEventListener('scroll', handleScroll);
+}
 </script>
 
 <style lang="scss" scoped>
+.backdrop {
+  background: rgba(0, 29, 64, 0.24);
+backdrop-filter: blur(20px);
+}
 .navbar {
 
   &-links {

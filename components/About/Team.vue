@@ -75,7 +75,7 @@ const resetBtnValues = () => {
           </p>
         </div>
       </div>
-      <div class="flex justify-center">
+      <div class="flex flex-col items-center">
         <div class="flex flex-col md:flex-row justify-center flex-wrap gap-3">
           <div
             v-for="(service, idx) in services"
@@ -95,6 +95,7 @@ const resetBtnValues = () => {
             </div>
           </div>
         </div>
+        <div id="location" />
       </div>
       <div class="mt-24 flex flex-col items center text-center">
         <div class="flex justify-center">

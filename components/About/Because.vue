@@ -82,6 +82,7 @@
             src="/img/picture-placeholder.png"
             alt="picture of people sitting having meeting"
           />
+          <div id="vision" />
         </div>
       </div>
     </div>
