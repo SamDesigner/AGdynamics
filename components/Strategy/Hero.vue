@@ -6,8 +6,8 @@
     <div
       class="w-full max-w-[1240px] flex justify-between pt-32 md:pt-20 mx-auto h-full"
     >
-      <div class="flex flex-col justify-between w-full h-full">
-        <div class="flex justify-center w-full">
+      <div class="flex flex-col md:justify-between w-full h-full">
+        <div class="flex justify-center w-full mb-10 md:mb-12 lg:mb-20">
           <div class="text-white text-center w-full">
             <p class="text-yellow text-lg font-bold uppercase">our contribution to social care</p>
             <h1 class="font-black leading-[42px] md:leading-[54px] mb-10 lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]">
@@ -15,7 +15,7 @@
             </h1>
           </div>
         </div>
-        <div class="-mb-20 md:-mb-40 relative">
+        <div class="md:-mb-40 relative">
           <img src="/img/vid-placeholder.png" alt="placeholder for video">
           <div id="licenses" />
         </div>

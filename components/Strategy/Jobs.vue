@@ -11,7 +11,11 @@ const strategy = ref([
 const growth = ref(['Digitization', 'Strategic change', 'Marketing strategy', 'Market analysis', 'Organizational change'])
 const merger = ref(['Buser-side advisory', 'Target search & selection', 'Valuation of assets - FDD, CDD', 'Transaction execution', 'Integration']);
 const activity = ref('strategy');
-const approach = ref(['Strategic vision']);
+const maStrategy = ref(['Strategic vision']);
+const search = ref(['Identification & screening', 'Target profile', 'Target analysis']);
+const transaction = ref(['Risks assessment', 'CDD', 'FDD', 'Assessed valuation', 'Deal closure']);
+const integration = ref(['Change management', 'Risks management', 'Regulatory compliances', 'Stakeholder management']);
+const synergy = ref(['Performance evaluation', 'Integration success', 'Shareholder value']);
 const decisions = ref(['Funding sources', 'Pitch decks', 'Alternatives', 'Loans and insurances']);
 </script>
 <template>
@@ -263,21 +267,91 @@ const decisions = ref(['Funding sources', 'Pitch decks', 'Alternatives', 'Loans 
           <button @click="activity = 'integration'" class="px-4 py-2 min-w-max" :class="activity === 'integration' ? 'font-semibold border-b-2 border-blue-4' : ''">Integration</button>
           <button @click="activity = 'synergy'" class="px-4 py-2 min-w-max" :class="activity === 'synergy' ? 'font-semibold border-b-2 border-blue-4' : ''">Synergy Realization</button>
         </div>
-        <div
-          class="border border-blue-2 mt-10 px-6 py-8 bg-whiter flex flex-col items-start gap-6 lg:mt-0 lg:ml-4 w-full lg:w-[612px]"
-        >
-          <h6 class="text-xl font-semibold">We help you with...</h6>
-          <div class="flex self-center flex-wrap gap-4">
-            <button
-              v-for="(name, index) in approach"
-              :key="index"
-              class="bg-grey-2 rounded px-4 py-3 text-left tracking-[0.2px] leading-[28px]"
-            >
-              {{ name }}
-            </button>
+        <div v-if="activity === 'strategy'" class="flex flex-col items-center gap-10">
+          <div
+            class="border border-blue-2 mt-10 px-6 py-8 bg-whiter flex flex-col items-start gap-6 lg:mt-0 lg:ml-4 w-full lg:w-[612px]"
+          >
+            <h6 class="text-xl font-semibold">We help you with...</h6>
+            <div class="flex self-center justify-center flex-wrap gap-4">
+              <button
+                v-for="(name, index) in maStrategy"
+                :key="index"
+                class="bg-grey-2 rounded px-4 py-3 text-left tracking-[0.2px] leading-[28px]"
+              >
+                {{ name }}
+              </button>
+            </div>
           </div>
+          <p class="text-blue-4 text-lg font-semibold tracking-[0.2px]">PRE-MERGER STAGE</p>
         </div>
-        <p class="text-blue-4 text-lg font-semibold tracking-[0.2px]">PRE-MERGER STAGE</p>
+        <div v-else-if="activity === 'search'" class="flex flex-col items-center gap-10">
+          <div
+            class="border border-blue-2 mt-10 px-6 py-8 bg-whiter flex flex-col items-start gap-6 lg:mt-0 lg:ml-4 w-full lg:w-[612px]"
+          >
+            <h6 class="text-xl font-semibold">We help you with...</h6>
+            <div class="flex self-center justify-center flex-wrap gap-4">
+              <button
+                v-for="(name, index) in search"
+                :key="index"
+                class="bg-grey-2 rounded px-4 py-3 text-left tracking-[0.2px] leading-[28px]"
+              >
+                {{ name }}
+              </button>
+            </div>
+          </div>
+          <p class="text-blue-4 text-lg font-semibold tracking-[0.2px]">PRE-MERGER STAGE</p>
+        </div>
+        <div v-else-if="activity === 'execute'" class="flex flex-col items-center gap-10">
+          <div
+            class="border border-blue-2 mt-10 px-6 py-8 bg-whiter flex flex-col items-start gap-6 lg:mt-0 lg:ml-4 w-full lg:w-[612px]"
+          >
+            <h6 class="text-xl font-semibold">We help you with...</h6>
+            <div class="flex self-center justify-center flex-wrap gap-4">
+              <button
+                v-for="(name, index) in transaction"
+                :key="index"
+                class="bg-grey-2 rounded px-4 py-3 text-left tracking-[0.2px] leading-[28px]"
+              >
+                {{ name }}
+              </button>
+            </div>
+          </div>
+          <p class="text-orange-10 text-lg font-semibold tracking-[0.2px]">PRE-MERGER STAGE</p>
+        </div>
+        <div v-else-if="activity === 'integration'" class="flex flex-col items-center gap-10">
+          <div
+            class="border border-blue-2 mt-10 px-6 py-8 bg-whiter flex flex-col items-start gap-6 lg:mt-0 lg:ml-4 w-full lg:w-[612px]"
+          >
+            <h6 class="text-xl font-semibold">We help you with...</h6>
+            <div class="flex self-center justify-center flex-wrap gap-4">
+              <button
+                v-for="(name, index) in integration"
+                :key="index"
+                class="bg-grey-2 rounded px-4 py-3 text-left tracking-[0.2px] leading-[28px]"
+              >
+                {{ name }}
+              </button>
+            </div>
+          </div>
+          <p class="text-green-10 text-lg font-semibold tracking-[0.2px]">PRE-MERGER STAGE</p>
+        </div>
+        <div v-else-if="activity === 'synergy'" class="flex flex-col items-center gap-10">
+          <div
+            class="border border-blue-2 mt-10 px-6 py-8 bg-whiter flex flex-col items-start gap-6 lg:mt-0 lg:ml-4 w-full lg:w-[612px]"
+          >
+            <h6 class="text-xl font-semibold">We help you with...</h6>
+            <div class="flex self-center justify-center flex-wrap gap-4">
+              <button
+                v-for="(name, index) in synergy"
+                :key="index"
+                class="bg-grey-2 rounded px-4 py-3 text-left tracking-[0.2px] leading-[28px]"
+              >
+                {{ name }}
+              </button>
+            </div>
+          </div>
+          <p class="text-red-10 text-lg font-semibold tracking-[0.2px]">PRE-MERGER STAGE</p>
+        </div>
       </div>
     </div>
     <div

@@ -1,5 +1,26 @@
 <script setup lang="ts">
 const opened = ref("first");
+const first = ref(true);
+const second = ref(false);
+const third = ref(false);
+watch(first, (val) => {
+  if (val) {
+    second.value = false;
+    third.value = false;
+  }
+});
+watch(second, (val) => {
+  if (val) {
+    first.value = false;
+    third.value = false;
+  }
+});
+watch(third, (val) => {
+  if (val) {
+    first.value = false;
+    second.value = false;
+  }
+});
 </script>
 <template>
   <div
@@ -15,26 +36,25 @@ const opened = ref("first");
       </h2>
       <div class="mt-10 w-full flex items-center flex-col">
         <div
-          class="flex bg-whiter border border-blue-2 flex-col w-full lg:w-[823px] px-6 py-8"
+          @click="first = !first"
+          class="flex bg-whiter border border-blue-2 cursor-pointer flex-col w-full lg:w-[823px] px-6 py-8"
         >
           <div class="flex justify-between items-center">
             <h3 class="font-bold text-xl">What is OC Management Consultant</h3>
             <Icon
-              v-if="opened === 'first'"
+              v-if="first"
               class="cursor-pointer"
-              @click="opened = ''"
               name="mdi:arrow-down"
               color="#001D40" size="24px"
             />
             <Icon
               v-else
-              @click="opened = 'first'"
               class="cursor-pointer"
               name="mdi:arrow-right"
               color="#001D40" size="24px"
             />
           </div>
-          <p v-if="opened === 'first'" class="mt-3 text-lg leading-relaxed">
+          <p v-if="first" class="mt-3 text-lg leading-relaxed">
             At O C Management Consultants, we excel in navigating complex
             regulations, securing funding, and winning tenders with a proven
             track record of success across industries. Our tailored solutions,
@@ -44,26 +64,25 @@ const opened = ref("first");
           </p>
         </div>
         <div
-          class="flex bg-whiter border border-blue-2 flex-col w-full lg:w-[823px] px-6 py-8 my-6"
+          @click="second = !second"
+          class="flex bg-whiter cursor-pointer border border-blue-2 flex-col w-full lg:w-[823px] px-6 py-8 my-6"
         >
           <div class="flex justify-between items-center">
             <h3 class="font-bold text-xl">How do I get Training With OCMC?</h3>
             <Icon
-              v-if="opened === 'second'"
+              v-if="second"
               class="cursor-pointer"
-              @click="opened = ''"
               name="mdi:arrow-down"
               color="#001D40" size="24px"
             />
             <Icon
               v-else
-              @click="opened = 'second'"
               class="cursor-pointer"
               name="mdi:arrow-right"
               color="#001D40" size="24px"
             />
           </div>
-          <p v-if="opened === 'second'" class="mt-3 text-lg leading-relaxed">
+          <p v-if="second" class="mt-3 text-lg leading-relaxed">
             At O C Management Consultants, we excel in navigating complex
             regulations, securing funding, and winning tenders with a proven
             track record of success across industries. Our tailored solutions,
@@ -73,26 +92,25 @@ const opened = ref("first");
           </p>
         </div>
         <div
-          class="flex bg-whiter border border-blue-2 flex-col w-full lg:w-[823px] px-6 py-8"
+          @click="third = !third"
+          class="flex bg-whiter cursor-pointer border border-blue-2 flex-col w-full lg:w-[823px] px-6 py-8"
         >
           <div class="flex justify-between items-center">
             <h3 class="font-bold text-xl">What Can I Gain From OCMC?</h3>
             <Icon
-              v-if="opened === 'third'"
+              v-if="third"
               class="cursor-pointer"
-              @click="opened = ''"
               name="mdi:arrow-down"
               color="#001D40" size="24px"
             />
             <Icon
               v-else
-              @click="opened = 'third'"
               class="cursor-pointer"
               name="mdi:arrow-right"
               color="#001D40" size="24px"
             />
           </div>
-          <p v-if="opened === 'third'" class="mt-3 text-lg leading-relaxed">
+          <p v-if="third" class="mt-3 text-lg leading-relaxed">
             At O C Management Consultants, we excel in navigating complex
             regulations, securing funding, and winning tenders with a proven
             track record of success across industries. Our tailored solutions,

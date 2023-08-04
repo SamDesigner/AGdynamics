@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed right-0 left-0 top-0 md:py-6 font-medium text-white z-10 px-4 md:px-6 xl:px-0" :class="scrolled ? 'bg-blue-3' : 'bg-transparent'">
+  <div class="fixed right-0 left-0 top-0 font-medium text-white z-10 px-4 md:px-6 xl:px-0" :class="dataStore.scrolled ? 'bg-blue-3 py-0' : 'bg-transparent py-6 mt-10'">
     <div class="bg-blue-3 flex h-24 md:h-[88px] items-center justify-between px-6 px-md-0 w-full max-w-[1240px] rounded-xl mx-auto">
       <nuxt-link to="/">
         <img class="w-[50px] md:w-20 h-[50px] md:h-20" src="/svg/logo.svg" />
@@ -7,17 +7,34 @@
       <button ref="hamburger" class="lg:hidden" @click="open = !open">
         <Icon name="ic:round-menu" size="24px" color="#FFF" />
       </button>
-      <ul class="navbar-links flex items-start" :class="{ 'navbar-links--navopen': open }" v-click-outside="close">
-        <button class="lg:hidden absolute right-3" @click="open = !open">
-          <Icon name="ic:round-close" size="24px" color="#FFF" />
-        </button>
-        <ul class="flex flex-col lg:flex-row lg:items-center gap-4 mt-10 lg:mt-0 lg:gap-10">
+      <ul class="navbar-links max-h-fit flex items-start" :class="{ 'navbar-links--navopen': open }" v-click-outside="close">
+        <div v-if="open" class="flex items-center justify-between w-full">
+          <nuxt-link to="/">
+            <img class="w-[50px] md:w-20 h-[50px] md:h-20" src="/svg/logo.svg" />
+          </nuxt-link>
+          <button class="" @click="open = !open">
+            <Icon name="ic:round-close" size="24px" color="#FFF" />
+          </button>
+        </div>
+        <ul v-if="!open" class="flex flex-col lg:flex-row lg:items-center gap-4 mt-10 lg:mt-0 lg:gap-10">
           <!-- <li @click="open = !open"><nuxt-link to="/">Home</nuxt-link></li> -->
           <li @click="aboutUsToggled"><p class="hover:text-blue-4 cursor-pointer">About Us<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></p></li>
           <li @click="careServicesToggled"><p class="hover:text-blue-4 cursor-pointer">Care Services<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></p></li>
           <li @click="trainingToggled"><p class="hover:text-blue-4 cursor-pointer">Training & Events <Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></p></li>
           <li @click="open = !open"><nuxt-link to="/ebooks">Resources</nuxt-link></li>
           <li @click="open = !open"><nuxt-link to="/blog">News</nuxt-link></li>
+          <div class="lg:hidden flex flex-col lg:flex-row lg:items-center gap-6">
+            <button class="bg-white border-2 border-white font-semibold px-4 py-3 rounded text-blue-2">Request Service</button>        
+          </div>
+        </ul>
+        <ul v-else class="flex flex-col lg:flex-row lg:items-center gap-4 mt-10 lg:mt-0 lg:gap-10 w-full">
+          <!-- <li @click="open = !open"><nuxt-link to="/">Home</nuxt-link></li> -->
+          <li class="py-4" @click="open = !open"><nuxt-link to="/about" class="hover:text-blue-4 cursor-pointer py-4 my-2">About Us</nuxt-link></li>
+          <li class="py-4" @click="open = !open"><nuxt-link to="/services" class="hover:text-blue-4 cursor-pointer py-4 my-2">Care Services</nuxt-link></li>
+          <li class="py-4" @click="open = !open"><nuxt-link to="/strategy" class="hover:text-blue-4 cursor-pointer py-4 my-2">Core Strategy</nuxt-link></li>
+          <li class="py-4" @click="open = !open"><nuxt-link to="/training" class="hover:text-blue-4 cursor-pointer py-4 my-2">Training & Events </nuxt-link></li>
+          <li class="py-4" @click="open = !open"><nuxt-link to="/ebooks" class="py-4 my-2">Resources</nuxt-link></li>
+          <li class="py-4" @click="open = !open"><nuxt-link to="/blog" class="py-4 my-2">News</nuxt-link></li>
           <div class="lg:hidden flex flex-col lg:flex-row lg:items-center gap-6">
             <button class="bg-white border-2 border-white font-semibold px-4 py-3 rounded text-blue-2">Request Service</button>        
           </div>
@@ -33,7 +50,6 @@
 <script setup lang="ts">
 import { useDataStore } from '@/stores/data'
 const dataStore = useDataStore();
-const scrolled = ref(false);
 const open = ref(false);
 const close = (e:HTMLInputElement) => {
   if (e.target.tagName !== 'svg' && e.target.tagName !== 'path') {
@@ -42,22 +58,19 @@ const close = (e:HTMLInputElement) => {
 };
 
 const careServicesToggled = () => {
-  open.value = !open.value;
   dataStore.careServices = !dataStore.careServices;
 }
 
 const aboutUsToggled = () => {
-  open.value = !open.value;
   dataStore.about = !dataStore.about;
 }
 
 const trainingToggled = () => {
-  open.value = !open.value;
   dataStore.training = !dataStore.training;
 }
 
 const handleScroll = () => {
-  scrolled.value = window.scrollY > 0
+  dataStore.scrolled = window.scrollY > 0
 }
 
 if (typeof window !== 'undefined') {
@@ -119,14 +132,15 @@ backdrop-filter: blur(20px);
       transition: transform .2s ease-out;
       display: flex;
       flex-direction: column;
-      padding-top: 20px;
-      padding-left: 30px !important;
-      padding-right: 30px;
+      padding: 24px;
       top: 0;
       bottom: 0;
       right: 0;
+      border-radius: 12px;
       width: 500px;
-      max-width: 100vw;
+      max-width: calc(100vw - 32px);
+      margin-right: 16px;
+      margin-top: 16px;
       background-color: $blue-2;
       z-index: 100;
       &__toggle {

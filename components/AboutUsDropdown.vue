@@ -1,63 +1,83 @@
 <template>
-  <div v-click-outside="clickedOutside" class="bg-whiter fixed right-0 left-0 top-24 md:top-32 font-medium z-10 overflow-y-auto overflow-x-hidden">
-    <div class="flex flex-col h-[60vh] md:h-auto md:min-h-[276px] justify-between items-start w-full max-w-[1240px] rounded-xl mx-auto relative overflow-x-hidden overflow-y-auto">
-      <h5 class="text-xl px-7 py-6 w-full fixed bg-whiter font-medium border-b border-b-grey-8">About Us</h5>
+  <div
+    v-click-outside="clickedOutside"
+    class="bg-whiter fixed right-0 left-0 top-24 md:top-32 font-medium z-10 overflow-y-auto overflow-x-hidden"
+    :class="dataStore.scrolled ? 'md:top-[88px]' : 'md:top-[153px]'"
+  >
+    <div
+      class="flex flex-col h-[60vh] md:h-auto md:min-h-[276px] justify-between items-start w-full max-w-[1240px] rounded-xl mx-auto relative overflow-x-hidden overflow-y-auto"
+    >
+      <h5
+        class="text-xl px-7 py-6 w-full fixed bg-whiter font-medium border-b border-b-grey-8"
+      >
+        About Us
+      </h5>
       <div class="flex flex-col sm:flex-row justify-between mt-20 w-full">
         <div class="flex flex-col w-full">
-          <div class="flex flex-col sm:flex-row justify-between flex-wrap gap-4 my-4" @click="clickedOutside">
+          <div
+            class="flex flex-col sm:flex-row justify-between flex-wrap gap-4 my-4"
+            @click="clickedOutside"
+          >
             <template v-for="(item, index) in about" :key="index">
-            <nuxt-link :to="item.to" class="flex p-3 gap-4 w-[286px]">
-              <img class="w-12 h-12" :src="`/img/${item.img}.png`" :alt="`${item.title} icon`">
-              <div class="flex flex-col">
-                <h6 class="font-medium">{{ item.title }}</h6>
-                <p class="text-grey-8">{{ item.body }}</p>
-              </div>
-            </nuxt-link>
-          </template>
+              <nuxt-link :to="item.to" class="flex p-3 gap-4 w-[286px]">
+                <img
+                  class="w-12 h-12"
+                  :src="`/img/${item.img}.png`"
+                  :alt="`${item.title} icon`"
+                />
+                <div class="flex flex-col">
+                  <h6 class="font-medium">{{ item.title }}</h6>
+                  <p class="text-grey-8">{{ item.body }}</p>
+                </div>
+              </nuxt-link>
+            </template>
           </div>
         </div>
       </div>
       <div @click="clickedOutside" class="self-center mb-3">
-        <nuxt-link to="/about">See the whole story <Icon name="mdi:arrow-right" size="20px" class="ml-1"/></nuxt-link>
+        <nuxt-link to="/about"
+          >See the whole story
+          <Icon name="mdi:arrow-right" size="20px" class="ml-1"
+        /></nuxt-link>
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { useDataStore } from '@/stores/data'
+import { useDataStore } from "@/stores/data";
 const dataStore = useDataStore();
 const about = ref([
   {
-    title: 'Our Vision & Mission',
-    body: 'Body',
-    img: 'vision',
-    to: '/about#vision'
+    title: "Our Vision & Mission",
+    body: "Body",
+    img: "vision",
+    to: "/about#vision",
   },
   {
-    title: 'Our Team',
-    body: 'Body',
-    img: 'ourteam',
-    to: '/about#team'
+    title: "Our Team",
+    body: "Body",
+    img: "ourteam",
+    to: "/about#team",
   },
   {
-    title: 'Our Location',
-    body: 'Body',
-    img: 'ourlocation',
-    to: '/about#location'
-  }
+    title: "Our Location",
+    body: "Body",
+    img: "ourlocation",
+    to: "/about#location",
+  },
 ]);
 
 const open = ref(false);
-const close = (e:HTMLInputElement) => {
-  if (e.target.tagName !== 'svg' && e.target.tagName !== 'path') {
+const close = (e: HTMLInputElement) => {
+  if (e.target.tagName !== "svg" && e.target.tagName !== "path") {
     open.value = false;
   }
 };
 
 const clickedOutside = () => {
   dataStore.about = false;
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -65,7 +85,6 @@ const clickedOutside = () => {
   color: $blue-2;
 }
 .navbar {
-
   &-links {
     display: flex;
     // align-items: center;
@@ -73,7 +92,7 @@ const clickedOutside = () => {
 
     &__item {
       margin: 0;
-      a:not([data-type=button]) {
+      a:not([data-type="button"]) {
         color: $primary;
         text-decoration: none;
         &:hover {
@@ -110,7 +129,7 @@ const clickedOutside = () => {
       transform: translateX(500px);
       // pointer-events: none;
       position: fixed;
-      transition: transform .2s ease-out;
+      transition: transform 0.2s ease-out;
       display: flex;
       flex-direction: column;
       padding-top: 20px;

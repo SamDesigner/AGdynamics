@@ -83,7 +83,7 @@ const resetBtnValues = () => {
             class="flex flex-col w-full md:w-[298px]"
           >
             <img class="w-full" :src="`/img/${service.image}.png`" />
-            <div class="flex items-center px-4 py-8 border h-[158px] text-center" :class="idx === 0 ? 'bg-blue-2 text-white border-blue-2' : 'border-blue-4'">
+            <div class="flex items-center px-4 py-8 border h-[158px] text-center border-blue-2" :class="idx === 0 ? 'bg-blue-2 text-white' : ''">
               <div class="flex flex-col w-full">
                 <h3 class="font-semibold text-2xl">
                   {{ service.name }}

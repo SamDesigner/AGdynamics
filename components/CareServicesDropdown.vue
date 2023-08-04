@@ -1,7 +1,8 @@
 <template>
   <div
     v-click-outside="clickedOutside"
-    class="bg-whiter fixed right-0 left-0 top-24 md:top-32 font-medium z-10 overflow-y-auto overflow-x-hidden"
+    class="bg-whiter fixed right-0 left-0 font-medium z-10 overflow-y-auto overflow-x-hidden"
+    :class="dataStore.scrolled ? 'md:top-[88px]' : 'md:top-[153px]'"
   >
     <div
       class="flex flex-col h-[60vh] md:h-auto md:min-h-[450px] items-start w-full max-w-[1240px] rounded-xl mx-auto relative overflow-x-hidden overflow-y-auto"
