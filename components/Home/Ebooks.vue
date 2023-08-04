@@ -8,16 +8,16 @@ const services = ref([
     image: "book-mockup",
   },
   {
-    name: "Best Practices For Providing Domicilary Care",
+    name: "Social care business management explained",
     title:
       "The world as we know it is never static. From media to tech, and so much more, our world is constantly undergoing change. The health sector, in particular, has gradually evolved from traditional, ethically grey methods of care and treatment to more modern, personalised and evidence-based practices.",
-    image: "book-mockup",
+    image: "book-social",
   },
   {
-    name: "Best Practices For Providing Domicilary Care",
+    name: "mastering tupe transfers in social care services",
     title:
       "The world as we know it is never static. From media to tech, and so much more, our world is constantly undergoing change. The health sector, in particular, has gradually evolved from traditional, ethically grey methods of care and treatment to more modern, personalised and evidence-based practices.",
-    image: "book-mockup",
+    image: "book-tupe",
   },
 ]);
 const videos = ref([
@@ -116,11 +116,11 @@ const posts = ref([
                 >
                   {{ service.name }}
                 </h3>
-                <p
+                <!-- <p
                   class="cut-text text-lg leading-[28px] font-medium max-h-14 mt-4 text-ellipsis overflow-hidden block"
                 >
                   {{ service.title }}
-                </p>
+                </p> -->
                 <div class="mt-10 flex w-full">
                   <nuxt-link
                     to="/about"
@@ -135,10 +135,10 @@ const posts = ref([
         </div>
       </div>
       <div class="flex mt-10 justify-center">
-        <nuxt-link to="/ebooks" class="text-blue-4 rounded py-4 px-8">
+        <nuxt-link to="/ebooks" class="text-blue-4 blue-btn rounded py-4 px-8">
           See More
           <Icon
-            class="ml-4"
+            class="hovered ml-3"
             name="mdi:arrow-right"
             size="18px"
             color="#0073FF"
@@ -173,10 +173,10 @@ const posts = ref([
         </div>
       </div>
       <div class="flex mt-10 justify-center">
-        <nuxt-link to="/ebooks" class="text-blue-4 rounded py-4 px-8">
+        <nuxt-link to="/ebooks" class="text-blue-4 blue-btn rounded py-4 px-8">
           See More
           <Icon
-            class="ml-4"
+            class="hovered ml-3"
             name="mdi:arrow-right"
             size="18px"
             color="#0073FF"
@@ -249,10 +249,10 @@ const posts = ref([
         </div>
       </div>
       <div class="flex mt-10 justify-center">
-        <nuxt-link to="/ebooks" class="text-blue-4 rounded py-4 px-8">
+        <nuxt-link to="/ebooks" class="text-blue-4 blue-btn rounded py-4 px-8">
           View More
           <Icon
-            class="ml-4"
+            class="ml-3 hovered"
             name="mdi:arrow-right"
             size="18px"
             color="#0073FF"

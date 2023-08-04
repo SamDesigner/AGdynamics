@@ -72,25 +72,25 @@ const consulting = ref([
     title: "Business/Operations",
     body: "Body",
     img: "business",
-    to: "/strategy#licenses",
+    to: "/strategy#",
   },
   {
     title: "Mergers & Acquisitions",
     body: "Body",
     img: "merger",
-    to: "/strategy#licenses",
+    to: "/strategy#mergers",
   },
   {
     title: "Growth & Transformation",
     body: "Body",
     img: "growth",
-    to: "/strategy#licenses",
+    to: "/strategy#growth",
   },
   {
     title: "Investment and Funding",
     body: "Body",
     img: "funding",
-    to: "/strategy#licenses",
+    to: "/strategy#funding",
   },
 ]);
 

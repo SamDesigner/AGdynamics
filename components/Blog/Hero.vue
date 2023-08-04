@@ -19,7 +19,7 @@ const posts = ref([
 </script>
 <template>
   <div
-    class="bg-blue min-h-screen pt-20 md:py-28 px-4 md:px-6 xl:px-0 w-full md:pt-[120px]"
+    class="bg-blue pt-20 md:py-28 px-4 md:px-6 xl:px-0 w-full md:pt-[120px]"
   >
     <div
       class="w-full max-w-[1240px] flex justify-between pt-32 md:pt-20 mx-auto h-full"

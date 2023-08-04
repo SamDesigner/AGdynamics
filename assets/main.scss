@@ -43,3 +43,13 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
 }
+
+.blue-btn:hover .hovered {
+  transform: translateX(10px);
+}
+.hovered {
+  -webkit-transition: 300ms ease-in-out;
+    -moz-transition: 300ms ease-in-out;
+    -o-transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;
+}

@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="bg-blue h-screen pt-20 md:py-28 px-4 md:px-6 xl:px-0 w-full md:pt-[120px]"
+    class="bg-blue pt-20 md:py-28 px-4 md:px-6 xl:px-0 w-full md:pt-[120px]"
   >
     <div
       class="w-full max-w-[1240px] flex justify-between pt-32 md:pt-20 mx-auto h-full"
@@ -15,7 +15,7 @@
             </h1>
           </div>
         </div>
-        <div class="-mb-20 md:-mb-40 relative">
+        <div class="-mb-20 md:-mb-40 translate-y-10 md:translate-y-20 relative">
           <img src="/img/vid-placeholder.png" alt="placeholder for video">
           <div id="licenses" />
         </div>

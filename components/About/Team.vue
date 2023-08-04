@@ -98,8 +98,8 @@ const resetBtnValues = () => {
         <div id="location" />
       </div>
       <div class="mt-24 flex flex-col items center text-center">
-        <div class="flex justify-center">
-          <img src="/img/picture-place.png" alt="placeholder">
+        <div class="flex justify-center w-[320px] mx-auto">
+          <img src="/img/location.png" alt="placeholder">
         </div>
         <h3 class="font-semibold mt-10 leading-[36px] md:leading-[48px] lg:leading-[54px] tracking-[-1.5px] text-2xl md:text-[32px] lg:text-[48px] capitalize">Our Location</h3>
         <p class="text-lg mt-2 ">London, United Kingdon</p>

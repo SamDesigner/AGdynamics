@@ -105,9 +105,9 @@ const resetBtnValues = () => {
         </div>
       </div>
       <div class="flex mt-10 justify-center">
-        <nuxt-link to="/about#team" class="text-blue-4 rounded py-4 px-8">
+        <nuxt-link to="/about#team" class="text-blue-4 blue-btn rounded py-4 px-8">
           See More
-          <Icon class="ml-4" name="mdi:arrow-right" size="18px" color="#0073FF"/>
+          <Icon class="ml-2 hovered" name="mdi:arrow-right" size="18px" color="#0073FF"/>
         </nuxt-link>
       </div>
       <!-- </SwiperSlide>

@@ -4,9 +4,13 @@
       <nuxt-link to="/">
         <img class="w-[50px] md:w-20 h-[50px] md:h-20" src="/svg/logo-light.svg" />
       </nuxt-link>
-      <button ref="hamburger" class="lg:hidden" @click="open = !open">
-        <Icon name="ic:round-menu" size="24px" color="#0073FF" />
-      </button>
+      <div class="lg:hidden flex gap-x-4">
+        <button class="hidden md:block bg-blue-4 border-2 border-blue-4 font-medium px-4 py-3 rounded text-white">Request Service</button>
+        <button ref="hamburger" class="lg:hidden" @click="open = !open">
+          <Icon name="ic:round-menu" size="24px" color="#0073FF" />
+        </button>
+      </div>
+      
       <ul class="navbar-links max-h-fit flex items-start" :class="{ 'navbar-links--navopen': open }" v-click-outside="close">
         <div v-if="open" class="flex items-center justify-between w-full">
           <nuxt-link to="/">
@@ -19,8 +23,8 @@
         
         <ul v-if="!open" class="flex flex-col lg:flex-row lg:items-center gap-4 mt-10 lg:mt-0 lg:gap-10">
           <!-- <li @click="open = !open"><nuxt-link to="/">Home</nuxt-link></li> -->
+          <li @click="careServicesToggled"><p class="hover:text-blue-4 cursor-pointer">Strategy and Management Consulting<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#001D40" /></p></li>
           <li @click="aboutUsToggled"><p class="hover:text-blue-4 cursor-pointer">About Us<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#001D40" /></p></li>
-          <li @click="careServicesToggled"><p class="hover:text-blue-4 cursor-pointer">Care Services<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#001D40" /></p></li>
           <li @click="trainingToggled"><p class="hover:text-blue-4 cursor-pointer">Training & Events <Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#001D40" /></p></li>
           <li @click="open = !open"><nuxt-link to="/ebooks">Resources</nuxt-link></li>
           <li @click="open = !open"><nuxt-link to="/blog">News</nuxt-link></li>
@@ -108,7 +112,7 @@ if (typeof window !== 'undefined') {
     }
 
     @media screen and (max-width: 1023px) {
-      transform: translateX(500px);
+      transform: translateX(100vw);
       // pointer-events: none;
       position: fixed;
       transition: transform .2s ease-out;

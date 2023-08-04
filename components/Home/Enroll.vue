@@ -40,11 +40,11 @@ watch(message, (value) => {
   <div class="flex flex-col-reverse md:flex-row justify-center items-center my-[60px] lg:my-[120px] mx-auto w-full max-w-[1240px]">
     <div class="w-full flex flex-col justify-center items-center max-w-[612px] px-4 mt-6 md:mt-0">
         <h2 class="font-semibold leading-[36px] md:leading-[48px] lg:leading-[54px] tracking-[-1.5px] text-[26px] md:text-[32px] lg:text-[48px] capitalize">
-          get started <span class="text-blue-4">today</span>
+          get in touch <span class="text-blue-4">with us</span>
           </h2>
-        <p class="text-center md:text-lg mt-3">
+        <!-- <p class="text-center md:text-lg mt-3">
           Ready to achieve your organization's goals and maximize impact? Contact us today for a free consultation and see how O C Management Consultant can help you succeed.
-        </p>
+        </p> -->
         <form
           id="getLicense"
           class="w-full flex flex-col items-start"

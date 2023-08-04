@@ -1,28 +1,27 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="bg-blue h-screen pt-20 md:py-28 px-4 md:px-6 xl:px-0 w-full md:pt-[120px]"
+    class="bg-blue pt-20 md:py-28 px-4 md:px-6 xl:px-0 w-full md:pt-[120px]"
   >
     <div
       class="w-full max-w-[1240px] flex justify-between pt-32 md:pt-20 mx-auto h-full"
     >
       <div class="flex flex-col md:justify-between w-full h-full">
-        <div class="flex justify-between w-full mb-10 md:mb-12 lg:mb-20">
-          <img class="hidden lg:block w-[146px]" src="/img/hero-left.png" alt="hero left image">
-          <div class="text-white text-center w-full max-w-[768px]">
+        <div class="flex justify-center w-full mb-10 md:mb-12 lg:mb-20">
+          <!-- <img class="hidden lg:block w-[146px]" src="/img/hero-left.png" alt="hero left image"> -->
+          <div class="text-white text-center w-full">
             <h1 class="font-black leading-[42px] md:leading-[54px] lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]">
-              Business Consultancy That Keeps You <span class="text-yellow">Smiling</span>
+              Enabling <span class="text-yellow">Growth and Diversification</span> for Social Care Organizations
             </h1>
-            <p class="font-medium text-white tracking-[0.2px] mx-4 mt-6 lg:text-lg">
+            <!-- <p class="font-medium text-white tracking-[0.2px] mx-4 mt-6 lg:text-lg">
               Empower your organization's growth and elevate your impact.
-            </p>
+            </p> -->
           </div>
-          <img class="hidden lg:block w-[146px]" src="/img/hero-right.png" alt="hero right image">
+          <!-- <img class="hidden lg:block w-[146px]" src="/img/hero-right.png" alt="hero right image"> -->
         </div>
-        <div class="md:-mb-40 relative">
+        <div class="-mb-20 md:-mb-40 translate-y-10 md:translate-y-20 relative">
           <img class="absolute right-8 xl:-right-8 -top-8" src="/img/play-icon.png" alt="play icon">
-          <img class="hidden md:block" src="/img/vid-placeholder.png" alt="placeholder for video">
-          <img class="md:hidden object-cover" src="/img/vid-place-mob.png" alt="placeholder for video">
+          <img src="/img/vid-placeholder.png" alt="placeholder for video">
         </div>
       </div>
     </div>

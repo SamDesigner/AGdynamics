@@ -21,9 +21,9 @@
         </nuxt-link>
       </div>
     </div>
-    <div class="mt-10 lg:mt-0">
+    <div class="mt-10 lg:mt-0 w-full max-w-[612px]">
       <img
-        src="/img/picture-placeholder.png"
+        src="/img/lasting.png"
         alt="picture of people sitting having meeting"
       />
       <div id="team" />

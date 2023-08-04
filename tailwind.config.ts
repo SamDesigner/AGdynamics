@@ -26,7 +26,8 @@ export default <Partial<Config>>{
         'grey-8': '#A4A5A7',
         'red-10': '#BE0712',
         'green-10': '#629442',
-        'orange-10': '#CE9A22'
+        'orange-10': '#CE9A22',
+        'grey-9': '#CCCECE'
       },
       backgroundImage: {
         'hero-bg': "url('/img/hero-bg.png')",

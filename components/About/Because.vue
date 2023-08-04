@@ -76,10 +76,10 @@
             </div>
           </div>
         </div>
-        <div class="mt-10 w-full lg:w-auto lg:mt-0">
+        <div class="mt-10 w-full max-w-[612px] lg:w-auto lg:mt-0">
           <img
             class="w-full lg:w-auto"
-            src="/img/picture-placeholder.png"
+            src="/img/about-unique.png"
             alt="picture of people sitting having meeting"
           />
           <div id="vision" />
