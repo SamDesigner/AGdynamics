@@ -31,9 +31,9 @@
                     <p class="text-grey-8">{{ item.body }}</p>
                     
                                       </div>
-                  <nuxt-link to="/training" class="text-sm mb-3"
+                  <nuxt-link to="/training" class="blue-btn text-sm mb-3"
                     >{{ item.toText }}
-                    <Icon name="mdi:arrow-right" size="20px" class="ml-1"
+                    <Icon name="mdi:arrow-right" size="20px" class="hovered ml-1"
                   /></nuxt-link>
                 </div>
               </nuxt-link>

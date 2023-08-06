@@ -23,7 +23,7 @@
           <h2
             class="font-semibold leading-[48px] lg:leading-[54px] px-6 md:px-0 tracking-[-1.5px] lg:text-[32px] text-[28px] w-full capitalize"
           >
-            LICENSE APPLICATIONS
+            LICENSE ACQUISITIONS
           </h2>
           <p class="leading-[28px] text-lg mt-1">
             We provide licensing assistance to organizations to ensure
@@ -45,7 +45,7 @@
             <img class="w-16" src="/img/02.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We help organizations identify and mitigate risks, ensuring that they are compliant with all applicable regulations and standards.
+                We enable organizations identify and mitigate risks, ensuring that they are compliant with all applicable regulations and standards.
               </p>
             </div>
           </div>
@@ -55,7 +55,7 @@
             <img class="w-16" src="/img/03.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We help organizations obtain the licenses they need to operate their businesses legally and compliantly.
+                We enable organizations obtain the licenses they need to operate their businesses legally and compliantly.
               </p>
             </div>
           </div>
@@ -91,10 +91,10 @@
           <h2
             class="font-semibold leading-[48px] lg:leading-[54px] px-6 md:px-0 tracking-[-1.5px] lg:text-[32px] text-[28px] w-full capitalize"
           >
-            BIDS/ TENDERS
+            TENDERING
           </h2>
           <p class="leading-[28px] text-lg mt-1">
-            We help organizations respond to bids, develop winning applications, and procure goods and services.
+            We enable organizations respond to bids, develop winning applications, and procure goods and services.
           </p>
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
@@ -102,7 +102,7 @@
             <img class="w-16" src="/img/01.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We help organizations submit winning bids on time and in accordance with all regulations.
+                We enable organizations submit winning bids on time and in accordance with all regulations.
               </p>
             </div>
           </div>
@@ -112,7 +112,7 @@
             <img class="w-16" src="/img/02.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We help organizations develop applications that are well-written, persuasive, and compliant with the requirements of the procurement process.
+                We enable organizations develop applications that are well-written, persuasive, and compliant with the requirements of the procurement process.
               </p>
             </div>
           </div>
@@ -122,7 +122,7 @@
             <img class="w-16" src="/img/03.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We help organizations procure goods and services that meet their needs and budget.
+                We enable organizations procure goods and services that meet their needs and budget.
               </p>
             </div>
           </div>
@@ -158,10 +158,10 @@
           <h2
             class="font-semibold leading-[48px] lg:leading-[54px] px-6 md:px-0 tracking-[-1.5px] lg:text-[32px] text-[28px] w-full capitalize"
           >
-            GRANTS
+            GRANT OPPORTUNITIES
           </h2>
           <p class="leading-[28px] text-lg mt-1">
-            We help organizations secure funding, develop winning proposals, and comply with regulations.
+            We enable organizations secure funding, develop winning proposals, and comply with regulations.
           </p>
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
@@ -169,7 +169,7 @@
             <img class="w-16" src="/img/01.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We have a deep understanding of the funding landscape and can help organizations navigate the complex grant application process.
+                We have a deep understanding of the funding landscape and can enable organizations navigate the complex grant application process.
               </p>
             </div>
           </div>
@@ -179,7 +179,7 @@
             <img class="w-16" src="/img/02.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We help organizations develop proposals that are well-written, persuasive, and compliant with the requirements of the funding source.
+                We enable organizations develop proposals that are well-written, persuasive, and compliant with the requirements of the funding source.
               </p>
             </div>
           </div>
@@ -189,7 +189,7 @@
             <img class="w-16" src="/img/03.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We help organizations ensure that their proposals comply with all applicable regulations and standards.
+                We enable organizations ensure that their proposals comply with all applicable regulations and standards.
               </p>
             </div>
           </div>
@@ -225,7 +225,7 @@
           <h2
             class="font-semibold leading-[48px] lg:leading-[54px] px-6 md:px-0 tracking-[-1.5px] lg:text-[32px] text-[28px] w-full capitalize"
           >
-            QUALITY ASSURANCE
+            PROCESS IMPROVEMENT
           </h2>
           <p class="leading-[28px] text-lg mt-1">
             We provide QA assistance to organizations to ensure that products meet the highest standards.
@@ -246,7 +246,7 @@
             <img class="w-16" src="/img/02.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We help organizations identify and mitigate risks, ensuring that their products meet the highest standards of quality.
+                We enable organizations identify and mitigate risks, ensuring that their products meet the highest standards of quality.
               </p>
             </div>
           </div>
@@ -256,7 +256,7 @@
             <img class="w-16" src="/img/03.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We help organizations comply with all applicable regulations and standards, ensuring that their products are safe and effective.
+                We enable organizations comply with all applicable regulations and standards, ensuring that their products are safe and effective.
               </p>
             </div>
           </div>

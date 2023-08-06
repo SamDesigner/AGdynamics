@@ -72,7 +72,7 @@
     </div>
     <div class="flex mt-10 justify-center">
       <nuxt-link to="/services" class="bg-blue-4 blue-btn text-white rounded py-4 px-8">
-        Learn More
+        More Services
         <Icon class="hovered ml-4" name="mdi:arrow-right" size="18px"/>
       </nuxt-link>
     </div>

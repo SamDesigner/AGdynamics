@@ -1,10 +1,10 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="flex flex-col lg:flex-row-reverse justify-between items-center my-[64px] px-4 md:px-6 xl:px-0 lg:mt-[180px] mx-auto w-full max-w-[1240px]"
+    class="flex flex-col lg:flex-row-reverse justify-between items-center my-[64px] lg:gap-[64px] px-4 md:px-6 xl:px-0 lg:mt-[180px] mx-auto w-full max-w-[1240px]"
   >
     <div
-      class="w-full flex flex-col items-center lg:items-start text-center lg:px-4 xl:px-0 lg:text-left mg:text-left max-w-[523px] md:pr-4"
+      class="w-full flex flex-col items-center lg:items-start text-center lg:px-4 xl:px-0 lg:text-left mg:text-left max-w-[436px] md:pr-4"
     >
       <h2
         class="font-bold leading-[48px] lg:leading-[54px] px-6 md:px-0 tracking-[-1.5px] text-[32px] lg:text-[48px] w-full max-w-[520px] lg:max-w-[436px]"
@@ -22,10 +22,9 @@
         </nuxt-link>
       </div>
     </div>
-    <div class="mt-32 lg:mt-0 relative w-full max-w-[535px]">
-      <img class="absolute -top-20 -right-20 max-w-[349px]" src="/img/infographic.png" alt="info graphic">
+    <div class="mt-32 lg:mt-0 relative w-full max-w-[741px]">
       <img
-        src="/img/driving.png"
+        src="/img/driving-desk.png"
         alt="picture of people sitting having meeting"
       />
     </div>

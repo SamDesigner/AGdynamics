@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="-mb-20 md:-mb-40 translate-y-10 md:translate-y-20 relative">
-          <img src="/img/vid-placeholder.png" alt="placeholder for video">
+          <img src="/img/strategy-hero.png" alt="placeholder for video">
           <div id="licenses" />
         </div>
       </div>

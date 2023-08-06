@@ -4,23 +4,23 @@ const prevClicked = ref(false);
 const nextClicked = ref(false);
 
 const services = ref([
-  {
+{
     name: "I. Afone",
-    title: "Company Director of Haven Care Health care Services",
-    desc: "“OCMC's invaluable support secured our tender. Oby provided key information for business sustainability. Excellent service!”",
+    title: "DIVINE 24/7 RECRUITMENT LTD",
+    desc: "“Thinking of applying for a tender, OCMC is the go-to. If you require Business Consultation OCMC has the solution. If you require strategic business advice, go to OCMC any time any day, and they will deliver. This has been my experience.”",
+    image: "divine-recruitment",
+  },
+  {
+    name: "J. Katsande",
+    title: "Company Director of Haven Healthcare Services",
+    desc: "“OCMC has been absolutely helpful in the process of being awarded our tender. Oby especially has also offered invaluable support and key information for business sustainability. Excellent service!”",
     image: "haven",
   },
   {
-    name: "I. Afone",
-    title: "Company Director of Haven Care Health care Services",
-    desc: "“OCMC's invaluable support secured our tender. Oby provided key information for business sustainability. Excellent service!”",
-    image: "haven",
-  },
-  {
-    name: "I. Afone",
-    title: "Company Director of Haven Care Health care Services",
-    desc: "“OCMC's invaluable support secured our tender. Oby provided key information for business sustainability. Excellent service!”",
-    image: "haven",
+    name: "Chris Dube",
+    title: "Executive Director of Relief Professionals Group",
+    desc: "“I don’t hesitate to recommend anyone to OCMC. They are the best tender writers I have worked with so far. They made everything very easy for us. We have commissioned the writing of another 3, after winning 2.”",
+    image: "relief",
   },
 ]);
 
@@ -81,7 +81,7 @@ const resetBtnValues = () => {
         <SwiperSlide
           :style="'font-size: 16px'"
         > -->
-        <div class="flex flex-col lg:flex-row justify-center items-center gap-3">
+        <div class="flex flex-col lg:flex-row justify-center items-stretch gap-3">
           <div
           v-for="(service, idx) in services"
           :key="idx"

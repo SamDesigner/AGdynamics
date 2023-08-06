@@ -10,7 +10,7 @@
       <h5
         class="text-xl px-7 py-6 w-full fixed bg-whiter font-medium border-b border-b-grey-8"
       >
-        Care Services
+        Strategy and Management Consulting
       </h5>
       <div class="flex flex-col sm:flex-row justify-between mt-20 w-full">
         <div class="flex flex-col w-[588px]">
@@ -69,25 +69,25 @@ import { useDataStore } from "@/stores/data";
 const dataStore = useDataStore();
 const consulting = ref([
   {
-    title: "Business/Operations",
+    title: "Strategic Planning",
     body: "Body",
     img: "business",
     to: "/strategy#",
   },
   {
-    title: "Mergers & Acquisitions",
+    title: "Mergers & Acquisitions Advisory",
     body: "Body",
     img: "merger",
     to: "/strategy#mergers",
   },
   {
-    title: "Growth & Transformation",
+    title: "Growth & Diversifications",
     body: "Body",
     img: "growth",
     to: "/strategy#growth",
   },
   {
-    title: "Investment and Funding",
+    title: "Investment and Funding Advisory",
     body: "Body",
     img: "funding",
     to: "/strategy#funding",
@@ -96,19 +96,19 @@ const consulting = ref([
 
 const services = ref([
   {
-    title: "Licenses",
+    title: "License Acquisitions",
     body: "Body",
     img: "licenses",
     to: "/services#licenses",
   },
   {
-    title: "Quality Assurance",
+    title: "Process Improvement",
     body: "Body",
     img: "qassurance",
     to: "/services#qa",
   },
   {
-    title: "Tenders Writing",
+    title: "Tendering",
     body: "Body",
     img: "tender",
     to: "/services#tender",

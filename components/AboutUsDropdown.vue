@@ -35,9 +35,9 @@
         </div>
       </div>
       <div @click="clickedOutside" class="self-center mb-3">
-        <nuxt-link to="/about"
+        <nuxt-link class="blue-btn" to="/about"
           >See the whole story
-          <Icon name="mdi:arrow-right" size="20px" class="ml-1"
+          <Icon name="mdi:arrow-right" size="20px" class="hovered ml-1"
         /></nuxt-link>
       </div>
     </div>
