@@ -9,7 +9,7 @@
     <div
       class="child mt-12 flex gap-5 md:gap-[13px] overflow-x-auto overflow-y-hidden w-full relative"
     >
-      <div class="bg-blue-5 text-whiter w-[327px] flex flex-col justify-between px-8 pt-6 pb-10 rounded md:w-[397px] h-[360px] relative">
+      <div class="bg-blue-5 text-whiter min-w-[327px] flex flex-col justify-between px-8 pt-6 pb-10 rounded md:min-w-[397px] h-[432px] relative">
         <img class="w-[80px]" src="/svg/competence.svg" alt="competence icon">
         <div
           class="flex flex-col"
@@ -32,7 +32,7 @@
           </ul>
         </div>
       </div>
-      <div class="bg-grey-2 w-[327px] flex flex-col justify-between px-8 pt-6 pb-10 rounded md:w-[397px] h-[360px] relative">
+      <div class="bg-grey-2 min-w-[327px] flex flex-col justify-between px-8 pt-6 pb-10 rounded md:min-w-[397px] h-[432px] relative">
         <img class="w-[80px]" src="/svg/documentation.svg" alt="documentation icon">
         <div
           class="flex flex-col"
@@ -55,7 +55,7 @@
           </ul>
         </div>
       </div>
-      <div class="bg-grey-2 w-[327px] flex flex-col justify-between px-8 pt-6 pb-10 rounded md:w-[397px] h-[360px] relative">
+      <div class="bg-grey-2 min-w-[327px] flex flex-col justify-between px-8 pt-6 pb-10 rounded md:min-w-[397px] h-[432px] relative">
         <img class="w-[80px]" src="/svg/trust.svg" alt="trust icon">
         <div
           class="flex flex-col"

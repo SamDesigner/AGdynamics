@@ -22,8 +22,8 @@
         <div class="-mb-20 md:-mb-40 translate-y-10 md:translate-y-20 relative">
           <img class="absolute right-8 xl:-right-8 -top-8" src="/img/play-icon.png" alt="play icon">
           <video ref="video" controls playsinline autoplay muted loop>
-            <source src="/assets/OCMC Brand-Promo Video sound 2.mp4" type="video/mp4">
-            <p>Your browser does not support HTML video, here's a <a href="/assets/OCMC Brand-Promo Video sound 2.mp4">link </a> to watch the video</p>
+            <source src="/assets/OCMC-brand-video.mp4" type="video/mp4">
+            <p>Your browser does not support HTML video, here's a <a href="/assets/OCMC-brand-video.mp4">link </a> to watch the video</p>
           </video>
         </div>
       </div>

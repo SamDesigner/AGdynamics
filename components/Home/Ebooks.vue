@@ -99,18 +99,18 @@ const posts = ref([
     <div v-if="resource === 'Books'" class="w-full">
       <div class="flex justify-center mt-10">
         <div
-          class="flex flex-col lg:flex-row items-stretch justify-center flex-wrap gap-10 lg:gap-2"
+          class="flex flex-col lg:flex-row md:items-stretch justify-center flex-wrap gap-10 lg:gap-2"
         >
           <div
             v-for="(service, idx) in services"
             :key="idx"
-            class="flex flex-col w-full h-full lg:w-[408px]"
+            class="flex flex-col w-full xl:h-full lg:w-[408px]"
           >
             <img class="w-full" :src="`/img/${service.image}.png`" />
             <div
-              class="flex items-start h-full px-6 py-8 border bg-blue-2 text-white border-blue-2"
+              class="flex items-start xl:h-full px-6 py-8 border bg-blue-2 text-white border-blue-2"
             >
-              <div class="flex flex-col justify-between w-full h-full">
+              <div class="flex flex-col justify-between w-full xl:h-full">
                 <h3
                   class="font-semibold text-[22px] tracking-[-0.2px] uppercase"
                 >
