@@ -7,67 +7,76 @@
       <!-- <p class="mt-3 lg:mt-0 md:text-lg w-full max-w-[523px]">We understand that navigating complex regulations can be a daunting task, but we are here to help. Our team of experienced consultants has a proven track record of success in helping organizations win tenders, secure funding, and comply with regulations.</p> -->
     </div>
     <div
-      class="child text-white mt-12 flex gap-5 md:gap-[13px] overflow-x-auto overflow-y-hidden w-full relative"
+      class="child mt-12 flex gap-5 md:gap-[13px] overflow-x-auto overflow-y-hidden w-full relative"
     >
-      <div class="min-w-[318px] md:min-w-[300px] h-[360px] relative">
+      <div class="bg-blue-5 text-whiter w-[327px] flex flex-col justify-between px-8 pt-6 pb-10 rounded md:w-[397px] h-[360px] relative">
+        <img class="w-[80px]" src="/svg/competence.svg" alt="competence icon">
         <div
-          class="card absolute flex flex-col justify-end w-full h-full top-0 left-0 p-6 "
+          class="flex flex-col"
         >
-          <h4 class="font-semibold text-lg uppercase">License Applications</h4>
-          <p class="text-neutral-2 text-lg mt-4">
-            We provide licensing assistance to organizations to ensure compliance with regulations.
+          <h4 class="font-semibold text-lg uppercase">Growth and diversification</h4>
+          <p class="text-lg my-2">
+            We provide:
           </p>
+          <ul class="list-disc text-lg list-inside">
+            <li>
+              Market Demand Forcasting
+            </li>
+            <li>
+              Diversification of services
+            </li>
+            <li>
+              Market entry strategy
+            </li>
+            <li>Enabling investment opportunities</li>
+          </ul>
         </div>
-        <img
-          class=""
-          src="/img/license.png"
-          alt="domicillary care"
-        />
       </div>
-      <div class="min-w-[300px] md:min-w-[300px] h-[360px] relative">
+      <div class="bg-grey-2 w-[327px] flex flex-col justify-between px-8 pt-6 pb-10 rounded md:w-[397px] h-[360px] relative">
+        <img class="w-[80px]" src="/svg/documentation.svg" alt="documentation icon">
         <div
-          class="card absolute flex flex-col justify-end w-full h-full top-0 left-0 p-6 "
+          class="flex flex-col"
         >
-          <h4 class="font-bold text-lg uppercase">growth and diversification</h4>
-          <p class="text-neutral-2 text-lg mt-4">
-            We help organizations secure funding, develop winning proposals, and comply with regulations.
+          <h4 class="font-semibold text-lg uppercase">License Acquisition</h4>
+          <p class="text-lg my-2">
+            We provide:
           </p>
+          <ul class="list-disc text-lg list-inside">
+            <li>
+              CQC, RQIA, CIW, Ofsted
+            </li>
+            <li>
+              Application Support
+            </li>
+            <li>
+              Manager interview preparation
+            </li>
+            <li>Document preparation</li>
+          </ul>
         </div>
-        <img
-          class=""
-          src="/img/grants.png"
-          alt="domicillary care"
-        />
       </div>
-      <div class="min-w-[318px] md:min-w-[300px] h-[360px] relative">
+      <div class="bg-grey-2 w-[327px] flex flex-col justify-between px-8 pt-6 pb-10 rounded md:w-[397px] h-[360px] relative">
+        <img class="w-[80px]" src="/svg/trust.svg" alt="trust icon">
         <div
-          class="card absolute flex flex-col justify-end w-full h-full top-0 left-0 p-6 "
+          class="flex flex-col"
         >
-          <h4 class="font-bold text-lg uppercase">tendering</h4>
-          <p class="text-neutral-2 text-lg mt-4">
-            We help organizations respond to bids, develop winning applications, and procure goods and services.
+          <h4 class="font-semibold text-lg uppercase">Process Improvement</h4>
+          <p class="text-lg my-2">
+            We provide:
           </p>
+          <ul class="list-disc text-lg list-inside">
+            <li>
+              Quality audits
+            </li>
+            <li>
+              Rating improvement service
+            </li>
+            <li>
+              Mock inspections
+            </li>
+            <li>Action plan development</li>
+          </ul>
         </div>
-        <img
-          class=""
-          src="/img/bids.png"
-          alt="domicillary care"
-        />
-      </div>
-      <div class="min-w-[318px] md:min-w-[300px] h-[360px] relative">
-        <div
-          class="card absolute flex flex-col justify-end w-full h-full top-0 left-0 p-6 "
-        >
-          <h4 class="font-bold text-lg uppercase">process improvement</h4>
-          <p class="text-neutral-2 text-lg mt-4">
-            We provide QA assistance to organizations to ensure that products meet the highest standards.
-          </p>
-        </div>
-        <img
-          class=""
-          src="/img/qa.png"
-          alt="domicillary care"
-        />
       </div>
     </div>
     <div class="flex mt-10 justify-center">
@@ -80,9 +89,6 @@
 </template>
 
 <style lang="scss" scoped>
-.card {
-  background: linear-gradient(180deg, rgba(11, 18, 27, 0.00) 0%, rgba(11, 18, 27, 0.88) 86.98%);
-}
 .child {
   scrollbar-width: none;
   -webkit-scrollbar {

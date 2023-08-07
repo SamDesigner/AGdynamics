@@ -55,8 +55,7 @@ const resetBtnValues = () => {
             meet our amazing team
           </h2>
           <p class="mt-2 md:text-lg w-full max-w-[523px]">
-            We provide you experienced consultants to help you and your company
-            become more successful in the future.
+            We are here to enable you succeed
           </p>
         </div>
         <!-- <div class="hidden md:flex">

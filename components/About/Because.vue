@@ -56,8 +56,7 @@
                 industry knowledge
               </h3>
               <p class="leading-[28px] text-lg mt-3">
-                Proven success in diverse industries, meeting your
-                organization's needs effectively.
+                Proven success using data driven insights to support diverse social care service providers.
               </p>
             </div>
           </div>

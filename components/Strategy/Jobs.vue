@@ -188,7 +188,7 @@ const decisions = ref([
       <div id="growth" />
     </div>
     <div
-      class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-16 lg:mb-[64px] bg-grey-2"
+      class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 lg:mb-[64px] bg-grey-2"
     >
       <div
         class="flex flex-col lg:flex-row gap-10 justify-between lg:items-center"
@@ -225,7 +225,7 @@ const decisions = ref([
       </div>
     </div>
     <div
-      class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-80 lg:mb-[160px] bg-whiter"
+      class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-[350px] lg:mb-[160px] bg-whiter"
     >
       <div
         class="flex flex-col lg:flex-row gap-10 justify-between items-center relative"
@@ -253,7 +253,7 @@ const decisions = ref([
           alt="desktop info"
         />
         <img
-          class="hidden lg:hidden md:block absolute top-[226px] left-20 h-[340px]"
+          class="hidden lg:hidden md:block absolute top-[90px] left-2 h-[470px]"
           src="/img/info-tab.png"
           alt="desktop info"
         />

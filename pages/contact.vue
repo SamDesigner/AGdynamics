@@ -3,6 +3,7 @@
     <AppHeader />
     <CareServicesDropdown v-if="dataStore.careServices" />
     <AboutUsDropdown v-if="dataStore.about" />
+    <TrainingDropdown v-if="dataStore.training" />
     <ContactHero />
     <ContactTestimonials />
     <ContactBecause />

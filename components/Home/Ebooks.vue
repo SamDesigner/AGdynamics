@@ -2,7 +2,7 @@
 const resource = ref("Books");
 const services = ref([
   {
-    name: "Best Practices For Providing Domicilary Care",
+    name: "bridging the gap",
     title:
       "The world as we know it is never static. From media to tech, and so much more, our world is constantly undergoing change. The health sector, in particular, has gradually evolved from traditional, ethically grey methods of care and treatment to more modern, personalised and evidence-based practices.",
     image: "book-mockup",
@@ -99,18 +99,18 @@ const posts = ref([
     <div v-if="resource === 'Books'" class="w-full">
       <div class="flex justify-center mt-10">
         <div
-          class="flex flex-col lg:flex-row justify-center flex-wrap gap-10 lg:gap-2"
+          class="flex flex-col lg:flex-row items-stretch justify-center flex-wrap gap-10 lg:gap-2"
         >
           <div
             v-for="(service, idx) in services"
             :key="idx"
-            class="flex flex-col w-full lg:w-[408px]"
+            class="flex flex-col w-full h-full lg:w-[408px]"
           >
             <img class="w-full" :src="`/img/${service.image}.png`" />
             <div
-              class="flex items-center px-6 py-8 border bg-blue-2 text-white border-blue-2"
+              class="flex items-start h-full px-6 py-8 border bg-blue-2 text-white border-blue-2"
             >
-              <div class="flex flex-col w-full">
+              <div class="flex flex-col justify-between w-full h-full">
                 <h3
                   class="font-semibold text-[22px] tracking-[-0.2px] uppercase"
                 >
@@ -121,9 +121,9 @@ const posts = ref([
                 >
                   {{ service.title }}
                 </p> -->
-                <div class="mt-10 flex w-full">
+                <div class="mt-10 self-end flex w-full">
                   <nuxt-link
-                    to="/about"
+                    to="/ebooks"
                     class="bg-blue-4 text-center text-white rounded p-4 w-full"
                   >
                     Learn More

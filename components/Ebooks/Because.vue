@@ -1,48 +1,32 @@
 <script setup lang="ts">
 const blogs = ref([
   {
-    name: "Best Practices For Providing Domicillary Care",
-    title:
-      "The world as we know it is never static. From media to tech, and so much more, our world is constantly undergoing change. The health sector, in particular, has gradually evolved from traditional, ethically grey methods of care and treatment to more modern, personalised and evidence-based practices.",
+    name: "bridging the gap",
     image: "book-mockup",
   },
   {
-    name: "Best Practices For Providing Domicillary Care",
-    title:
-      "The world as we know it is never static. From media to tech, and so much more, our world is constantly undergoing change. The health sector, in particular, has gradually evolved from traditional, ethically grey methods of care and treatment to more modern, personalised and evidence-based practices.",
-    image: "book-mockup",
+    name: "social care business management explained",
+    image: "book-social",
+  },
+  {
+    name: "mastering tupe transfers in social care services",
+    image: "book-tupe",
   },
   {
     name: "Best Practices For Providing Domicillary Care",
-    title:
-      "The world as we know it is never static. From media to tech, and so much more, our world is constantly undergoing change. The health sector, in particular, has gradually evolved from traditional, ethically grey methods of care and treatment to more modern, personalised and evidence-based practices.",
-    image: "book-mockup",
+    image: "book-practice",
   },
   {
-    name: "Best Practices For Providing Domicillary Care",
-    title:
-      "The world as we know it is never static. From media to tech, and so much more, our world is constantly undergoing change. The health sector, in particular, has gradually evolved from traditional, ethically grey methods of care and treatment to more modern, personalised and evidence-based practices.",
-    image: "book-mockup",
-  },
-  {
-    name: "Best Practices For Providing Domicillary Care",
-    title:
-      "The world as we know it is never static. From media to tech, and so much more, our world is constantly undergoing change. The health sector, in particular, has gradually evolved from traditional, ethically grey methods of care and treatment to more modern, personalised and evidence-based practices.",
-    image: "book-mockup",
-  },
-  {
-    name: "Best Practices For Providing Domicillary Care",
-    title:
-      "The world as we know it is never static. From media to tech, and so much more, our world is constantly undergoing change. The health sector, in particular, has gradually evolved from traditional, ethically grey methods of care and treatment to more modern, personalised and evidence-based practices.",
-    image: "book-mockup",
-  },
+    name: "the ultimate guide to tender writing",
+    image: "book-tender",
+  }
 ]);
 </script>
 <template>
   <div class="mx-auto w-full px-4 md:px-6 xl:px-0 mt-14 md:mt-16 mb-16 max-w-[1240px]">
-    <div class="flex justify-center mt-6">
+    <div class="flex justify-start mt-6">
       <div
-        class="flex flex-col md:flex-row justify-center flex-wrap gap-10 lg:gap-2"
+        class="flex flex-col md:flex-row justify-start items-stretch flex-wrap gap-10 lg:gap-2"
       >
         <div
           v-for="(blog, idx) in blogs"
@@ -51,23 +35,23 @@ const blogs = ref([
         >
           <img class="w-full" :src="`/img/${blog.image}.png`" />
           <div
-            class="flex items-center px-6 py-8 border bg-blue-2 text-white border-blue-2"
+            class="flex items-start h-full px-6 py-8 border bg-blue-2 text-white border-blue-2"
           >
-            <div class="flex flex-col w-full">
+            <div class="flex flex-col justify-between h-full w-full">
               <h3 class="cut-text font-semibold text-xl tracking-[-0.2px] text-ellipsis overflow-hidden block  uppercase">
                 {{ blog.name }}
               </h3>
-              <p
+              <!-- <p
                 class="cut-text text-lg leading-[28px] font-medium max-h-14 mt-4 text-ellipsis overflow-hidden block"
               >
                 {{ blog.title }}
-              </p>
-              <div class="mt-10 flex w-full">
+              </p> -->
+              <div class="mt-10 flex self-end w-full">
                 <nuxt-link
                   to="/about"
-                  class="bg-blue-4 text-center text-white rounded p-4 w-full"
+                  class="bg-blue-4/30 text-center text-white rounded p-4 w-full"
                 >
-                  Get Book
+                  Coming Soon!
                 </nuxt-link>
               </div>
             </div>

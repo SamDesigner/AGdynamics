@@ -12,7 +12,7 @@
         Building Lasting Relationships
       </h2>
       <p class="leading-[28px] text-lg mt-4">
-        At OC Management Consultants, we believe in the power of trust, transparency, and lasting relationships. Our commitment to your success goes beyond transactions; it's about forging strong, long-term partnerships.
+        We believe in the power of trust, transparency, and lasting relationships. Our commitment to your success goes beyond transactions. we forge strong, long-term partnerships.
       </p>
       <div class="flex mt-10">
         <nuxt-link to="" class="bg-blue-4 text-white flex rounded py-4 px-8">

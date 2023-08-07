@@ -6,7 +6,7 @@
       <div class="">
         <p class="text-blue-4 text-lg font-bold tracking-[0.2px]">STAY AHEAD OF THE CURVE</p>
         <h1 class="font-black mb-10 text-blue-2 leading-[42px] md:leading-[54px] lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]"><span class="text-blue-4">Insights</span> For The Changing Landscape.</h1>
-        <img src="/img/vid-placeholder.png" alt="placeholder for video">
+        <img src="/img/insights.png" alt="placeholder for video">
       </div>
     </div>
   </div>

@@ -53,7 +53,7 @@ const resetBtnValues = () => {
       <div class="flex lg:items-center justify-center w-full mb-10">
         <div class="text-center">
           <h2 class="font-bold leading-[36px] md:leading-[48px] lg:leading-[54px] tracking-[-1.5px] text-2xl md:text-[32px] lg:text-[48px] capitalize">
-            feedback from clients
+            our client's experiences
           </h2>
           <!-- <p class="mt-2 md:text-lg leading-[26px] w-full max-w-[523px]">Praise for OCMC's exceptional service and successful outcomes. Hear from our best clients.</p> -->
         </div>

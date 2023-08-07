@@ -13,7 +13,7 @@
         <span class="text-blue-4">Data Driven Insights</span>
       </h2>
       <p class="leading-[28px] text-lg mt-4">
-        We ensures organizational success through through benchmarking practices and the analysis of proven or evidence based practices. Our expertise in regulations and standards aids in navigating complex environments, securing funding, winning tenders, and meeting all regulatory requirements. Empower your organization's growth with our dedicated support.
+        We ensure organizational success through benchmarking practices and the analysis of proven or evidence based practices. Our expertise in regulations and standards aids in navigating complex environments, securing funding, winning tenders, and meeting all regulatory requirements. Empower your organization's growth with our dedicated support.
       </p>
       <div class="flex mt-10">
         <nuxt-link to="/about" class="bg-blue-4 blue-btn text-white rounded py-4 px-8">

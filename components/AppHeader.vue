@@ -1,93 +1,212 @@
 <template>
-  <div class="fixed right-0 left-0 top-0 font-medium text-white z-10 px-4 md:px-6 xl:px-0" :class="dataStore.scrolled ? 'bg-blue-3 py-0' : 'bg-transparent py-6 mt-10'">
-    <div class="bg-blue-3 flex h-24 md:h-[88px] items-center justify-between px-6 px-md-0 w-full max-w-[1240px] rounded-xl mx-auto">
+  <div
+    class="fixed right-0 left-0 top-0 font-medium text-white z-10 px-4 md:px-6 xl:px-0"
+    :class="dataStore.scrolled ? 'bg-blue-3 py-0' : 'bg-transparent py-6 mt-10'"
+  >
+    <div
+      class="bg-blue-3 flex h-24 md:h-[88px] items-center justify-between px-6 px-md-0 w-full max-w-[1240px] rounded-xl mx-auto"
+    >
       <nuxt-link to="/">
         <img class="w-[50px] md:w-20 h-[50px] md:h-20" src="/svg/logo.svg" />
       </nuxt-link>
       <div class="lg:hidden flex gap-x-4">
-        <button class="hidden md:block bg-white border-2 border-white font-semibold px-4 py-3 rounded text-blue-2">Request Service</button>  
+        <button
+          class="hidden md:block bg-white border-2 border-white font-semibold px-4 py-3 rounded text-blue-2"
+        >
+          Request Service
+        </button>
         <button ref="hamburger" class="lg:hidden" @click="open = !open">
           <Icon name="ic:round-menu" size="24px" color="#FFF" />
         </button>
       </div>
-      <ul class="navbar-links max-h-fit flex items-start" :class="{ 'navbar-links--navopen': open }" v-click-outside="close">
+      <ul
+        class="navbar-links max-h-fit flex items-start"
+        :class="{ 'navbar-links--navopen': open }"
+        v-click-outside="close"
+      >
         <div v-if="open" class="flex items-center justify-between w-full">
           <nuxt-link to="/">
-            <img class="w-[50px] md:w-20 h-[50px] md:h-20" src="/svg/logo.svg" />
+            <img
+              class="w-[50px] md:w-20 h-[50px] md:h-20"
+              src="/svg/logo.svg"
+            />
           </nuxt-link>
           <button class="" @click="open = !open">
             <Icon name="ic:round-close" size="24px" color="#FFF" />
           </button>
         </div>
-        <ul v-if="!open" class="flex flex-col lg:flex-row lg:items-center gap-4 mt-10 lg:mt-0 lg:gap-10">
+        <ul
+          v-if="!open"
+          class="flex flex-col lg:flex-row lg:items-center gap-4 mt-10 lg:mt-0 lg:gap-10"
+        >
           <!-- <li @click="open = !open"><nuxt-link to="/">Home</nuxt-link></li> -->
-          <li @click="careServicesToggled"><p class="hover:text-blue-4 cursor-pointer">Strategy and Management Consulting<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></p></li>
-          <li @click="aboutUsToggled"><p class="hover:text-blue-4 cursor-pointer">About Us<Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></p></li>
-          <li @click="trainingToggled"><p class="hover:text-blue-4 cursor-pointer">Training & Events <Icon class="ml-1" name="ic:round-keyboard-arrow-down" size="24px" color="#FFFFFF" /></p></li>
-          <li @click="open = !open"><nuxt-link to="/ebooks">Resources</nuxt-link></li>
-          <li @click="open = !open"><nuxt-link to="/blog">News</nuxt-link></li>
-          <div class="lg:hidden flex flex-col lg:flex-row lg:items-center gap-6">
-            <button class="bg-white border-2 border-white font-semibold px-4 py-3 rounded text-blue-2">Request Service</button>        
+          <li @click="careServicesToggled">
+            <p
+              class="hover:text-blue-4 cursor-pointer"
+              :class="
+                route.name === 'services' || route.name === 'strategy'
+                  ? 'text-blue-4'
+                  : ''
+              "
+            >
+              Strategy and Management Consulting<Icon
+                class="ml-1"
+                name="ic:round-keyboard-arrow-down"
+                size="24px"
+                color="#FFFFFF"
+              />
+            </p>
+          </li>
+          <li @click="aboutUsToggled">
+            <p
+              class="hover:text-blue-4 cursor-pointer"
+              :class="route.name === 'about' ? 'text-blue-4' : ''"
+            >
+              About Us<Icon
+                class="ml-1"
+                name="ic:round-keyboard-arrow-down"
+                size="24px"
+                color="#FFFFFF"
+              />
+            </p>
+          </li>
+          <li @click="trainingToggled">
+            <p
+              class="hover:text-blue-4 cursor-pointer"
+              :class="route.name === 'training' ? 'text-blue-4' : ''"
+            >
+              Training & Events
+              <Icon
+                class="ml-1"
+                name="ic:round-keyboard-arrow-down"
+                size="24px"
+                color="#FFFFFF"
+              />
+            </p>
+          </li>
+          <li @click="open = !open">
+            <nuxt-link
+              to="/ebooks"
+              :class="route.name === 'ebooks' ? 'text-blue-4' : ''"
+              >Resources</nuxt-link
+            >
+          </li>
+          <li @click="open = !open">
+            <nuxt-link
+              to="/blog"
+              :class="route.name === 'blog' ? 'text-blue-4' : ''"
+              >News</nuxt-link
+            >
+          </li>
+          <div
+            class="lg:hidden flex flex-col lg:flex-row lg:items-center gap-6"
+          >
+            <button
+              class="bg-white border-2 border-white font-semibold px-4 py-3 rounded text-blue-2"
+            >
+              Request Service
+            </button>
           </div>
         </ul>
-        <ul v-else class="flex flex-col lg:flex-row lg:items-center gap-4 mt-10 lg:mt-0 lg:gap-10 w-full">
+        <ul
+          v-else
+          class="flex flex-col lg:flex-row lg:items-center gap-4 mt-10 lg:mt-0 lg:gap-10 w-full"
+        >
           <!-- <li @click="open = !open"><nuxt-link to="/">Home</nuxt-link></li> -->
-          <li class="py-4" @click="open = !open"><nuxt-link to="/about" class="hover:text-blue-4 cursor-pointer py-4 my-2">About Us</nuxt-link></li>
-          <li class="py-4" @click="open = !open"><nuxt-link to="/services" class="hover:text-blue-4 cursor-pointer py-4 my-2">Care Services</nuxt-link></li>
-          <li class="py-4" @click="open = !open"><nuxt-link to="/strategy" class="hover:text-blue-4 cursor-pointer py-4 my-2">Core Strategy</nuxt-link></li>
-          <li class="py-4" @click="open = !open"><nuxt-link to="/training" class="hover:text-blue-4 cursor-pointer py-4 my-2">Training & Events </nuxt-link></li>
-          <li class="py-4" @click="open = !open"><nuxt-link to="/ebooks" class="py-4 my-2">Resources</nuxt-link></li>
-          <li class="py-4" @click="open = !open"><nuxt-link to="/blog" class="py-4 my-2">News</nuxt-link></li>
-          <div class="lg:hidden flex flex-col lg:flex-row lg:items-center gap-6">
-            <button class="bg-white border-2 border-white font-semibold px-4 py-3 rounded text-blue-2">Request Service</button>        
+          <li class="py-4" @click="open = !open">
+            <nuxt-link
+              to="/about"
+              class="hover:text-blue-4 cursor-pointer py-4 my-2"
+              >About Us</nuxt-link
+            >
+          </li>
+          <li class="py-4" @click="open = !open">
+            <nuxt-link
+              to="/services"
+              class="hover:text-blue-4 cursor-pointer py-4 my-2"
+              >Care Services</nuxt-link
+            >
+          </li>
+          <li class="py-4" @click="open = !open">
+            <nuxt-link
+              to="/strategy"
+              class="hover:text-blue-4 cursor-pointer py-4 my-2"
+              >Core Strategy</nuxt-link
+            >
+          </li>
+          <li class="py-4" @click="open = !open">
+            <nuxt-link
+              to="/training"
+              class="hover:text-blue-4 cursor-pointer py-4 my-2"
+              >Training & Events
+            </nuxt-link>
+          </li>
+          <li class="py-4" @click="open = !open">
+            <nuxt-link to="/ebooks" class="py-4 my-2">Resources</nuxt-link>
+          </li>
+          <li class="py-4" @click="open = !open">
+            <nuxt-link to="/blog" class="py-4 my-2">News</nuxt-link>
+          </li>
+          <div
+            class="lg:hidden flex flex-col lg:flex-row lg:items-center gap-6"
+          >
+            <button
+              class="bg-white border-2 border-white font-semibold px-4 py-3 rounded text-blue-2"
+            >
+              Request Service
+            </button>
           </div>
         </ul>
       </ul>
       <div class="hidden lg:flex">
-        <button class="bg-white border-2 border-white font-semibold px-4 py-3 rounded text-blue-2">Request Service</button>        
+        <button
+          class="bg-white border-2 border-white font-semibold px-4 py-3 rounded text-blue-2"
+        >
+          Request Service
+        </button>
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { useDataStore } from '@/stores/data'
+import { useDataStore } from "@/stores/data";
 const dataStore = useDataStore();
+const route = useRoute();
 const open = ref(false);
-const close = (e:HTMLInputElement) => {
-  if (e.target.tagName !== 'svg' && e.target.tagName !== 'path') {
+const close = (e: HTMLInputElement) => {
+  if (e.target.tagName !== "svg" && e.target.tagName !== "path") {
     open.value = false;
   }
 };
 
 const careServicesToggled = () => {
   dataStore.careServices = !dataStore.careServices;
-}
+};
 
 const aboutUsToggled = () => {
   dataStore.about = !dataStore.about;
-}
+};
 
 const trainingToggled = () => {
   dataStore.training = !dataStore.training;
-}
+};
 
 const handleScroll = () => {
-  dataStore.scrolled = window.scrollY > 0
-}
+  dataStore.scrolled = window.scrollY > 0;
+};
 
-if (typeof window !== 'undefined') {
-  window.addEventListener('scroll', handleScroll);
+if (typeof window !== "undefined") {
+  window.addEventListener("scroll", handleScroll);
 }
 </script>
 
 <style lang="scss" scoped>
 .backdrop {
   background: rgba(0, 29, 64, 0.24);
-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
 }
 .navbar {
-
   &-links {
     display: flex;
     // align-items: center;
@@ -95,7 +214,7 @@ backdrop-filter: blur(20px);
 
     &__item {
       margin: 0;
-      a:not([data-type=button]) {
+      a:not([data-type="button"]) {
         color: $primary;
         text-decoration: none;
         &:hover {
@@ -132,7 +251,7 @@ backdrop-filter: blur(20px);
       transform: translateX(100vw);
       // pointer-events: none;
       position: fixed;
-      transition: transform .2s ease-out;
+      transition: transform 0.2s ease-out;
       display: flex;
       flex-direction: column;
       padding: 24px;

@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="mx-auto text-lg leading-relaxed lg:leading-9 w-full max-w-[1240px] px-4 md:px-6 xl:px-0 my-[100px] lg:my-[200px]"
+    class="mx-auto text-lg leading-relaxed lg:leading-9 w-full max-w-[1240px] px-4 md:px-6 xl:px-0 pt-[200px]"
   >
     <nuxt-link to="/blog" class="flex items-center gap-2 mb-4">
       <button
@@ -22,7 +22,7 @@
       >
         Supported living: More than providing a house and a service
       </h1>
-      <div class="text-blue flex items-center justify-center mt-8 gap-6">
+      <div class="text-blue flex items-center justify-center mt-8 gap-3 md:gap-6">
         <div class="flex md:justify-center max-w-fit relative">
           <img
             class="absolute -right-2 -top-2"

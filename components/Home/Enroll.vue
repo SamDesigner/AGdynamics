@@ -37,7 +37,7 @@ watch(message, (value) => {
 })
 </script>
 <template>
-  <div class="flex flex-col-reverse md:flex-row justify-center items-center my-[60px] lg:my-[120px] mx-auto w-full max-w-[1240px]">
+  <div class="flex flex-col-reverse md:flex-row justify-center items-center my-[60px] lg:mt-[120px] mx-auto w-full max-w-[1240px]">
     <div class="w-full flex flex-col justify-center items-center max-w-[612px] px-4 mt-6 md:mt-0">
         <h2 class="font-semibold leading-[36px] md:leading-[48px] lg:leading-[54px] tracking-[-1.5px] text-[26px] md:text-[32px] lg:text-[48px] capitalize">
           get in touch <span class="text-blue-4">with us</span>
@@ -128,6 +128,7 @@ watch(message, (value) => {
             </button>
           </div>
         </form>
+        <img class="w-[240px] mt-20" src="/img/tgpc.png" alt="designed by tgpc media">
       </div>
   </div>
 </template>
