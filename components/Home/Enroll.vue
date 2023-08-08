@@ -128,7 +128,9 @@ watch(message, (value) => {
             </button>
           </div>
         </form>
-        <img class="w-[240px] mt-20" src="/img/tgpc.png" alt="designed by tgpc media">
+        <a href="https://tgpcmedia.com/" target="_blank">
+          <img class="w-[240px] mt-20" src="/img/tgpc.png" alt="designed by tgpc media">
+        </a>
       </div>
   </div>
 </template>
