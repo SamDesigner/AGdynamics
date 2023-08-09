@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import getStarted from "~/assets/loading-animation.json"
+</script>
 <template>
   <div
     class="bg-blue pt-20 md:py-28 px-4 md:px-6 xl:px-0 w-full md:pt-[120px]"
@@ -20,7 +22,17 @@
           <!-- <img class="hidden lg:block w-[146px]" src="/img/hero-right.png" alt="hero right image"> -->
         </div>
         <div class="-mb-20 md:-mb-40 translate-y-10 md:translate-y-20 relative">
-          <img class="absolute right-8 xl:-right-8 -top-8" src="/img/play-icon.png" alt="play icon">
+          <div class="absolute right-8 xl:-right-8 -top-8">
+            <img class="" src="/img/play-icon.png" alt="play icon">
+            <div class="-translate-y-[132px] -translate-x-[68px]">
+              <Vue3Lottie
+                ref="getStartedAnim"
+                :animationData="getStarted"
+                :height="200"
+                :width="200"
+              />
+            </div>
+          </div>
           <video ref="video" controls playsinline autoplay muted loop>
             <source src="/assets/OCMC-brand-video.mp4" type="video/mp4">
             <p>Your browser does not support HTML video, here's a <a href="/assets/OCMC-brand-video.mp4">link </a> to watch the video</p>

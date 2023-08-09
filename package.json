@@ -21,6 +21,7 @@
     "click-outside-vue3": "^4.0.1",
     "nuxt-swiper": "^1.1.1",
     "pinia": "^2.1.6",
-    "sass": "^1.63.6"
+    "sass": "^1.63.6",
+    "vue3-lottie": "^3.0.0"
   }
 }
