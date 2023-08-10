@@ -22,14 +22,14 @@ import getStarted from "~/assets/loading-animation.json"
           <!-- <img class="hidden lg:block w-[146px]" src="/img/hero-right.png" alt="hero right image"> -->
         </div>
         <div class="-mb-20 md:-mb-40 translate-y-10 md:translate-y-20 relative">
-          <div class="absolute right-0 md:right-8 xl:-right-8 -top-8">
+          <div class="absolute -right-2 md:right-8 xl:-right-8 -top-8">
             <img class="" src="/img/play-icon.png" alt="play icon">
-            <div class="-translate-y-[132px] -translate-x-[68px]">
+            <div class="-translate-y-[85px] -translate-x-[19px]">
               <Vue3Lottie
                 ref="getStartedAnim"
                 :animationData="getStarted"
-                :height="200"
-                :width="200"
+                :height="102"
+                :width="102"
               />
             </div>
           </div>
