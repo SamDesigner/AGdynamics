@@ -19,7 +19,7 @@
             @click="clickedOutside"
           >
             <template v-for="(item, index) in about" :key="index">
-              <nuxt-link :to="item.to" class="flex p-3 gap-4 w-[286px]">
+              <nuxt-link :to="item.to" class="flex items-center p-3 gap-4 w-[286px]">
                 <img
                   class="w-12 h-12"
                   :src="`/img/${item.img}.png`"
@@ -27,7 +27,6 @@
                 />
                 <div class="flex flex-col">
                   <h6 class="font-medium">{{ item.title }}</h6>
-                  <p class="text-grey-8">{{ item.body }}</p>
                 </div>
               </nuxt-link>
             </template>
@@ -50,19 +49,16 @@ const dataStore = useDataStore();
 const about = ref([
   {
     title: "Our Vision & Mission",
-    body: "Body",
     img: "vision",
     to: "/about#vision",
   },
   {
     title: "Our Team",
-    body: "Body",
     img: "ourteam",
     to: "/about#team",
   },
   {
     title: "Our Location",
-    body: "Body",
     img: "ourlocation",
     to: "/about#location",
   },

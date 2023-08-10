@@ -28,9 +28,7 @@
                 <div class="flex justify-between flex-col">
                   <div class="">
                     <h6 class="font-medium">{{ item.title }}</h6>
-                    <p class="text-grey-8">{{ item.body }}</p>
-                    
-                                      </div>
+                  </div>
                   <nuxt-link to="/training" class="blue-btn text-sm mb-3"
                     >{{ item.toText }}
                     <Icon name="mdi:arrow-right" size="20px" class="hovered ml-1"
@@ -51,21 +49,18 @@ const dataStore = useDataStore();
 const about = ref([
   {
     title: "E-learning",
-    body: "Body",
     img: "book-mockup-dropdown",
     toText: "Start Learning",
     to: "/training",
   },
   {
     title: "Webinars",
-    body: "Body",
     img: "book-mockup-dropdown",
     toText: "Grab a popcorn",
     to: "/training",
   },
   {
     title: "Customer Events",
-    body: "Body",
     img: "book-mockup-dropdown",
     toText: "Make it personal",
     to: "/training",

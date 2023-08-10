@@ -25,7 +25,7 @@
           <div
             class="flex flex-col sm:flex-row flex-wrap gap-4">
             <template v-for="(item, index) in consulting" :key="index">
-              <nuxt-link :to="item.to" class="flex p-3 gap-4 w-[286px]">
+              <nuxt-link :to="item.to" class="flex items-center p-3 gap-4 w-[286px]">
                 <img
                   class="w-12 h-12"
                   :src="`/img/${item.img}.png`"
@@ -51,7 +51,7 @@
             class="flex flex-col sm:flex-row flex-wrap gap-4"
           >
             <template v-for="(item, index) in services" :key="index">
-              <nuxt-link :to="item.to" class="flex p-3 gap-4 w-[286px]">
+              <nuxt-link :to="item.to" class="flex items-center p-3 gap-4 w-[286px]">
                 <img
                   class="w-12 h-12"
                   :src="`/img/${item.img}.png`"
