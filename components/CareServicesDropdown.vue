@@ -13,14 +13,17 @@
         Strategy and Management Consulting
       </h5>
       <div class="flex flex-col sm:flex-row justify-between mt-20 w-full">
-        <div class="flex flex-col w-[588px]">
-          <h6 class="font-medium text-grey-8 px-6 leading-[26px] py-4">
-            Strategy Consulting
-          </h6>
+        <div
+          class="flex flex-col w-[588px]"
+          @click="clickedOutside"
+        >
+          <nuxt-link to="/strategy">
+            <h6 class="font-medium text-grey-8 px-6 leading-[26px] py-4">
+              Strategy Consulting
+            </h6>
+          </nuxt-link>
           <div
-            class="flex flex-col sm:flex-row flex-wrap gap-4"
-            @click="clickedOutside"
-          >
+            class="flex flex-col sm:flex-row flex-wrap gap-4">
             <template v-for="(item, index) in consulting" :key="index">
               <nuxt-link :to="item.to" class="flex p-3 gap-4 w-[286px]">
                 <img
@@ -30,19 +33,22 @@
                 />
                 <div class="flex flex-col">
                   <h6 class="font-medium">{{ item.title }}</h6>
-                  <p class="text-grey-8">{{ item.body }}</p>
                 </div>
               </nuxt-link>
             </template>
           </div>
         </div>
-        <div class="flex flex-col w-[588px]">
-          <h6 class="font-medium text-grey-8 px-6 leading-[26px] py-4">
-            Services
-          </h6>
+        <div
+          class="flex flex-col w-[588px]"
+          @click="clickedOutside"
+        >
+          <nuxt-link to="/services">
+            <h6 class="font-medium text-grey-8 px-6 leading-[26px] py-4">
+              Services
+            </h6>
+          </nuxt-link>
           <div
             class="flex flex-col sm:flex-row flex-wrap gap-4"
-            @click="clickedOutside"
           >
             <template v-for="(item, index) in services" :key="index">
               <nuxt-link :to="item.to" class="flex p-3 gap-4 w-[286px]">
@@ -53,7 +59,6 @@
                 />
                 <div class="flex flex-col">
                   <h6 class="font-medium">{{ item.title }}</h6>
-                  <p class="text-grey-8">{{ item.body }}</p>
                 </div>
               </nuxt-link>
             </template>
@@ -70,25 +75,21 @@ const dataStore = useDataStore();
 const consulting = ref([
   {
     title: "Strategic Planning",
-    body: "Body",
     img: "business",
     to: "/strategy#",
   },
   {
     title: "Mergers & Acquisitions Advisory",
-    body: "Body",
     img: "merger",
     to: "/strategy#mergers",
   },
   {
     title: "Growth & Diversifications",
-    body: "Body",
     img: "growth",
     to: "/strategy#growth",
   },
   {
     title: "Investment and Funding Advisory",
-    body: "Body",
     img: "funding",
     to: "/strategy#funding",
   },
@@ -97,31 +98,26 @@ const consulting = ref([
 const services = ref([
   {
     title: "License Acquisitions",
-    body: "Body",
     img: "licenses",
     to: "/services#licenses",
   },
   {
     title: "Process Improvement",
-    body: "Body",
     img: "qassurance",
     to: "/services#qa",
   },
   {
     title: "Tendering",
-    body: "Body",
     img: "tender",
     to: "/services#tender",
   },
   {
     title: "Training & Events",
-    body: "Body",
     img: "training",
     to: "/services#training",
   },
   {
     title: "Grant Opportunities",
-    body: "Body",
     img: "grant",
     to: "/services#grant",
   },
