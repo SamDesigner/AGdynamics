@@ -1,5 +1,9 @@
 body {
   font-family: 'Product Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+* {
+  scroll-behavior: smooth;
 }
 .router-link-exact-active {
   color: $blue-4;

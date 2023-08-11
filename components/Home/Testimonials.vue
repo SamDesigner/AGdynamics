@@ -49,7 +49,7 @@ const resetBtnValues = () => {
 </script>
 <template>
   <div class="py-16 lg:py-[120px] w-full bg-grey-2">
-    <div class="flex flex-col  mx-auto px-4 md:px-6 xl:px-0 w-full max-w-[1240px]">
+    <div class="flex flex-col items-center mx-auto px-4 md:px-6 xl:px-0 w-full max-w-[1240px]">
       <div class="flex lg:items-center justify-center w-full mb-10">
         <div class="text-center">
           <h2 class="font-bold leading-[36px] md:leading-[48px] lg:leading-[54px] tracking-[-1.5px] text-2xl md:text-[32px] lg:text-[48px] capitalize">
@@ -85,7 +85,7 @@ const resetBtnValues = () => {
           <div
           v-for="(service, idx) in services"
           :key="idx"
-            class="border-2 bg-whiter border-blue-4/50 flex flex-col justify-between rounded-lg p-6 w-full md:w-[403px]"
+            class="bg-whiter card flex flex-col justify-between rounded-lg p-6 w-full md:w-[403px]"
           >
             <p class="text-center text-lg">{{ service.desc }}</p>
             <div class="bg-blue-4 w-full h-px my-[22px]" />
@@ -102,6 +102,12 @@ const resetBtnValues = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div class="flex mt-10">
+          <nuxt-link to="/about" class="blue-btn text-blue-4 rounded py-4 px-8">
+            See more
+            <Icon class="hovered ml-4" name="mdi:arrow-right" size="18px" />
+          </nuxt-link>
         </div>
         <!-- </SwiperSlide>
         <SwiperControls class="md:hidden" :clickPrev="prevClicked" :clickNext="nextClicked" @resetBtnValues="resetBtnValues" />
@@ -131,5 +137,7 @@ const resetBtnValues = () => {
 </template>
 
 <style lang="scss" scoped>
-
+.card {
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.08);
+}
 </style>

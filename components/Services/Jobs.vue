@@ -23,11 +23,10 @@
           <h2
             class="font-semibold leading-[48px] lg:leading-[54px] px-6 md:px-0 tracking-[-1.5px] lg:text-[32px] text-[28px] w-full capitalize"
           >
-            LICENSE ACQUISITIONS
+            LICENSE APPLICATIONS
           </h2>
           <p class="leading-[28px] text-lg mt-1">
-            We provide licensing assistance to organizations to ensure
-            compliance with regulations.
+            We provide comprehensive application support in preparing and submitting license applications.
           </p>
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
@@ -35,7 +34,7 @@
             <img class="w-16" src="/img/01.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We provide organizations with the resources and expertise they need to navigate the complex licensing process.
+                Using in-depth knowledge and expertise in acquiring licenses from regulatory bodies like CQC, RQIA, CIW, and Ofsted.
               </p>
             </div>
           </div>
@@ -45,7 +44,7 @@
             <img class="w-16" src="/img/02.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We enable organizations identify and mitigate risks, ensuring that they are compliant with all applicable regulations and standards.
+                Providing a service that ensures clients meet all the necessary requirements and regulations for operating social care services.
               </p>
             </div>
           </div>
@@ -55,13 +54,13 @@
             <img class="w-16" src="/img/03.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We enable organizations obtain the licenses they need to operate their businesses legally and compliantly.
+                Interview preparation for managerial positions within social care services.
               </p>
             </div>
           </div>
           <div class="flex mt-10 justify-start w-full">
             <nuxt-link
-              to="/"
+              to="#connect"
               class="bg-blue-4 text-white rounded w-full md:w-auto text-center md:text-left py-4 px-8"
             >
               Request Service
@@ -94,7 +93,7 @@
             TENDERING
           </h2>
           <p class="leading-[28px] text-lg mt-1">
-            We enable organizations respond to bids, develop winning applications, and procure goods and services.
+            We assist clients in sourcing relevant information, data, and resources required for creating comprehensive bids/tenders.
           </p>
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
@@ -102,7 +101,7 @@
             <img class="w-16" src="/img/01.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We enable organizations submit winning bids on time and in accordance with all regulations.
+                Our technical writers and proofreaders enable clients win contracts by tailoring their documents to the specific needs of the potential client.
               </p>
             </div>
           </div>
@@ -112,11 +111,11 @@
             <img class="w-16" src="/img/02.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We enable organizations develop applications that are well-written, persuasive, and compliant with the requirements of the procurement process.
+                Our response management service streamlines response management by handling all aspects and ensuring timely, accurate responses.
               </p>
             </div>
           </div>
-          <div
+          <!-- <div
             class="flex flex-col md:flex-row items-center md:items-start mt-6"
           >
             <img class="w-16" src="/img/03.png" alt="first pic" />
@@ -125,10 +124,10 @@
                 We enable organizations procure goods and services that meet their needs and budget.
               </p>
             </div>
-          </div>
+          </div> -->
           <div class="flex mt-10 justify-start w-full">
             <nuxt-link
-              to="/"
+              to="#connect"
               class="bg-blue-4 text-white rounded w-full md:w-auto text-center md:text-left py-4 px-8"
             >
               Request Service
@@ -158,10 +157,10 @@
           <h2
             class="font-semibold leading-[48px] lg:leading-[54px] px-6 md:px-0 tracking-[-1.5px] lg:text-[32px] text-[28px] w-full capitalize"
           >
-            GRANT OPPORTUNITIES
+            GROWTH AND DIVERSIFICATION
           </h2>
           <p class="leading-[28px] text-lg mt-1">
-            We enable organizations secure funding, develop winning proposals, and comply with regulations.
+            By leveraging our training and events service, our clients can empower their staff and enhance the quality of their social care services.
           </p>
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
@@ -169,7 +168,7 @@
             <img class="w-16" src="/img/01.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We have a deep understanding of the funding landscape and can enable organizations navigate the complex grant application process.
+                Promoting best practices and knowledge sharing through interactive training, engaging events and professional growth within the community.
               </p>
             </div>
           </div>
@@ -179,7 +178,7 @@
             <img class="w-16" src="/img/02.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We enable organizations develop proposals that are well-written, persuasive, and compliant with the requirements of the funding source.
+                We develop e-learning modules that allow clients to access training materials anytime, anywhere.
               </p>
             </div>
           </div>
@@ -189,13 +188,13 @@
             <img class="w-16" src="/img/03.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We enable organizations ensure that their proposals comply with all applicable regulations and standards.
+                Our webinars on social care topics are a great way to learn, discuss, and network.
               </p>
             </div>
           </div>
           <div class="flex mt-10 justify-start w-full">
             <nuxt-link
-              to="/"
+              to="#connect"
               class="bg-blue-4 text-white rounded w-full md:w-auto text-center md:text-left py-4 px-8"
             >
               Request Service
@@ -228,7 +227,7 @@
             PROCESS IMPROVEMENT
           </h2>
           <p class="leading-[28px] text-lg mt-1">
-            We provide QA assistance to organizations to ensure that products meet the highest standards.
+            We develop action plans, conduct quality audits and enable clients create measurable objectives, timelines, and strategies for improvement.
           </p>
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
@@ -236,7 +235,7 @@
             <img class="w-16" src="/img/01.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We provide organizations with the resources and expertise they need to implement and maintain a successful QA program.
+                Our independent auditors conduct quality audits to assess processes against standards, identify improvements, and provide solutions.
               </p>
             </div>
           </div>
@@ -246,7 +245,7 @@
             <img class="w-16" src="/img/02.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We enable organizations identify and mitigate risks, ensuring that their products meet the highest standards of quality.
+                Our Rating Improvement Service enables companies meet regulatory requirements by identifying and addressing root causes.
               </p>
             </div>
           </div>
@@ -256,13 +255,13 @@
             <img class="w-16" src="/img/03.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We enable organizations comply with all applicable regulations and standards, ensuring that their products are safe and effective.
+                We conduct mock inspections to enable clients identify gaps and prepare for inspections.
               </p>
             </div>
           </div>
           <div class="flex mt-10 justify-start w-full">
             <nuxt-link
-              to="/"
+              to="#connect"
               class="bg-blue-4 text-white rounded w-full md:w-auto text-center md:text-left py-4 px-8"
             >
               Request Service
@@ -272,7 +271,7 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-16 lg:mb-[120px] bg-grey-2">
+    <!-- <div class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-16 lg:mb-[120px] bg-grey-2">
       <div class="flex flex-col lg:flex-row justify-between items-center">
         <div class="mt-10 w-full lg:w-auto lg:mt-0 lg:mr-4">
           <img
@@ -336,7 +335,7 @@
             </nuxt-link>
             <div class="absolute top-0 left-0 w-full h-full bg-whiter/50" />
           </div>
-          <!-- <div
+          <div
             class="flex flex-col md:flex-row items-center md:items-start mt-6"
           >
             <img class="w-16" src="/img/04.png" alt="first pic" />
@@ -349,11 +348,15 @@
                 passionate client support.
               </p>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+.router-link-exact-active {
+  color: white;
+}
+</style>

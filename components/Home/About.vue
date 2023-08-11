@@ -9,7 +9,7 @@
       <h2
         class="font-bold leading-[48px] lg:leading-[54px] px-6 md:px-0 tracking-[-1.5px] text-[32px] lg:text-[48px] w-full max-w-[520px] lg:max-w-[436px]"
       >
-        Driving Your Success Through
+        Driving<br class="hidden lg:block"> Success Through
         <span class="text-blue-4">Data Driven Insights</span>
       </h2>
       <p class="leading-[28px] text-lg mt-4">

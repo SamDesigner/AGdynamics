@@ -15,9 +15,9 @@ const services = ref([
     image: "smce",
   },
   {
-    name: "Mrs Obi",
-    title: "CQC Regulation 13: Good Governance",
-    image: "picture-place",
+    name: "Peju Akinlude",
+    title: "CONSULTING ADVISOR ON MENTAL HEALTH, SPECIALIST TRAINING AN...",
+    image: "peju",
   },
 ]);
 
@@ -95,7 +95,7 @@ const resetBtnValues = () => {
                 <h3 class="font-semibold text-2xl">
                   {{ service.name }}
                 </h3>
-                <p class="text-sm font-medium mt-2 px-4">
+                <p class="font-medium mt-2">
                   {{ service.title }}
                 </p>
               </div>

@@ -7,7 +7,7 @@
       <h2
         class="font-bold hidden lg:block leading-[48px] mb-10 lg:leading-[54px] px-6 md:px-0 tracking-[-1.5px] text-[32px] lg:text-[48px] w-full capitalize"
       >
-        what we provide that makes us <span class="text-blue-4">unique</span>
+        what makes us <span class="text-blue-4">unique</span>
       </h2>
       <div
         class="flex flex-col lg:flex-row-reverse justify-between items-center"

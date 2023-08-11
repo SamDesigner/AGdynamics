@@ -15,24 +15,24 @@ const services = ref([
     image: "smce",
   },
   {
-    name: "Edwina Nwaogu",
-    title: "SENIOR MANAGEMENT CONSULTANT EXPERTISE",
-    image: "picture-place",
+    name: "Peju Akinlude",
+    title: "CONSULTING ADVISOR ON MENTAL HEALTH, SPECIALIST TRAINING AN...",
+    image: "peju",
   },
   {
-    name: "Edwina Nwaogu",
-    title: "SENIOR MANAGEMENT CONSULTANT EXPERTISE",
-    image: "picture-place",
+    name: "Dudley Sawyerr",
+    title: "DIVERSITY, EQUITY, AND INCLUSION EXPERT ADVISOR",
+    image: "dudley",
   },
   {
-    name: "Edwina Nwaogu",
-    title: "SENIOR MANAGEMENT CONSULTANT EXPERTISE",
-    image: "picture-place",
+    name: "Arindam Das",
+    title: "SENIOR STRATEGY CONSULTANT",
+    image: "das",
   },
   {
-    name: "Edwina Nwaogu",
-    title: "SENIOR MANAGEMENT CONSULTANT EXPERTISE",
-    image: "picture-place",
+    name: "Nick",
+    title: "OPERATIONS & BUSINESS DEVELOPMENT LEADER",
+    image: "nick",
   },
 ]);
 

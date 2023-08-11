@@ -3,7 +3,7 @@
 <template>
   <div class="flex flex-col mt-[160px] lg:mt-[350px] mx-auto px-4 md:px-6 xl:px-0 w-full max-w-[1240px]">
     <div class="flex flex-col text-center lg:text-left lg:flex-row items-center lg:items-start justify-between w-full">
-      <h2 class="font-bold px-8 lg:px-0 leading-[36px] md:leading-[48px] lg:leading-[54px] tracking-[-1.5px] text-2xl md:text-[32px] lg:text-[48px] w-full">We Guide Businesses To Achieve Excellence Through:</h2>
+      <h2 class="font-bold px-8 lg:px-0 leading-[36px] md:leading-[48px] lg:leading-[54px] tracking-[-1.5px] text-2xl md:text-[32px] lg:text-[48px] w-full">We Guide Businesses To <span class="text-blue-4">Achieve Success</span></h2>
       <!-- <p class="mt-3 lg:mt-0 md:text-lg w-full max-w-[523px]">We understand that navigating complex regulations can be a daunting task, but we are here to help. Our team of experienced consultants has a proven track record of success in helping organizations win tenders, secure funding, and comply with regulations.</p> -->
     </div>
     <div
@@ -14,10 +14,10 @@
         <div
           class="flex flex-col"
         >
-          <h4 class="font-semibold text-lg uppercase">Growth and diversification</h4>
-          <p class="text-lg my-2">
+          <h4 class="font-semibold text-lg uppercase mb-2">Growth and diversification</h4>
+          <!-- <p class="text-lg my-2">
             We provide:
-          </p>
+          </p> -->
           <ul class="list-disc text-lg list-inside">
             <li>
               Market Demand Forcasting
@@ -37,10 +37,10 @@
         <div
           class="flex flex-col"
         >
-          <h4 class="font-semibold text-lg uppercase">License Acquisition</h4>
-          <p class="text-lg my-2">
+          <h4 class="font-semibold text-lg uppercase mb-2">License Acquisition</h4>
+          <!-- <p class="text-lg my-2">
             We provide:
-          </p>
+          </p> -->
           <ul class="list-disc text-lg list-inside">
             <li>
               CQC, RQIA, CIW, Ofsted
@@ -60,10 +60,10 @@
         <div
           class="flex flex-col"
         >
-          <h4 class="font-semibold text-lg uppercase">Process Improvement</h4>
-          <p class="text-lg my-2">
+          <h4 class="font-semibold text-lg uppercase mb-2">Process Improvement</h4>
+          <!-- <p class="text-lg my-2">
             We provide:
-          </p>
+          </p> -->
           <ul class="list-disc text-lg list-inside">
             <li>
               Quality audits
