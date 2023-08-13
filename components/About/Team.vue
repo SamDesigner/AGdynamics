@@ -207,7 +207,7 @@ const resetBtnValues = () => {
       <div v-if="Object.entries(modInfo).length !== 0" class="fixed bg-black/75 flex items-start md:items-center justify-center top-0 left-0 w-screen pt-40 md:w-[calc(100vw-16px)] overflow-hidden h-screen z-50">
       <div
         v-click-outside="clickedOutside"
-        class="bg-whiter flex flex-col h-full overflow-y-auto relative xl:flex-row items-start gap-y-10 xl:gap-x-10 rounded-2xl p-6 md:w-[456px] xl:w-[1240px]"
+        class="bg-whiter flex flex-col h-full md:h-auto overflow-y-auto relative xl:flex-row items-start gap-y-10 xl:gap-x-10 rounded-2xl p-6 md:w-[456px] xl:w-[1240px]"
       >
         <img
           class="rounded-xl w-full md:w-[298px]"
