@@ -211,7 +211,7 @@ const resetBtnValues = () => {
       >
         <img
           class="rounded-xl w-full md:w-[298px]"
-          :src="`img/${modInfo.image}.png`"
+          :src="`/img/${modInfo.image}.png`"
           alt=""
         />
         <div class="flex flex-col gap-y-3">
