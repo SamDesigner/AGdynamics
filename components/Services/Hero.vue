@@ -8,9 +8,9 @@
     >
       <div class="flex flex-col justify-between w-full h-full">
         <div class="flex justify-center w-full">
-          <div class="text-white text-center w-full">
+          <div class="text-center w-full">
             <p class="text-yellow text-lg font-bold uppercase">services</p>
-            <h1 class="font-black leading-[42px] md:leading-[54px] mb-10 lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]">
+            <h1 class="text-white font-black leading-[42px] md:leading-[54px] mb-10 lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]">
               Business Guidance To <span class="text-yellow">Excellence</span>
             </h1>
           </div>

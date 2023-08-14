@@ -1,6 +1,6 @@
 <template>
   <AppHeaderLight />
-  <div class="text-blue-2">
+  <div>
     <CareServicesDropdown v-if="dataStore.careServices" />
     <AboutUsDropdown v-if="dataStore.about" />
     <TrainingDropdown v-if="dataStore.training" />

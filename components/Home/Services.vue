@@ -13,7 +13,7 @@
       </div>
     </div>
     <div
-      class="child mt-12 flex gap-5 md:gap-[13px] overflow-x-auto overflow-y-hidden w-full relative"
+      class="child mt-12 flex flex-col md:flex-row gap-5 md:gap-[13px] overflow-x-auto overflow-y-hidden w-full relative"
     >
       <div class="bg-blue text-whiter min-w-[343px] w-[343px] rounded-xl flex flex-col justify-between md:min-w-[397px] md:w-[397px] relative">
         <img class="rounded-t-xl" src="/img/service1.png" alt="competence icon">

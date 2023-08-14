@@ -45,7 +45,7 @@ const blogs = ref([
             class="flex items-center px-6 py-8 border bg-blue-2 text-white border-blue-2"
           >
             <div class="flex flex-col w-full">
-              <h3 class="cut-text font-semibold text-xl tracking-[-0.2px] text-ellipsis overflow-hidden block  uppercase">
+              <h3 class="cut-text text-whiter font-semibold text-xl tracking-[-0.2px] text-ellipsis overflow-hidden block  uppercase">
                 {{ blog.name }}
               </h3>
               <p

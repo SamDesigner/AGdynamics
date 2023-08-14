@@ -11,8 +11,8 @@ import getStarted from "~/assets/loading-animation.json"
       <div class="flex flex-col md:justify-between w-full h-full">
         <div class="flex justify-center w-full mb-10 md:mb-12 lg:mb-20">
           <!-- <img class="hidden lg:block w-[146px]" src="/img/hero-left.png" alt="hero left image"> -->
-          <div class="text-white text-center w-full">
-            <h1 class="font-black leading-[42px] md:leading-[54px] lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]">
+          <div class="text-center w-full">
+            <h1 class="text-white font-black leading-[42px] md:leading-[54px] lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]">
               Enabling <span class="text-yellow">Growth and Diversification</span> for Social Care Organizations
             </h1>
             <!-- <p class="font-medium text-white tracking-[0.2px] mx-4 mt-6 lg:text-lg">

@@ -26,12 +26,12 @@ const posts = ref([
     >
       <div class="flex flex-col w-full h-full">
         <div class="flex justify-center w-full">
-          <div class="text-white text-center w-full">
+          <div class="text-center w-full">
             <p class="text-yellow text-lg font-bold uppercase">
               learn from industry experts
             </p>
             <h1
-              class="font-black leading-[42px] md:leading-[54px] mb-10 lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]"
+              class="text-whiter font-black leading-[42px] md:leading-[54px] mb-10 lg:leading-[78px] tracking-[-1.5px] text-[32px] md:text-[48px] lg:text-[64px]"
             >
               Gain Insights From <span class="text-yellow">Professionals</span>
             </h1>
@@ -50,7 +50,7 @@ const posts = ref([
                   />
                   <nuxt-link
                     to="/services"
-                    class="bg-blue-4 text-white uppercase rounded py-2 px-4"
+                    class="bg-blue-4 text-whiter uppercase rounded py-2 px-4"
                   >
                     Trending
                   </nuxt-link>
@@ -82,14 +82,14 @@ const posts = ref([
                 src="/img/book-mockup-mob-2.png"
                 alt="small book mockup"
               />
-              <div class="flex text-whiter flex-col gap-y-2 px-6 max-w-[424px]">
-                <h3 class="cut-text text-lg font-bold uppercase max-h-14 text-ellipsis overflow-hidden block">
+              <div class="flex flex-col gap-y-2 px-6 max-w-[424px]">
+                <h3 class="cut-text text-whiter text-lg font-bold uppercase max-h-14 text-ellipsis overflow-hidden block">
                   {{ post.title }}
                 </h3>
                 <div class="flex flex-col md:flex-row md:items-center gap-2 md:gap-6">
-                  <p>{{ post.date }}</p>
+                  <p class=" text-whiter">{{ post.date }}</p>
                   <div class="w-7/12 md:w-1 h-1 md:h-7 bg-blue-4" />
-                  <p>By {{ post.author }}</p>
+                  <p class=" text-whiter">By {{ post.author }}</p>
                 </div>
               </div>
             </div>

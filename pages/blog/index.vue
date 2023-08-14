@@ -1,5 +1,5 @@
 <template>
-  <div class="text-blue-2">
+  <div>
     <AppHeader />
     <CareServicesDropdown v-if="dataStore.careServices" />
     <AboutUsDropdown v-if="dataStore.about" />
