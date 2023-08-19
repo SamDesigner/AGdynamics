@@ -34,16 +34,16 @@ const members = ref([
     title: "DIVERSITY, EQUITY, AND INCLUSION EXPERT ADVISOR",
     image: "dudley",
   },
-  {
-    name: "Arindam Das",
-    title: "SENIOR STRATEGY CONSULTANT",
-    image: "das",
-  },
-  {
-    name: "Nick",
-    title: "OPERATIONS & BUSINESS DEVELOPMENT LEADER",
-    image: "nick",
-  },
+  // {
+  //   name: "Arindam Das",
+  //   title: "SENIOR STRATEGY CONSULTANT",
+  //   image: "das",
+  // },
+  // {
+  //   name: "Nick",
+  //   title: "OPERATIONS & BUSINESS DEVELOPMENT LEADER",
+  //   image: "nick",
+  // },
 ]);
 
 const memberInfo = ref([
@@ -97,37 +97,37 @@ const memberInfo = ref([
       "Policy development",
     ],
   },
-  {
-    name: "Arindam",
-    image: "das",
-    about:
-      "Arindam is a senior strategy consultant with 11+ years of experience. He drives exceptional business development and leads the strategy service at OCMC. He is passionate about helping clients achieve their goals.",
-    capabilities: [
-      "Project management excellence",
-      "Strategic analysis",
-      "Business development",
-      "Consultative leadership",
-      "Relationship-building",
-    ],
-  },
-  {
-    name: "Nick",
-    image: "nick",
-    about:
-      "Nick is a growth-driven leader with a proven track record of success in the healthcare industry. He is passionate about driving revenue and improving patient experiences.",
-    capabilities: [
-      "Business Development",
-      "Sales Enhancement",
-      "Operations Excellence",
-      "Client Relations",
-      "International Strategy",
-      "Team Leadership",
-      "Budget Control",
-      "Customer Focus",
-      "Exceptional",
-      "Customer Focus",
-    ],
-  },
+  // {
+  //   name: "Arindam",
+  //   image: "das",
+  //   about:
+  //     "Arindam is a senior strategy consultant with 11+ years of experience. He drives exceptional business development and leads the strategy service at OCMC. He is passionate about helping clients achieve their goals.",
+  //   capabilities: [
+  //     "Project management excellence",
+  //     "Strategic analysis",
+  //     "Business development",
+  //     "Consultative leadership",
+  //     "Relationship-building",
+  //   ],
+  // },
+  // {
+  //   name: "Nick",
+  //   image: "nick",
+  //   about:
+  //     "Nick is a growth-driven leader with a proven track record of success in the healthcare industry. He is passionate about driving revenue and improving patient experiences.",
+  //   capabilities: [
+  //     "Business Development",
+  //     "Sales Enhancement",
+  //     "Operations Excellence",
+  //     "Client Relations",
+  //     "International Strategy",
+  //     "Team Leadership",
+  //     "Budget Control",
+  //     "Customer Focus",
+  //     "Exceptional",
+  //     "Customer Focus",
+  //   ],
+  // },
 ]);
 
 const getSlidesPerView = computed(() => {
