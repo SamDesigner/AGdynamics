@@ -2,22 +2,17 @@
 const resource = ref("Books");
 const services = ref([
   {
+    name: "Best Practices For Providing Domicillary Care",
+    image: "book-practice",
+    link: "https://www.amazon.com/PRACTICES-PROVIDING-DOMICILIARY-SUPPORTED-SCHEMES-ebook/dp/B0CG4X4KS1"
+  },
+  {
     name: "bridging the gap",
-    title:
-      "The world as we know it is never static. From media to tech, and so much more, our world is constantly undergoing change. The health sector, in particular, has gradually evolved from traditional, ethically grey methods of care and treatment to more modern, personalised and evidence-based practices.",
     image: "book-mockup",
   },
   {
     name: "Social care business management explained",
-    title:
-      "The world as we know it is never static. From media to tech, and so much more, our world is constantly undergoing change. The health sector, in particular, has gradually evolved from traditional, ethically grey methods of care and treatment to more modern, personalised and evidence-based practices.",
     image: "book-social",
-  },
-  {
-    name: "mastering tupe transfers in social care services",
-    title:
-      "The world as we know it is never static. From media to tech, and so much more, our world is constantly undergoing change. The health sector, in particular, has gradually evolved from traditional, ethically grey methods of care and treatment to more modern, personalised and evidence-based practices.",
-    image: "book-tupe",
   },
 ]);
 const videos = ref([
@@ -112,7 +107,7 @@ const posts = ref([
             >
               <div class="flex flex-col justify-between w-full xl:h-full">
                 <h3
-                  class="font-semibold text-[22px] tracking-[-0.2px] uppercase"
+                  class="font-semibold text-[22px] text-white tracking-[-0.2px] uppercase"
                 >
                   {{ service.name }}
                 </h3>
@@ -122,12 +117,30 @@ const posts = ref([
                   {{ service.title }}
                 </p> -->
                 <div class="mt-10 self-end flex w-full">
+                  <template v-if="service.link">
+                  <a
+                  :href="service.link"
+                  target="_blank"
+                  class="bg-blue-4 text-center text-white rounded p-4 w-full"
+                >
+                  Get Now!!
+                </a>
+                </template>
+                <template v-else>
+
                   <nuxt-link
                     to="/ebooks"
                     class="bg-blue-4 text-center text-white rounded p-4 w-full"
                   >
                     Learn More
                   </nuxt-link>
+                </template>
+                  <!-- <nuxt-link
+                    to="/ebooks"
+                    class="bg-blue-4 text-center text-white rounded p-4 w-full"
+                  >
+                    Learn More
+                  </nuxt-link> -->
                 </div>
               </div>
             </div>

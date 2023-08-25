@@ -1,6 +1,11 @@
 <script setup lang="ts">
 const blogs = ref([
   {
+    name: "Best Practices For Providing Domicillary Care",
+    image: "book-practice",
+    link: "https://www.amazon.com/PRACTICES-PROVIDING-DOMICILIARY-SUPPORTED-SCHEMES-ebook/dp/B0CG4X4KS1"
+  },
+  {
     name: "bridging the gap",
     image: "book-mockup",
   },
@@ -11,10 +16,6 @@ const blogs = ref([
   {
     name: "mastering tupe transfers in social care services",
     image: "book-tupe",
-  },
-  {
-    name: "Best Practices For Providing Domicillary Care",
-    image: "book-practice",
   },
   {
     name: "the ultimate guide to tender writing",
@@ -47,12 +48,24 @@ const blogs = ref([
                 {{ blog.title }}
               </p> -->
               <div class="mt-10 flex self-end w-full">
-                <nuxt-link
-                  to="/about"
+                <template v-if="blog.link">
+                  <a
+                  :href="blog.link"
+                  target="_blank"
                   class="bg-blue-4/30 text-center text-white rounded p-4 w-full"
                 >
-                  Coming Soon!
-                </nuxt-link>
+                  Get Now!!
+                </a>
+                </template>
+                <template v-else>
+
+                  <nuxt-link
+                    to="/"
+                    class="bg-blue-4/30 text-center text-white rounded p-4 w-full"
+                  >
+                    Coming Soon!
+                  </nuxt-link>
+                </template>
               </div>
             </div>
           </div>
