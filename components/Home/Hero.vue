@@ -21,7 +21,7 @@ import getStarted from "~/assets/loading-animation.json"
           </div>
           <!-- <img class="hidden lg:block w-[146px]" src="/img/hero-right.png" alt="hero right image"> -->
         </div>
-        <div class="-mb-20 md:-mb-40 translate-y-10 md:translate-y-20 relative">
+        <div class="-mb-20 md:-mb-40 translate-y-10 md:translate-y-20 relative max-w-fit">
           <div class="absolute -right-2 md:right-8 xl:-right-8 -top-8">
             <img class="" src="/img/play-icon.png" alt="play icon">
             <div class="-translate-y-[85px] -translate-x-[19px]">
