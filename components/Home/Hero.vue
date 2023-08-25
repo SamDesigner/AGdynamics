@@ -34,8 +34,8 @@ import getStarted from "~/assets/loading-animation.json"
             </div>
           </div>
           <video ref="video" controls playsinline autoplay muted loop>
-            <source src="/assets/OCMC-brand-video.mp4" type="video/mp4">
-            <p>Your browser does not support HTML video, here's a <a href="/assets/OCMC-brand-video.mp4">link </a> to watch the video</p>
+            <source src="/assets/ocmc-new.mp4" type="video/mp4">
+            <p>Your browser does not support HTML video, here's a <a href="/assets/ocmc-new.mp4">link </a> to watch the video</p>
           </video>
         </div>
       </div>
