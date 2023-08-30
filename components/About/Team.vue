@@ -69,7 +69,7 @@ const memberInfo = ref([
     name: "Peju",
     image: "peju",
     about:
-      "Peju Akinlude is a mental health and social care legislation consultant with over 20 years of experience. She is an expert in safeguarding and best interests. She uses her expertise to help vulnerable individuals and organizations.",
+      "Peju Akinlude is a mental health and social care legislation consultant with over 20 years of experience. She is an expert in safeguarding and best interests. She uses her expertise to enable vulnerable individuals and organizations have access to excellent services.",
     capabilities: [
       "Safeguarding",
       "Best Interests",
@@ -87,7 +87,7 @@ const memberInfo = ref([
     name: "Dudley",
     image: "dudley",
     about:
-      "Dudley Sawyer is a DEI expert who creates inclusive workplaces. He helps organizations within the NHS create cultures, policies, and practices that welcome and value everyone.",
+      "Dudley Sawyer is a DEI expert who creates inclusive workplaces. He works with organizations within the NHS to create cultures, policies, and practices that welcome and value everyone.",
     capabilities: [
       "Cultural competence",
       "Inclusive leadership",
@@ -166,7 +166,7 @@ const resetBtnValues = () => {
             meet our amazing team
           </h2>
           <p class="mt-2 md:text-lg w-full max-w-[523px]">
-            We provide you experienced consultants to help you and your company
+            We provide you experienced consultants to enable you and your company
             become more successful in the future.
           </p>
         </div>

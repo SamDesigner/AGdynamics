@@ -1,9 +1,11 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="mb-[48px] px-4 md:px-6 xl:px-0  mt-[160px] lg:mt-[350px] mx-auto w-full max-w-[1240px]"
+    class="mb-[48px] px-4 md:px-6 xl:px-0 mt-[160px] lg:mt-[350px] mx-auto w-full max-w-[1240px]"
   >
-    <div class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-16 lg:mb-[120px] bg-grey-2">
+    <div
+      class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-16 lg:mb-[120px] bg-grey-2"
+    >
       <div class="flex flex-col lg:flex-row justify-between items-center">
         <div class="mt-10 w-full lg:w-auto lg:mt-0 lg:mr-4">
           <img
@@ -26,7 +28,8 @@
             LICENSE APPLICATIONS
           </h2>
           <p class="leading-[28px] text-lg mt-1">
-            We provide comprehensive application support in preparing and submitting license applications.
+            We provide comprehensive application support in preparing and
+            submitting license applications.
           </p>
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
@@ -34,7 +37,8 @@
             <img class="w-16" src="/img/01.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                Using in-depth knowledge and expertise in acquiring licenses from regulatory bodies like CQC, RQIA, CIW, and Ofsted.
+                Using in-depth knowledge and expertise in acquiring licenses
+                from regulatory bodies like CQC, RQIA, CIW, and Ofsted.
               </p>
             </div>
           </div>
@@ -44,7 +48,8 @@
             <img class="w-16" src="/img/02.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                Providing a service that ensures clients meet all the necessary requirements and regulations for operating social care services.
+                Providing a service that ensures clients meet all the necessary
+                requirements and regulations for operating social care services.
               </p>
             </div>
           </div>
@@ -54,7 +59,8 @@
             <img class="w-16" src="/img/03.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                Interview preparation for managerial positions within social care services.
+                Interview preparation for managerial positions within social
+                care services.
               </p>
             </div>
           </div>
@@ -70,7 +76,9 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-16 lg:mb-[120px] bg-grey-2">
+    <div
+      class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-16 lg:mb-[120px] bg-grey-2"
+    >
       <div class="flex flex-col lg:flex-row justify-between items-center">
         <div class="mt-10 w-full lg:w-auto lg:mt-0 lg:mr-4">
           <img
@@ -93,7 +101,8 @@
             TENDERING
           </h2>
           <p class="leading-[28px] text-lg mt-1">
-            We assist clients in sourcing relevant information, data, and resources required for creating comprehensive bids/tenders.
+            We assist clients in sourcing relevant information, data, and
+            resources required for creating comprehensive bids/tenders.
           </p>
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
@@ -101,7 +110,9 @@
             <img class="w-16" src="/img/01.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                Our technical writers and proofreaders enable clients win contracts by tailoring their documents to the specific needs of the potential client.
+                Our technical writers and proofreaders enable clients win
+                contracts by tailoring their documents to the specific needs of
+                the potential client.
               </p>
             </div>
           </div>
@@ -111,20 +122,22 @@
             <img class="w-16" src="/img/02.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                Our response management service streamlines response management by handling all aspects and ensuring timely, accurate responses.
+                Our response management service streamlines response management
+                by handling all aspects and ensuring timely, accurate responses.
               </p>
             </div>
           </div>
-          <!-- <div
+          <div
             class="flex flex-col md:flex-row items-center md:items-start mt-6"
           >
             <img class="w-16" src="/img/03.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We enable organizations procure goods and services that meet their needs and budget.
+                Our Bids/Tender writing service will enable you craft a proposal
+                that is clear, concise, and persuasive.
               </p>
             </div>
-          </div> -->
+          </div>
           <div class="flex mt-10 justify-start w-full">
             <nuxt-link
               to="#connect"
@@ -137,7 +150,9 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-16 lg:mb-[120px] bg-grey-2">
+    <div
+      class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-16 lg:mb-[120px] bg-grey-2"
+    >
       <div class="flex flex-col lg:flex-row justify-between items-center">
         <div class="mt-10 w-full lg:w-auto lg:mt-0 lg:mr-4">
           <img
@@ -160,7 +175,7 @@
             GROWTH AND DIVERSIFICATION
           </h2>
           <p class="leading-[28px] text-lg mt-1">
-            By leveraging our training and events service, our clients can empower their staff and enhance the quality of their social care services.
+            We enable the expansion and diversification of your service offerings beyond traditional social care areas.
           </p>
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
@@ -168,7 +183,7 @@
             <img class="w-16" src="/img/01.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                Promoting best practices and knowledge sharing through interactive training, engaging events and professional growth within the community.
+                By developing a strategic roadmap for entering new markets or expanding existing operations.
               </p>
             </div>
           </div>
@@ -178,7 +193,7 @@
             <img class="w-16" src="/img/02.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We develop e-learning modules that allow clients to access training materials anytime, anywhere.
+                By Identifying investment opportunities and strategies that fuel your business's  growth and sustainability.
               </p>
             </div>
           </div>
@@ -188,7 +203,7 @@
             <img class="w-16" src="/img/03.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                Our webinars on social care topics are a great way to learn, discuss, and network.
+                By capitalizing on emerging market demands in the social care sector.
               </p>
             </div>
           </div>
@@ -204,7 +219,9 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-16 lg:mb-[120px] bg-grey-2">
+    <div
+      class="flex flex-col px-6 md:px-10 lg:px-24 py-10 md:py-16 mb-14 md:mb-16 lg:mb-[120px] bg-grey-2"
+    >
       <div class="flex flex-col lg:flex-row justify-between items-center">
         <div class="mt-10 w-full lg:w-auto lg:mt-0 lg:mr-4">
           <img
@@ -227,7 +244,9 @@
             PROCESS IMPROVEMENT
           </h2>
           <p class="leading-[28px] text-lg mt-1">
-            We develop action plans, conduct quality audits and enable clients create measurable objectives, timelines, and strategies for improvement.
+            We develop action plans, conduct quality audits and enable clients
+            create measurable objectives, timelines, and strategies for
+            improvement.
           </p>
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
@@ -235,7 +254,9 @@
             <img class="w-16" src="/img/01.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                Our independent auditors conduct quality audits to assess processes against standards, identify improvements, and provide solutions.
+                Our independent auditors conduct quality audits to assess
+                processes against standards, identify improvements, and provide
+                solutions.
               </p>
             </div>
           </div>
@@ -245,7 +266,8 @@
             <img class="w-16" src="/img/02.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                Our Rating Improvement Service enables companies meet regulatory requirements by identifying and addressing root causes.
+                Our Rating Improvement Service enables companies meet regulatory
+                requirements by identifying and addressing root causes.
               </p>
             </div>
           </div>
@@ -255,7 +277,8 @@
             <img class="w-16" src="/img/03.png" alt="first pic" />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                We conduct mock inspections to enable clients identify gaps and prepare for inspections.
+                We conduct mock inspections to enable clients identify gaps and
+                prepare for inspections.
               </p>
             </div>
           </div>

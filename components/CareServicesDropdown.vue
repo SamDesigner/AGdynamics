@@ -84,7 +84,7 @@ const consulting = ref([
     to: "/strategy#mergers",
   },
   {
-    title: "Growth & Diversifications",
+    title: "Growth & Transformation",
     img: "growth",
     to: "/strategy#growth",
   },
@@ -117,7 +117,7 @@ const services = ref([
     to: "/services#training",
   },
   {
-    title: "Grant Opportunities",
+    title: "Growth & Diversification",
     img: "grant",
     to: "/services#grant",
   },
