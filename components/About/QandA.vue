@@ -107,7 +107,7 @@ watch(third, (val) => {
           </div>
           <p v-if="third" class="mt-3 text-lg leading-relaxed">
             At O C Management Consultants, we excel in navigating complex
-            regulations, securing funding, and winning tenders with a proven
+            regulations, securing funding, and winning tenders with a proven 
             track record of success across industries. Our tailored solutions,
             built on trust and transparency, ensure regulatory compliance.
             Unlock your organization's potential with our e-books and guides.
