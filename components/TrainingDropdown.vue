@@ -22,7 +22,7 @@
               <nuxt-link :to="item.to" class="flex p-3 gap-4 w-[360px]">
                 <img
                   class="w-[184px]"
-                  :src="`/img/${item.img}.png`"
+                  :src="`https://s3.eu-west-2.amazonaws.com/ocmc-img.com/${item.img}.png`"
                   :alt="`${item.title} icon`"
                 />
                 <div class="flex justify-between flex-col">
@@ -31,7 +31,10 @@
                   </div>
                   <nuxt-link to="/training" class="blue-btn text-sm mb-3"
                     >{{ item.toText }}
-                    <Icon name="mdi:arrow-right" size="20px" class="hovered ml-1"
+                    <Icon
+                      name="mdi:arrow-right"
+                      size="20px"
+                      class="hovered ml-1"
                   /></nuxt-link>
                 </div>
               </nuxt-link>

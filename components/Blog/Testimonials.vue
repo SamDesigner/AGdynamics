@@ -97,7 +97,10 @@ const resetBtnValues = () => {
         >
           <p class="text-center text-grey-4/80 mb-6">{{ service.desc }}</p>
           <div class="flex items-center gap-3">
-            <img class="w-[100px]" :src="`/img/${service.image}.jpg`" />
+            <img
+              class="w-[100px]"
+              :src="`https://s3.eu-west-2.amazonaws.com/ocmc-img.com/${service.image}.jpg`"
+            />
             <div class="flex flex-col">
               <p class="text-xl font-semibold text-primary">
                 {{ service.name }}

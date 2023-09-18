@@ -109,7 +109,11 @@ const decisions = ref([
             <div
               class="flex flex-col items-center md:items-start text-left gap-[14px] px-4"
             >
-              <img class="w-14" src="/img/01.png" alt="01 image" />
+              <img
+                class="w-14"
+                src="/img/01.png"
+                alt="01 image"
+              />
               <h6 class="font-semibold tracking-[0.2px]">Current Strategy</h6>
               <ul class="list-disc list-inside flex flex-col gap-2">
                 <li>Vision & goals</li>
@@ -126,7 +130,11 @@ const decisions = ref([
             <div
               class="flex flex-col items-center md:items-start text-left gap-[14px] px-4"
             >
-              <img class="w-14" src="/img/02.png" alt="02 image" />
+              <img
+                class="w-14"
+                src="/img/02.png"
+                alt="02 image"
+              />
               <h6 class="font-semibold tracking-[0.2px]">Which markets</h6>
               <ul class="list-disc list-inside flex flex-col gap-2">
                 <li>Target region</li>
@@ -141,7 +149,11 @@ const decisions = ref([
             <div
               class="flex flex-col items-center md:items-start text-left gap-[14px] px-4"
             >
-              <img class="w-14" src="/img/03.png" alt="03 image" />
+              <img
+                class="w-14"
+                src="/img/03.png"
+                alt="03 image"
+              />
               <h6 class="font-semibold tracking-[0.2px]">Value analysis</h6>
               <ul class="list-disc list-inside flex flex-col gap-2">
                 <li>How value is created</li>
@@ -157,7 +169,11 @@ const decisions = ref([
             <div
               class="flex flex-col items-center md:items-start text-left gap-[14px] px-4"
             >
-              <img class="w-14" src="/img/03.png" alt="03 image" />
+              <img
+                class="w-14"
+                src="/img/04.png"
+                alt="03 image"
+              />
               <h6 class="font-semibold tracking-[0.2px]">
                 Organizational Design
               </h6>
@@ -174,7 +190,11 @@ const decisions = ref([
             <div
               class="flex flex-col items-center md:items-start text-left gap-[14px] px-4"
             >
-              <img class="w-14" src="/img/03.png" alt="03 image" />
+              <img
+                class="w-14"
+                src="/img/05.png"
+                alt="03 image"
+              />
               <h6 class="font-semibold tracking-[0.2px]">BU strategy</h6>
               <ul class="list-disc list-inside flex flex-col gap-2">
                 <li>Product</li>
@@ -249,12 +269,12 @@ const decisions = ref([
         </div>
         <img
           class="hidden lg:block absolute right-0 -top-14 h-[372px]"
-          src="/img/info-desk.png"
+          src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/info-desk.png"
           alt="desktop info"
         />
         <img
           class="hidden lg:hidden md:block absolute top-[90px] left-2 h-[470px]"
-          src="/img/info-tab.png"
+          src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/info-tab.png"
           alt="desktop info"
         />
         <div class="flex flex-col gap-6 items-center md:hidden">
@@ -306,7 +326,8 @@ const decisions = ref([
             acquisitions.
           </p>
           <p class="leading-[28px] text-lg mt-8">
-            We enable organizations identify and select targets, assess valuations, and execute transactions.
+            We enable organizations identify and select targets, assess
+            valuations, and execute transactions.
           </p>
         </div>
         <div
@@ -527,7 +548,8 @@ const decisions = ref([
             INVESTMENT & FUNDING DECISIONS
           </h2>
           <p class="leading-[28px] text-lg mt-4">
-            We enable portfolio managers identify opportunities and diversify into the social care sector.
+            We enable portfolio managers identify opportunities and diversify
+            into the social care sector.
           </p>
           <p class="leading-[28px] text-lg mt-8">
             We support UHNIs and HNIs acquire citizenships by investments.

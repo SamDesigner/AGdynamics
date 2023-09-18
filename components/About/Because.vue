@@ -22,7 +22,11 @@
             <span class="text-blue-4">unique</span>
           </h2>
           <div class="flex flex-col lg:flex-row items-center lg:items-start">
-            <img class="w-16" src="/img/01.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/01.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 lg:mt-0 lg:ml-8">
               <h3 class="uppercase font-bold text-lg tracking-[-0.5px]">
                 expertise
@@ -36,7 +40,11 @@
           <div
             class="flex flex-col lg:flex-row items-center lg:items-start mt-6"
           >
-            <img class="w-16" src="/img/02.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/02.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 lg:mt-0 lg:ml-8">
               <h3 class="uppercase font-bold text-lg tracking-[-0.5px]">
                 tailored solutions
@@ -50,20 +58,29 @@
           <div
             class="flex flex-col lg:flex-row items-center lg:items-start mt-6"
           >
-            <img class="w-16" src="/img/03.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/03.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 lg:mt-0 lg:ml-8">
               <h3 class="uppercase font-bold text-lg tracking-[-0.5px]">
                 industry knowledge
               </h3>
               <p class="leading-[28px] text-lg mt-3">
-                Proven success using data driven insights to support diverse social care service providers.
+                Proven success using data driven insights to support diverse
+                social care service providers.
               </p>
             </div>
           </div>
           <div
             class="flex flex-col lg:flex-row items-center lg:items-start mt-6"
           >
-            <img class="w-16" src="/img/04.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/04.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 lg:mt-0 lg:ml-8">
               <h3 class="uppercase font-bold text-lg tracking-[-0.5px]">
                 relationships
@@ -78,7 +95,7 @@
         <div class="mt-10 w-full max-w-[612px] lg:w-auto lg:mt-0">
           <img
             class="w-full lg:w-auto"
-            src="/img/about-unique.png"
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/about-unique.png"
             alt="picture of people sitting having meeting"
           />
           <div id="vision" />

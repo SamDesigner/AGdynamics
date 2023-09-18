@@ -40,15 +40,17 @@ const getSpaceBetween = computed(() => {
   } else {
     return undefined;
   }
-})
+});
 
 const resetBtnValues = () => {
   prevClicked.value = false;
   nextClicked.value = false;
-}
+};
 </script>
 <template>
-  <div class="flex flex-col mb-10 lg:mb-[200px] mx-auto px-4 w-full max-w-[1240px]">
+  <div
+    class="flex flex-col mb-10 lg:mb-[200px] mx-auto px-4 w-full max-w-[1240px]"
+  >
     <div class="flex lg:items-center justify-between w-full">
       <div class="">
         <p class="font-semibold text-primary md:text-lg uppercase">
@@ -61,10 +63,16 @@ const resetBtnValues = () => {
         </h2>
       </div>
       <div class="hidden md:flex">
-        <button @click="prevClicked = true" class="flex min-w-max gap-2 items-center self-start mt-2">
+        <button
+          @click="prevClicked = true"
+          class="flex min-w-max gap-2 items-center self-start mt-2"
+        >
           <Icon name="ic:baseline-arrow-back-ios" size="24px" color="#03989E" />
         </button>
-        <button @click="nextClicked = true" class="flex min-w-max gap-2 items-center self-start mt-2">
+        <button
+          @click="nextClicked = true"
+          class="flex min-w-max gap-2 items-center self-start mt-2"
+        >
           <Icon
             name="ic:baseline-arrow-forward-ios"
             size="24px"
@@ -91,7 +99,10 @@ const resetBtnValues = () => {
         >
           <p class="text-center text-grey-4/80 mb-6">{{ service.desc }}</p>
           <div class="flex items-center gap-3">
-            <img class="w-[100px]" :src="`/img/${service.image}.jpg`" />
+            <img
+              class="w-[100px]"
+              :src="`https://s3.eu-west-2.amazonaws.com/ocmc-img.com/${service.image}.jpg`"
+            />
             <div class="flex flex-col">
               <p class="text-xl font-semibold text-primary">
                 {{ service.name }}
@@ -103,7 +114,12 @@ const resetBtnValues = () => {
           </div>
         </div>
       </SwiperSlide>
-      <SwiperControls class="md:hidden" :clickPrev="prevClicked" :clickNext="nextClicked" @resetBtnValues="resetBtnValues" />
+      <SwiperControls
+        class="md:hidden"
+        :clickPrev="prevClicked"
+        :clickNext="nextClicked"
+        @resetBtnValues="resetBtnValues"
+      />
     </Swiper>
     <!-- <div
       class="flex justify-center md:justify-start flex-wrap gap-[22px] mt-11"
@@ -115,7 +131,7 @@ const resetBtnValues = () => {
       >
         <p class="text-center text-grey-4/80 mb-6">{{ service.desc }}</p>
         <div class="flex items-center gap-3">
-          <img class="w-[100px]" :src="`/img/${service.image}.jpg`" />
+          <img class="w-[100px]" :src="`https://s3.eu-west-2.amazonaws.com/ocmc-img.com/${service.image}.jpg`" />
           <div class="flex flex-col">
             <p class="text-xl font-semibold text-primary">{{ service.name }}</p>
             <p class="text-sm font-medium text-black/80 uppercase">
@@ -128,6 +144,4 @@ const resetBtnValues = () => {
   </div>
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

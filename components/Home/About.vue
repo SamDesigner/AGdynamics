@@ -9,14 +9,23 @@
       <h2
         class="font-bold leading-[48px] lg:leading-[54px] px-6 md:px-0 tracking-[-1.5px] text-[32px] lg:text-[48px] w-full max-w-[520px] lg:max-w-[436px]"
       >
-        Driving<br class="hidden lg:block"> Success Through
+        Driving<br class="hidden lg:block" />
+        Success Through
         <span class="text-blue-4">Data Driven Insights</span>
       </h2>
       <p class="leading-[28px] text-lg mt-4">
-        We ensure organizational success through benchmarking practices and the analysis of proven or evidence based practices. Our expertise in regulations and standards aids in navigating complex environments, securing funding, winning tenders, and meeting all regulatory requirements. Empower your organization's growth with our dedicated support.
+        We ensure organizational success through benchmarking practices and the
+        analysis of proven or evidence based practices. Our expertise in
+        regulations and standards aids in navigating complex environments,
+        securing funding, winning tenders, and meeting all regulatory
+        requirements. Empower your organization's growth with our dedicated
+        support.
       </p>
       <div class="flex mt-10">
-        <nuxt-link to="/about" class="bg-blue-4 blue-btn text-white rounded py-4 px-8">
+        <nuxt-link
+          to="/about"
+          class="bg-blue-4 blue-btn text-white rounded py-4 px-8"
+        >
           Learn More
           <Icon class="hovered ml-4" name="mdi:arrow-right" size="18px" />
         </nuxt-link>
@@ -24,7 +33,7 @@
     </div>
     <div class="mt-32 lg:mt-0 relative w-full max-w-[741px]">
       <img
-        src="/img/driving-desk.png"
+        src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/driving-desk.png"
         alt="picture of people sitting having meeting"
       />
     </div>

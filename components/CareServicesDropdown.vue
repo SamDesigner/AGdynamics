@@ -13,19 +13,18 @@
         Strategy and Management Consulting
       </h5>
       <div class="flex flex-col sm:flex-row justify-between mt-20 w-full">
-        <div
-          class="flex flex-col w-[588px]"
-          @click="clickedOutside"
-        >
+        <div class="flex flex-col w-[588px]" @click="clickedOutside">
           <nuxt-link to="/strategy">
             <h6 class="font-medium text-grey-8 px-6 leading-[26px] py-4">
               Strategy Consulting
             </h6>
           </nuxt-link>
-          <div
-            class="flex flex-col sm:flex-row flex-wrap gap-4">
+          <div class="flex flex-col sm:flex-row flex-wrap gap-4">
             <template v-for="(item, index) in consulting" :key="index">
-              <nuxt-link :to="item.to" class="flex items-center p-3 gap-4 w-[286px]">
+              <nuxt-link
+                :to="item.to"
+                class="flex items-center p-3 gap-4 w-[286px]"
+              >
                 <img
                   class="w-12 h-12"
                   :src="`/img/${item.img}.png`"
@@ -38,20 +37,18 @@
             </template>
           </div>
         </div>
-        <div
-          class="flex flex-col w-[588px]"
-          @click="clickedOutside"
-        >
+        <div class="flex flex-col w-[588px]" @click="clickedOutside">
           <nuxt-link to="/services">
             <h6 class="font-medium text-grey-8 px-6 leading-[26px] py-4">
               Services
             </h6>
           </nuxt-link>
-          <div
-            class="flex flex-col sm:flex-row flex-wrap gap-4"
-          >
+          <div class="flex flex-col sm:flex-row flex-wrap gap-4">
             <template v-for="(item, index) in services" :key="index">
-              <nuxt-link :to="item.to" class="flex items-center p-3 gap-4 w-[286px]">
+              <nuxt-link
+                :to="item.to"
+                class="flex items-center p-3 gap-4 w-[286px]"
+              >
                 <img
                   class="w-12 h-12"
                   :src="`/img/${item.img}.png`"

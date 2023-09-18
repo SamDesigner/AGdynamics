@@ -52,7 +52,7 @@ const services = ref([
         v-for="(service, index) in services"
         class="flex flex-col items-center w-full md:w-[298px]"
       >
-        <!-- <img class="w-full md:w-auto" :src="`/img/${service.image}.png`"> -->
+        <!-- <img class="w-full md:w-auto" :src="`https://s3.eu-west-2.amazonaws.com/ocmc-img.com/${service.image}.png`"> -->
         <iframe
           width="100%"
           height="auto"

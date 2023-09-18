@@ -19,7 +19,10 @@
             @click="clickedOutside"
           >
             <template v-for="(item, index) in about" :key="index">
-              <nuxt-link :to="item.to" class="flex items-center p-3 gap-4 w-[286px]">
+              <nuxt-link
+                :to="item.to"
+                class="flex items-center p-3 gap-4 w-[286px]"
+              >
                 <img
                   class="w-12 h-12"
                   :src="`/img/${item.img}.png`"

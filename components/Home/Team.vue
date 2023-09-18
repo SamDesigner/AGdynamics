@@ -46,7 +46,9 @@ const resetBtnValues = () => {
 </script>
 <template>
   <div class="py-14 lg:py-[120px] w-full">
-    <div class="flex flex-col mx-auto px-4 md:px-6 xl:px-0 w-full max-w-[1240px]">
+    <div
+      class="flex flex-col mx-auto px-4 md:px-6 xl:px-0 w-full max-w-[1240px]"
+    >
       <div class="flex lg:items-center justify-center w-full mb-10">
         <div class="text-center">
           <h2
@@ -89,8 +91,14 @@ const resetBtnValues = () => {
             :key="idx"
             class="flex flex-col w-full md:w-[298px]"
           >
-            <img class="w-full" :src="`/img/${service.image}.png`" />
-            <div class="flex border-blue-2 items-center px-4 py-8 border h-[158px] text-center" :class="idx === 0 ? 'bg-blue-2 text-white' : ''">
+            <img
+              class="w-full"
+              :src="`https://s3.eu-west-2.amazonaws.com/ocmc-img.com/${service.image}.png`"
+            />
+            <div
+              class="flex border-blue-2 items-center px-4 py-8 border h-[158px] text-center"
+              :class="idx === 0 ? 'bg-blue-2 text-white' : ''"
+            >
               <div class="flex flex-col w-full">
                 <h3 class="font-semibold text-2xl">
                   {{ service.name }}
@@ -104,9 +112,17 @@ const resetBtnValues = () => {
         </div>
       </div>
       <div class="flex mt-10 justify-center">
-        <nuxt-link to="/about#team" class="text-blue-4 blue-btn rounded py-4 px-8">
+        <nuxt-link
+          to="/about#team"
+          class="text-blue-4 blue-btn rounded py-4 px-8"
+        >
           See More
-          <Icon class="ml-2 hovered" name="mdi:arrow-right" size="18px" color="#0073FF"/>
+          <Icon
+            class="ml-2 hovered"
+            name="mdi:arrow-right"
+            size="18px"
+            color="#0073FF"
+          />
         </nuxt-link>
       </div>
       <!-- </SwiperSlide>
@@ -122,7 +138,7 @@ const resetBtnValues = () => {
         >
           <p class="text-center text-grey-4/80 mb-6">{{ service.desc }}</p>
           <div class="flex items-center gap-3">
-            <img class="w-[100px]" :src="`/img/${service.image}.jpg`" />
+            <img class="w-[100px]" :src="`https://s3.eu-west-2.amazonaws.com/ocmc-img.com/${service.image}.jpg`" />
             <div class="flex flex-col">
               <p class="text-xl font-semibold text-primary">{{ service.name }}</p>
               <p class="text-sm font-medium text-black/80 uppercase">

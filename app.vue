@@ -2,7 +2,7 @@
 // const seoData = reactive({
 //   title: 'O.C. Management Consulting',
 //   description: 'Leading management consulting company specializing in Tender, Grant, and Bid writing and management as well as developing quality assurance frameworks and enabling successful license applications.',
-//   img: '/img/logo.png'
+//   img: 'https://s3.eu-west-2.amazonaws.com/ocmc-img.com/logo.png'
 // });
 
 // useSeoMeta({

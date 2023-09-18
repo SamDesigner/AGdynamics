@@ -4,7 +4,7 @@ const services = ref([
   {
     name: "Best Practices For Providing Domicillary Care",
     image: "book-practice",
-    link: "https://www.amazon.com/PRACTICES-PROVIDING-DOMICILIARY-SUPPORTED-SCHEMES-ebook/dp/B0CG4X4KS1"
+    link: "https://www.amazon.com/PRACTICES-PROVIDING-DOMICILIARY-SUPPORTED-SCHEMES-ebook/dp/B0CG4X4KS1",
   },
   {
     name: "bridging the gap",
@@ -101,7 +101,10 @@ const posts = ref([
             :key="idx"
             class="flex flex-col w-full xl:h-full lg:w-[408px]"
           >
-            <img class="w-full" :src="`/img/${service.image}.png`" />
+            <img
+              class="w-full"
+              :src="`https://s3.eu-west-2.amazonaws.com/ocmc-img.com/${service.image}.png`"
+            />
             <div
               class="flex items-start xl:h-full px-6 py-8 border bg-blue-2 text-white border-blue-2"
             >
@@ -118,23 +121,22 @@ const posts = ref([
                 </p> -->
                 <div class="mt-10 self-end flex w-full">
                   <template v-if="service.link">
-                  <a
-                  :href="service.link"
-                  target="_blank"
-                  class="bg-blue-4 text-center text-white rounded p-4 w-full"
-                >
-                  Get Now!!
-                </a>
-                </template>
-                <template v-else>
-
-                  <nuxt-link
-                    to="/ebooks"
-                    class="bg-blue-4 text-center text-white rounded p-4 w-full"
-                  >
-                    Learn More
-                  </nuxt-link>
-                </template>
+                    <a
+                      :href="service.link"
+                      target="_blank"
+                      class="bg-blue-4 text-center text-white rounded p-4 w-full"
+                    >
+                      Get Now!!
+                    </a>
+                  </template>
+                  <template v-else>
+                    <nuxt-link
+                      to="/ebooks"
+                      class="bg-blue-4 text-center text-white rounded p-4 w-full"
+                    >
+                      Learn More
+                    </nuxt-link>
+                  </template>
                   <!-- <nuxt-link
                     to="/ebooks"
                     class="bg-blue-4 text-center text-white rounded p-4 w-full"
@@ -169,12 +171,19 @@ const posts = ref([
             :key="idx"
             class="flex flex-col w-full lg:w-[397px]"
           >
-            <img class="w-full" :src="`/img/${video.img}.png`" />
+            <img
+              class="w-full"
+              :src="`https://s3.eu-west-2.amazonaws.com/ocmc-img.com/${video.img}.png`"
+            />
             <div
               class="flex items-center px-4 py-8 border bg-blue-2 text-white border-blue-2"
             >
               <div class="flex items-center w-full gap-x-4">
-                <img class="h-10 w-10" src="/img/play.png" alt="play picture" />
+                <img
+                  class="h-10 w-10"
+                  src="/img/play.png"
+                  alt="play picture"
+                />
                 <p
                   class="cut-text text-lg leading-[28px] font-medium max-h-14 text-ellipsis overflow-hidden block"
                 >
@@ -200,7 +209,10 @@ const posts = ref([
     <div v-else class="">
       <div class="flex flex-col lg:flex-row gap-10 mt-10">
         <nuxt-link to="/blog/id" class="w-full max-w-[612px]">
-          <img src="/img/book-mockup-1.png" alt="book mockup" />
+          <img
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/book-mockup-1.png"
+            alt="book mockup"
+          />
           <div class="bg-blue-2 px-6 py-12">
             <div class="flex flex-col md:flex-row md:items-center gap-6">
               <div class="flex md:justify-center max-w-fit relative">
@@ -236,12 +248,12 @@ const posts = ref([
           >
             <img
               class="w-[164px] hidden md:block"
-              src="/img/book-mockup-mob.png"
+              src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/book-mockup-mob.png"
               alt="small book mockup"
             />
             <img
               class="w-[164px] md:hidden"
-              src="/img/book-mockup-mob-2.png"
+              src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/book-mockup-mob-2.png"
               alt="small book mockup"
             />
             <div class="flex flex-col gap-y-2 px-6 max-w-[424px]">

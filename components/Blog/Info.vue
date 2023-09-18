@@ -22,7 +22,9 @@
       >
         Supported living: More than providing a house and a service
       </h1>
-      <div class="text-blue flex items-center justify-center mt-8 gap-3 md:gap-6">
+      <div
+        class="text-blue flex items-center justify-center mt-8 gap-3 md:gap-6"
+      >
         <div class="flex md:justify-center max-w-fit relative">
           <img
             class="absolute -right-2 -top-2"
@@ -41,7 +43,11 @@
         <span>By Mrs Obi </span>
       </div>
     </div>
-    <img class="" src="/img/vid-placeholder.png" alt="people working" />
+    <img
+      class=""
+      src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/vid-placeholder.png"
+      alt="people working"
+    />
     <div
       class="flex flex-col lg:flex-row-reverse justify-between items-center my-[64px] lg:my-[120px] mx-auto w-full max-w-[1240px]"
     >
@@ -62,7 +68,7 @@
       </div>
       <div class="mt-10 lg:mt-0">
         <img
-          src="/img/picture-placeholder.png"
+          src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/picture-placeholder.png"
           alt="picture of people sitting having meeting"
         />
       </div>
@@ -75,7 +81,11 @@
       goes beyond transactions; it's about forging strong, long-term
       partnerships.
     </p>
-    <img class="" src="/img/vid-placeholder.png" alt="people working" />
+    <img
+      class=""
+      src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/vid-placeholder.png"
+      alt="people working"
+    />
     <div
       class="flex flex-col lg:flex-row justify-between items-center my-[64px] lg:my-[120px] mx-auto w-full max-w-[1240px]"
     >
@@ -96,18 +106,27 @@
       </div>
       <div class="mt-10 lg:mt-0">
         <img
-          src="/img/picture-placeholder.png"
+          src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/picture-placeholder.png"
           alt="picture of people sitting having meeting"
         />
       </div>
     </div>
     <div class="flex w-full justify-end">
-
-      <div class="flex border border-blue-2 p-10 rounded-full justify-center md:justify-end w-auto max-w-fit gap-10">
-        <a href="#" target="_blank"><Icon name="mdi:linkedin" size="24px" color="#001D40" /></a>
-        <a href="#" target="_blank"><Icon name="ri:instagram-fill" size="24px" color="#001D40" /></a>
-        <a href="#" target="_blank"><Icon name="mdi:twitter-box" size="24px" color="#001D40" /></a>
-        <a href="#" target="_blank"><Icon name="ic:round-facebook" size="24px" color="#001D40" /></a>
+      <div
+        class="flex border border-blue-2 p-10 rounded-full justify-center md:justify-end w-auto max-w-fit gap-10"
+      >
+        <a href="#" target="_blank"
+          ><Icon name="mdi:linkedin" size="24px" color="#001D40"
+        /></a>
+        <a href="#" target="_blank"
+          ><Icon name="ri:instagram-fill" size="24px" color="#001D40"
+        /></a>
+        <a href="#" target="_blank"
+          ><Icon name="mdi:twitter-box" size="24px" color="#001D40"
+        /></a>
+        <a href="#" target="_blank"
+          ><Icon name="ic:round-facebook" size="24px" color="#001D40"
+        /></a>
       </div>
     </div>
   </div>

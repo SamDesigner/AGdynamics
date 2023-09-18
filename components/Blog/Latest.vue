@@ -6,12 +6,15 @@
     >
       <div class="w-full px-4 md:px-0 max-w-[612px]">
         <img
-          src="/img/support.png"
+          src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/support.png"
           alt="picture of people sitting having meeting"
         />
         <p class="text-grey-4/80 md:hidden text-lg mt-3">
-          When most people think of supported living, they think of group homes or other living arrangements for people with developmental..
-          <nuxt-link to="/blog/id" class="text-primary text-lg font-semibold">Read more...</nuxt-link>
+          When most people think of supported living, they think of group homes
+          or other living arrangements for people with developmental..
+          <nuxt-link to="/blog/id" class="text-primary text-lg font-semibold"
+            >Read more...</nuxt-link
+          >
         </p>
       </div>
       <div class="w-full max-w-[553px] px-4 mb-6 md:mb-0">
@@ -29,8 +32,11 @@
           <span> April 23, 2023</span>
         </div>
         <p class="text-grey-4/80 hidden md:block text-lg mt-3">
-          When most people think of supported living, they think of group homes or other living arrangements for people with developmental..
-          <nuxt-link to="/blog/id" class="text-primary text-lg font-semibold">Read more...</nuxt-link>
+          When most people think of supported living, they think of group homes
+          or other living arrangements for people with developmental..
+          <nuxt-link to="/blog/id" class="text-primary text-lg font-semibold"
+            >Read more...</nuxt-link
+          >
         </p>
       </div>
     </div>

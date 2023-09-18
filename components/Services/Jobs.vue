@@ -10,12 +10,12 @@
         <div class="mt-10 w-full lg:w-auto lg:mt-0 lg:mr-4">
           <img
             class="w-full hidden lg:block lg:w-auto"
-            src="/img/service-picture-place.png"
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/service-picture-place.png"
             alt="picture of people sitting having meeting"
           />
           <img
             class="w-full lg:hidden lg:w-auto"
-            src="/img/picture-place.png"
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/picture-place.png"
             alt="picture of people sitting having meeting"
           />
         </div>
@@ -34,7 +34,11 @@
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
           >
-            <img class="w-16" src="/img/01.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/01.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
                 Using in-depth knowledge and expertise in acquiring licenses
@@ -45,7 +49,11 @@
           <div
             class="flex flex-col md:flex-row items-center md:items-start mt-6"
           >
-            <img class="w-16" src="/img/02.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/02.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
                 Providing a service that ensures clients meet all the necessary
@@ -56,7 +64,11 @@
           <div
             class="flex flex-col md:flex-row items-center md:items-start mt-6"
           >
-            <img class="w-16" src="/img/03.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/03.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
                 Interview preparation for managerial positions within social
@@ -83,12 +95,12 @@
         <div class="mt-10 w-full lg:w-auto lg:mt-0 lg:mr-4">
           <img
             class="w-full hidden lg:block lg:w-auto"
-            src="/img/service-picture-place.png"
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/service-picture-place.png"
             alt="picture of people sitting having meeting"
           />
           <img
             class="w-full lg:hidden lg:w-auto"
-            src="/img/picture-place.png"
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/picture-place.png"
             alt="picture of people sitting having meeting"
           />
         </div>
@@ -107,7 +119,11 @@
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
           >
-            <img class="w-16" src="/img/01.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/01.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
                 Our technical writers and proofreaders enable clients win
@@ -119,7 +135,11 @@
           <div
             class="flex flex-col md:flex-row items-center md:items-start mt-6"
           >
-            <img class="w-16" src="/img/02.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/02.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
                 Our response management service streamlines response management
@@ -130,7 +150,11 @@
           <div
             class="flex flex-col md:flex-row items-center md:items-start mt-6"
           >
-            <img class="w-16" src="/img/03.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/03.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
                 Our Bids/Tender writing service will enable you craft a proposal
@@ -157,12 +181,12 @@
         <div class="mt-10 w-full lg:w-auto lg:mt-0 lg:mr-4">
           <img
             class="w-full hidden lg:block lg:w-auto"
-            src="/img/service-picture-place.png"
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/service-picture-place.png"
             alt="picture of people sitting having meeting"
           />
           <img
             class="w-full lg:hidden lg:w-auto"
-            src="/img/picture-place.png"
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/picture-place.png"
             alt="picture of people sitting having meeting"
           />
         </div>
@@ -175,35 +199,51 @@
             GROWTH AND DIVERSIFICATION
           </h2>
           <p class="leading-[28px] text-lg mt-1">
-            We enable the expansion and diversification of your service offerings beyond traditional social care areas.
+            We enable the expansion and diversification of your service
+            offerings beyond traditional social care areas.
           </p>
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
           >
-            <img class="w-16" src="/img/01.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/01.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                By developing a strategic roadmap for entering new markets or expanding existing operations.
+                By developing a strategic roadmap for entering new markets or
+                expanding existing operations.
               </p>
             </div>
           </div>
           <div
             class="flex flex-col md:flex-row items-center md:items-start mt-6"
           >
-            <img class="w-16" src="/img/02.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/02.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                By Identifying investment opportunities and strategies that fuel your business's  growth and sustainability.
+                By Identifying investment opportunities and strategies that fuel
+                your business's growth and sustainability.
               </p>
             </div>
           </div>
           <div
             class="flex flex-col md:flex-row items-center md:items-start mt-6"
           >
-            <img class="w-16" src="/img/03.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/03.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
-                By capitalizing on emerging market demands in the social care sector.
+                By capitalizing on emerging market demands in the social care
+                sector.
               </p>
             </div>
           </div>
@@ -226,12 +266,12 @@
         <div class="mt-10 w-full lg:w-auto lg:mt-0 lg:mr-4">
           <img
             class="w-full hidden lg:block lg:w-auto"
-            src="/img/service-picture-place.png"
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/service-picture-place.png"
             alt="picture of people sitting having meeting"
           />
           <img
             class="w-full lg:hidden lg:w-auto"
-            src="/img/picture-place.png"
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/picture-place.png"
             alt="picture of people sitting having meeting"
           />
         </div>
@@ -251,7 +291,11 @@
           <div
             class="flex flex-col md:flex-row items-center mt-8 md:items-start"
           >
-            <img class="w-16" src="/img/01.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/01.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
                 Our independent auditors conduct quality audits to assess
@@ -263,7 +307,11 @@
           <div
             class="flex flex-col md:flex-row items-center md:items-start mt-6"
           >
-            <img class="w-16" src="/img/02.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/02.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
                 Our Rating Improvement Service enables companies meet regulatory
@@ -274,7 +322,11 @@
           <div
             class="flex flex-col md:flex-row items-center md:items-start mt-6"
           >
-            <img class="w-16" src="/img/03.png" alt="first pic" />
+            <img
+              class="w-16"
+              src="/img/03.png"
+              alt="first pic"
+            />
             <div class="flex flex-col mt-8 md:mt-0 md:ml-8">
               <p class="leading-[28px] text-lg">
                 We conduct mock inspections to enable clients identify gaps and
@@ -299,12 +351,12 @@
         <div class="mt-10 w-full lg:w-auto lg:mt-0 lg:mr-4">
           <img
             class="w-full hidden lg:block lg:w-auto"
-            src="/img/service-picture-place.png"
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/service-picture-place.png"
             alt="picture of people sitting having meeting"
           />
           <img
             class="w-full lg:hidden lg:w-auto"
-            src="/img/picture-place.png"
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/picture-place.png"
             alt="picture of people sitting having meeting"
           />
         </div>

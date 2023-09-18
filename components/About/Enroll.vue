@@ -12,18 +12,20 @@
         Building Lasting Relationships
       </h2>
       <p class="leading-[28px] text-lg mt-4">
-        We believe in the power of trust, transparency, and lasting relationships. Our commitment to your success goes beyond transactions. we forge strong, long-term partnerships.
+        We believe in the power of trust, transparency, and lasting
+        relationships. Our commitment to your success goes beyond transactions.
+        we forge strong, long-term partnerships.
       </p>
       <div class="flex mt-10">
         <nuxt-link to="" class="bg-blue-4 text-white flex rounded py-4 px-8">
-          <img class="mr-3" src="/svg/yt.svg" alt="youtube icon">
+          <img class="mr-3" src="/svg/yt.svg" alt="youtube icon" />
           Watch Our Story
         </nuxt-link>
       </div>
     </div>
     <div class="mt-10 lg:mt-0 w-full max-w-[612px]">
       <img
-        src="/img/lasting.png"
+        src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/lasting.png"
         alt="picture of people sitting having meeting"
       />
       <div id="team" />

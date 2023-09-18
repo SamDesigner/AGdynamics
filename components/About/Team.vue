@@ -10,8 +10,8 @@ const modValClicked = (item: number) => {
 
 const clickedOutside = () => {
   modInfo.value = {};
-  console.log(modInfo)
-}
+  console.log(modInfo);
+};
 
 const members = ref([
   {
@@ -166,8 +166,8 @@ const resetBtnValues = () => {
             meet our amazing team
           </h2>
           <p class="mt-2 md:text-lg w-full max-w-[523px]">
-            We provide you experienced consultants to enable you and your company
-            become more successful in the future.
+            We provide you experienced consultants to enable you and your
+            company become more successful in the future.
           </p>
         </div>
       </div>
@@ -178,7 +178,10 @@ const resetBtnValues = () => {
             :key="idx"
             class="flex flex-col w-full md:w-[298px]"
           >
-            <img class="w-full" :src="`/img/${member.image}.png`" />
+            <img
+              class="w-full"
+              :src="`https://s3.eu-west-2.amazonaws.com/ocmc-img.com/${member.image}.png`"
+            />
             <div
               class="flex items-start px-4 py-8 border h-[242px] text-center border-blue-2"
               :class="idx === 0 ? 'bg-blue-2 text-white' : ''"
@@ -204,39 +207,46 @@ const resetBtnValues = () => {
         </div>
         <div id="location" />
       </div>
-      <div v-if="Object.entries(modInfo).length !== 0" class="fixed bg-grey/95 flex items-start md:items-center justify-center top-0 left-0 w-screen pt-40 md:w-[calc(100vw-16px)] overflow-hidden h-screen z-50">
       <div
-        v-click-outside="clickedOutside"
-        class="bg-whiter flex flex-col h-full md:h-auto overflow-y-auto relative xl:flex-row items-start gap-y-10 xl:gap-x-10 rounded-b-none md:rounded-b-2xl rounded-2xl p-6 md:w-[456px] xl:w-[1240px]"
+        v-if="Object.entries(modInfo).length !== 0"
+        class="fixed bg-grey/95 flex items-start md:items-center justify-center top-0 left-0 w-screen pt-40 md:w-[calc(100vw-16px)] overflow-hidden h-screen z-50"
       >
-        <img
-          class="rounded-xl w-full md:w-[298px]"
-          :src="`/img/${modInfo.image}.png`"
-          alt=""
-        />
-        <div class="flex flex-col gap-y-3">
-          <p class="font-semibold text-[22px]">
-            A Little About {{ modInfo.name }}
-          </p>
-          <p class=" lg:w-[407px]">{{ modInfo.about }}</p>
-        </div>
-        <div class="flex flex-col gap-y-4">
-          <p class="font-semibold text-[22px]">Capabilities & Achievements</p>
-          <div class="flex flex-wrap gap-2">
-            <button
-              v-for="(name, index) in modInfo.capabilities"
-              :key="index"
-              class="bg-grey-2 rounded px-4 py-3 text-left tracking-[0.2px] leading-[28px]"
-            >
-              {{ name }}
-            </button>
+        <div
+          v-click-outside="clickedOutside"
+          class="bg-whiter flex flex-col h-full md:h-auto overflow-y-auto relative xl:flex-row items-start gap-y-10 xl:gap-x-10 rounded-b-none md:rounded-b-2xl rounded-2xl p-6 md:w-[456px] xl:w-[1240px]"
+        >
+          <img
+            class="rounded-xl w-full md:w-[298px]"
+            :src="`https://s3.eu-west-2.amazonaws.com/ocmc-img.com/${modInfo.image}.png`"
+            alt=""
+          />
+          <div class="flex flex-col gap-y-3">
+            <p class="font-semibold text-[22px]">
+              A Little About {{ modInfo.name }}
+            </p>
+            <p class="lg:w-[407px]">{{ modInfo.about }}</p>
+          </div>
+          <div class="flex flex-col gap-y-4">
+            <p class="font-semibold text-[22px]">Capabilities & Achievements</p>
+            <div class="flex flex-wrap gap-2">
+              <button
+                v-for="(name, index) in modInfo.capabilities"
+                :key="index"
+                class="bg-grey-2 rounded px-4 py-3 text-left tracking-[0.2px] leading-[28px]"
+              >
+                {{ name }}
+              </button>
+            </div>
           </div>
         </div>
-      </div></div>
-      
+      </div>
+
       <div class="mt-24 flex flex-col items center text-center">
         <div class="flex justify-center w-[320px] mx-auto">
-          <img src="/img/location.png" alt="placeholder" />
+          <img
+            src="https://s3.eu-west-2.amazonaws.com/ocmc-img.com/location.png"
+            alt="placeholder"
+          />
         </div>
         <h3
           class="font-semibold mt-10 leading-[36px] md:leading-[48px] lg:leading-[54px] tracking-[-1.5px] text-2xl md:text-[32px] lg:text-[48px] capitalize"
