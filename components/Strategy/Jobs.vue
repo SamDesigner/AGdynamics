@@ -9,7 +9,7 @@ const strategy = ref([
   "Identifying operational challenges",
 ]);
 const growth = ref([
-  "Demand Forcasting",
+  "Demand Forecasting",
   "Diversification of services",
   "Strategic change",
   "Marketing entry strategy",
@@ -286,7 +286,7 @@ const decisions = ref([
           <button
             class="bg-grey-2 rounded px-4 py-3 text-left tracking-[0.2px] leading-[28px] xl:absolute xl:top-5 xl:right-80 xl:translate-x-7"
           >
-            Marketing & Barnding push
+            Marketing & Branding push
           </button>
           <button
             class="bg-grey-2 rounded px-4 py-3 text-left tracking-[0.2px] leading-[28px] xl:absolute xl:top-26 xl:right-20 xl:translate-x-7"

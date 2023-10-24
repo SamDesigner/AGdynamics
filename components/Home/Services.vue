@@ -41,7 +41,7 @@
             We provide:
           </p> -->
           <ul class="white-list list-inside flex flex-col gap-4">
-            <li>Market demand forcasting</li>
+            <li>Market demand forecasting</li>
             <li>Diversification of services</li>
             <li>Market entry strategy</li>
             <li>Enabling investment opportunities</li>
