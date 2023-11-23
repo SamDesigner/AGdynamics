@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: "O.C. Management Consulting",
+      title: "AG Dynamics",
       link: [{ rel: "icon", type: "image/png", href: "/favicon.ico" }],
       meta: [
         { charset: "utf-8" },
@@ -44,6 +44,7 @@ export default defineNuxtConfig({
       preprocessorOptions: {
         scss: {
           additionalData: '@use "@/assets/_colors.scss" as *;',
+       
         },
       },
     },

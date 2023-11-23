@@ -1,61 +1,11 @@
-body {
-  font-family: 'Product Sans', sans-serif;
-  scroll-behavior: smooth;
-  color: $blue-6;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+  font-family:'CabinetGrotesk'
 }
-* {
-  scroll-behavior: smooth;
+.sans{
+  font-family: 'DM Sans', sans-serif;
 }
-.router-link-exact-active {
-  color: $blue-4;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Recoleta', sans-serif;
-  color: $blue-2;
-}
-.swiper {
-  width: 100%;
-  &-3d {
-    width: 1210px !important;
-  }
-  &-slide {
-    width: 380px !important;
-    font-size: 18px !important;
-    line-height: 1.7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Product Sans", sans-serif;
-    @media screen and (max-width: 768px) {
-      width: 100% !important;
-    }
-  }
-  &-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: space-between !important;
-  }
-  &-cards {
-    width: 240px;
-    height: 240px;
-    & .swiper-slide {
-      border-radius: 6px;
-      border: 1px solid black;
-    }
-  }
-}
-.cut-text {
-  -webkit-box-orient: vertical;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-}
-
-.blue-btn:hover .hovered {
-  transform: translateX(10px);
-}
-.hovered {
-  -webkit-transition: 300ms ease-in-out;
-    -moz-transition: 300ms ease-in-out;
-    -o-transition: 300ms ease-in-out;
-    transition: 300ms ease-in-out;
+.inter{
+  font-family: 'Inter', sans-serif;
 }

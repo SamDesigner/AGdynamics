@@ -1,51 +1,38 @@
 
 @font-face {
-    font-family: 'Recoleta';
-    src: url('Recoleta-Medium.eot');
-    src: local('Recoleta Medium'), local('Recoleta-Medium'),
-        url('Recoleta-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Recoleta-Medium.woff2') format('woff2'),
-        url('Recoleta-Medium.woff') format('woff'),
-        url('Recoleta-Medium.ttf') format('truetype');
+    font-family: 'CabinetGrotesk';
+    src: url('CabinetGrotesk-Medium.eot');
+    src: local('CabinetGrotest Medium'), local('CabinetGrotest-Medium'),
+        url('CabinetGrotesk-Medium?iefix') format('embedded-opentype'),
+        url('CabinetGrotesk-Medium.woff2') format('woff2'),
+        url('CabinetGrotest-Medium.woff') format('woff'),
+        url('CabinetGrotesk-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Recoleta';
-    src: url('Recoleta-SemiBold.eot');
-    src: local('Recoleta SemiBold'), local('Recoleta-SemiBold'),
-        url('Recoleta-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('Recoleta-SemiBold.woff2') format('woff2'),
-        url('Recoleta-SemiBold.woff') format('woff'),
-        url('Recoleta-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta';
-    src: url('Recoleta-Regular.eot');
-    src: local('Recoleta Regular'), local('Recoleta-Regular'),
-        url('Recoleta-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Recoleta-Regular.woff2') format('woff2'),
-        url('Recoleta-Regular.woff') format('woff'),
-        url('Recoleta-Regular.ttf') format('truetype');
+@font-face{
+    font-family:'CabinetGrotesk';
+    src: url('CabinetGrotesk-Regular.eot');
+    src: local('CabientGrotesk Regular'), local('CabinetGrotesk-Regular'),
+        url('CabinetGrotesk-Reguler.?iefix') format('embedded-opentype'),
+        url('CabinetGrotest-Regular.woff2') format('woff2'),
+        url('CabinetGrotesk-Regular.woff') format('woff'),
+        url('CabinetGrotesk-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Recoleta';
-    src: url('Recoleta-Bold.eot');
-    src: local('Recoleta Bold'), local('Recoleta-Bold'),
-        url('Recoleta-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Recoleta-Bold.woff2') format('woff2'),
-        url('Recoleta-Bold.woff') format('woff'),
-        url('Recoleta-Bold.ttf') format('truetype');
-    font-weight: bold;
+@font-face{
+    font-family:'CabinetGrotesk';
+    src:url('CabinetGrotesk-Extrabold.eot');
+    src: url('CabinetGrotesk Extrabold') , local('CabinetGrotesk-Extrabold'),
+        url('CabinetGrotest-Extrabold?iefix') format('embedded-opentype'),
+        url('CabinetGrotesk-Extrabold.woff2') format('woff2'),
+        url('CabinetGrotesk-Extrabold.woff') format('woff'),
+        url('CabinetGrotesk-Extrabold.ttf') format('truetype');
+    font-weight: 800;
     font-style: normal;
 }
+
 
 @font-face {
     font-family: 'Recoleta';
@@ -59,23 +46,4 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Product Sans';
-    src: url('ProductSans-Regular.woff2') format('woff2'),
-        url('ProductSans-Regular.woff') format('woff'),
-        url('Product\ Sans\ Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Product Sans';
-    src: url('ProductSans-Bold.woff2') format('woff2'),
-        url('ProductSans-Bold.woff') format('woff'),
-        url('Product\ Sans\ Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
 

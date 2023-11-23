@@ -1,25 +1,13 @@
 <template>
-  <div>
-    <AppHeader />
-    <CareServicesDropdown v-if="dataStore.careServices" />
-    <AboutUsDropdown v-if="dataStore.about" />
-    <TrainingDropdown v-if="dataStore.training" />
-    <HomeHero />
-    <HomeServices />
-    <HomeAbout />
-    <HomeTestimonials />
-    <HomeTeam />
-    <HomeEbooks />
-    <HomeEnroll />
-    <!-- <HomeVideos /> -->
-  </div>
+    <div>
+        <Header />
+        <Showcase />
+        <Partners />
+        <ImpactReport />
+        <GlobalCommerce />
+        <Commodities />
+        <CertifiedQuality />
+        <FooterStats />
+        <Footer />
+    </div>
 </template>
-
-<script setup lang="ts">
-import { useDataStore } from '@/stores/data'
-const dataStore = useDataStore();
-</script>
-
-<style scoped>
-
-</style>
