@@ -44,7 +44,7 @@
 
                     </div>
                     <div class="h-[670px] w-full overflow-hidden rounded-tl-[50px] rounded-bl-[50px] rounded-br-[50px] rounded-tr-[2px]">
-                        <img class="h-full w-full object_fit rounded-tl-[50px] rounded-bl-[50px] rounded-br-[50px] rounded-tr-[2px]" src="img/doctors.jpeg" />
+                        <img class="h-full w-full object_fit rounded-tl-[50px] rounded-bl-[50px] rounded-br-[50px] rounded-tr-[2px]" src="/img/doctors.jpeg" />
                     </div>
                 </div>
             </div>
