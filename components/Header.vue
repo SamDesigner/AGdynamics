@@ -5,20 +5,20 @@
                 <img src="/svg/logo.svg" />
             </div>
             <div class="flex gap-[32px] text-[16px]">
-                <Nuxtlink to="/about">About Us</Nuxtlink>
-                <Nuxtlink>
+                <NuxtLink to="/about">About Us</NuxtLink>
+                <NuxtLink to="/services">
                     Services
                     <span><i class="pi pi-angle-down"></i></span>
-                </Nuxtlink>
-                <Nuxtlink >Contact Us</Nuxtlink>
+                </NuxtLink>
+                <NuxtLink >Contact Us</NuxtLink>
             </div>
             <div class="flex gap-[44px]">
-                <Nuxtlink>
+                <NuxtLink>
                     <button class="bg-customGray py-[19.609px] px-[29.4px]">Learn More</button>
-                </Nuxtlink>
-                <Nuxtlink>
+                </NuxtLink>
+                <NuxtLink>
                     <button class="bg-primaryYellow  py-[19.609px] px-[29.4px]">Get Started</button>
-                </Nuxtlink>
+                </NuxtLink>
             </div>
         </nav>
     </div>
