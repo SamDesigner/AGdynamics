@@ -4,9 +4,9 @@
         <Showcase />
         <Partners />
         <ImpactReport />
-        <GlobalCommerce />
+       <GlobalCommerce />
         <Commodities />
-        <CertifiedQuality />
+       <CertifiedQuality />
         <FooterStats />
         <Footer />
     </div>

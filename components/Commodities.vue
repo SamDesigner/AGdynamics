@@ -1,6 +1,6 @@
 <template>
-    <div class="py-[112px] px-[64px] ">
-        <div class="max-w-[1440px] mx-auto flex flex-col gap-[80px] ">
+    <div class="py-[112px] ">
+        <div class=" flex  flex-col gap-[80px] ">
             <div class="flex justify-center">
                 <div class="w-[724px]">
                     <h3 class="text-primaryGreen text-center">What we do</h3>
@@ -11,9 +11,9 @@
                   
                 </div>
             </div>
-            <div class="w-full bg-faintYellow h-[477px] flex justify-between rounded-tl-[83px] rounded-bl-[83px] rounded-br-[20px] items-center">
-                <div class="flex-1 flex  flex-col items-center">
-                    <div class=" w-[495px] flex gap-[20px] flex-col">
+            <div class="w-full bg-faintYellow h-[477px] flex flex-col lg:flex-row justify-between rounded-tl-[83px] rounded-bl-[83px] rounded-br-[20px] lg:items-center">
+                <div class="flex-1 flex  flex-col lg:items-center">
+                    <div class=" lg:w-[495px] flex gap-[20px] flex-col">
                         <div class="flex flex-col gap-[20px]">
                             <h1 class="text-maroon text-[24px] font-[700] ">Warehouse Network Development:</h1>
                             <p class="text-customGray-4 leading-[25px] text-[15px] ">Working collaboratively with the government to develop a network of warehouses</p>
@@ -28,8 +28,8 @@
 
                     
                 </div>
-                <div class="flex-1 flex justify-end items-end">
-                    <div class="w-[514px] h-[439px] ">
+                <div class="flex-1 w-full flex lg:justify-end lg:items-end">
+                    <div class="w-full lg:w-[514px] h-[439px] ">
                         <img src="/img/factory.png" />
                     </div>
                 </div>

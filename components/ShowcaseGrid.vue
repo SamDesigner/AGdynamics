@@ -1,23 +1,23 @@
 <template>
     <div class=" custom_radius relative">
        
-        <div class="max-w-[1440px] mx-auto contain_div">
-            <div class="flex lower ">
-                <div class="rounded-bl-[600px]">
-                    <div class="flex overflow-hidden">
-                        <div class="w-[515px] h-[393px]">
+        <div class="contain_div">
+            <div class="grid  md:h-[768px] bg-black grid-cols-3 lower ">
+                <div class="col-span-2 rounded-bl-[600px]">
+                    <div class="grid grid-cols-2 overflow-hidden">
+                        <div class="md:h-[393px]">
                             <img class="w-full h-full overflow-hidden object_fit" src="/img/tile1.png" />
                         </div>
-                        <div class="w-[515px] h-[393px]">
+                        <div class="md:h-[393px]">
                             <img class="w-full h-full overflow-hidden object_fit" src="/img/tile2.png" />
                         </div>
                     </div>
-                    <div class="w-[1031px] h-[374px]">
+                    <div class="w-full md:h-[374px]">
                         <img class="w-full h-full object_fit" src="/img/tile3.png" />
                     </div>
                 </div>
-                <div class="h-[768px] overflow-hidden ">
-                    <img class="h-full overflow-hidden object_fit" src="/img/tile4.png" />
+                <div class=" md:h-[768px] overflow-hidden ">
+                    <img class="h-full w-full overflow-hidden object_fit" src="/img/tile4.png" />
                 </div>
             </div>
         </div>
