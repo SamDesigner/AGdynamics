@@ -18,7 +18,7 @@
     <main>
       <NuxtPage />
     </main>
-    <AppFooter />
+ 
   </div>
 </template>
 <style lang="scss">

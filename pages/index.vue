@@ -1,12 +1,12 @@
 <template>
     <div>
-        <Header />
+        <!-- <Header /> -->
         <Showcase />
         <Partners />
         <ImpactReport />
        <GlobalCommerce />
         <Commodities />
-       <CertifiedQuality />
+        <CertifiedQuality />
         <FooterStats />
         <Footer />
     </div>
