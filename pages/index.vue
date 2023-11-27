@@ -1,6 +1,6 @@
 <template>
     <div>
-        <!-- <Header /> -->
+        <Header />
         <Showcase />
         <Partners />
         <ImpactReport />

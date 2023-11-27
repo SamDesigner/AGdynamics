@@ -1,8 +1,8 @@
 <template>
     <div>
-        <Header />
+        <!-- <Header /> -->
         <ProductsHero />
-        <ProductsEmpowerment />
+         <ProductsEmpowerment />
         <FooterStats />
         <Footer />
     </div>

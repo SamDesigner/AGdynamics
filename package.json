@@ -19,9 +19,11 @@
   "dependencies": {
     "@pinia/nuxt": "^0.4.11",
     "click-outside-vue3": "^4.0.1",
+    "nuxt-gsap-module": "^2.0.0",
     "nuxt-gtag": "^0.6.1",
     "nuxt-swiper": "^1.1.1",
     "pinia": "^2.1.6",
+    "primeicons": "^6.0.1",
     "primevue": "^3.41.1",
     "sass": "^1.63.6",
     "vue3-lottie": "^3.0.0"

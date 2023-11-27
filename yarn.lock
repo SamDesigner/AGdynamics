@@ -3316,6 +3316,11 @@ graceful-fs@^4.1.10, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0,
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
+gsap@^3.11.5:
+  version "3.12.2"
+  resolved "https://registry.npmjs.org/gsap/-/gsap-3.12.2.tgz"
+  integrity sha512-EkYnpG8qHgYBFAwsgsGEqvT1WUidX0tt/ijepx7z8EUJHElykg91RvW1XbkT59T0gZzzszOpjQv7SE41XuIXyQ==
+
 gzip-size@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmjs.org/gzip-size/-/gzip-size-7.0.0.tgz"
@@ -4822,6 +4827,13 @@ nuxi@3.6.5:
   optionalDependencies:
     fsevents "~2.3.2"
 
+nuxt-gsap-module@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/nuxt-gsap-module/-/nuxt-gsap-module-2.0.0.tgz"
+  integrity sha512-QRoyO8y1dZXR9FniR/I5/MuNwOANbpwqiGiV6E+7lat50cm2OVu+e5nYjnjlvM5BGoPE3gnvaYwuAL8TY+U7UA==
+  dependencies:
+    gsap "^3.11.5"
+
 nuxt-gtag@^0.6.1:
   version "0.6.1"
   resolved "https://registry.npmjs.org/nuxt-gtag/-/nuxt-gtag-0.6.1.tgz"
@@ -5555,6 +5567,11 @@ pretty-bytes@^6.1.0:
   version "6.1.1"
   resolved "https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-6.1.1.tgz"
   integrity sha512-mQUvGU6aUFQ+rNvTIAcZuWGRT9a6f6Yrg9bHs4ImKF+HZCEK+plBvnAZYSIQztknZF2qnzNtr6F8s0+IuptdlQ==
+
+primeicons@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.npmjs.org/primeicons/-/primeicons-6.0.1.tgz"
+  integrity sha512-KDeO94CbWI4pKsPnYpA1FPjo79EsY9I+M8ywoPBSf9XMXoe/0crjbUK7jcQEDHuc0ZMRIZsxH3TYLv4TUtHmAA==
 
 primevue@^3.41.1:
   version "3.41.1"

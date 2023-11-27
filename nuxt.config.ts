@@ -25,7 +25,14 @@ export default defineNuxtConfig({
       ],
     },
   },
-  css: ["~/assets/main.scss", "~/assets/fonts/fonts.css"],
+ 
+  css: [
+    "~/assets/main.scss", 
+    "~/assets/fonts/fonts.css",
+    'primevue/resources/themes/saga-blue/theme.css',
+    'primevue/resources/primevue.css',
+    'primeicons/primeicons.css'
+  ],
   modules: [
     "@nuxtjs/tailwindcss",
     "nuxt-icon",
@@ -48,5 +55,8 @@ export default defineNuxtConfig({
         },
       },
     },
+  },
+  build: {
+    transpile: ["gsap"],
   },
 });

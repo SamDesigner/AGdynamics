@@ -6,6 +6,6 @@
         <AboutValues />
         <AboutStrategy />
         <FooterStats />
-        <Footer />
+        <Footer /> 
     </div>
 </template>
