@@ -4,7 +4,7 @@
     </div>
     <div class="bg-greenBg px-[16px] lg:px-[64px] h-[177px] flex items-center w-full">
       
-        <nav class="fixed md:static bg-white h-[115px] flex justify-between items-center pr-[31px] rounded-[20px] w-8/10 md:w-full border-[0.5px] border-primaryGreen ">
+        <nav class="fixed md:static bg-white h-[115px] max-w-[1440px] mx-auto flex justify-between items-center pr-[31px] rounded-[20px] w-8/10 md:w-full border-[0.5px] border-primaryGreen ">
             <NuxtLink to='/'>
                 <img src="/svg/logo.svg" />
             </NuxtLink>

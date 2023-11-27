@@ -1,5 +1,5 @@
 <template>
-    <div class=" custom_radius relative">
+    <div class="max-w-[1440px] mx-auto custom_radius relative">
        
         <div class="contain_div">
             <div class="grid  md:h-[768px] bg-faintGreen grid-cols-3 lower ">

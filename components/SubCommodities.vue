@@ -62,7 +62,7 @@
 
 
 
-            <div class="w-[704px] bg-faintYellow  rounded-tl-[83px] rounded-bl-[83px] rounded-br-[83px]">
+            <div class="w-[704px] bg-faintYellow  rounded-tr-[83px] rounded-bl-[83px] rounded-br-[83px]">
                 <div class="px-[64px] py-[64px]">         
                     <div class="w-[425px] flex flex-col gap-[20px]">
                         <h1 class="text-maroon text-[25px] font-[600] ">Commodity Aggregation Promotion</h1>
