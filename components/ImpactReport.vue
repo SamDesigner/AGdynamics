@@ -3,7 +3,7 @@
         <div class="max-w-[1440px] mx-auto  lg:p-[64px] flex flex-col gap-[80px]">
             <div class="pt-[40px] px-[16px] flex flex-col gap-[40px]">
                 <div class="text-white flex flex-col justify-center items-center gap-[15px]">
-                    <h1 class="text-[36px] md:text-[48px] font-[700] ">Global impact report</h1>
+                    <h1 class="text-[36px] md:text-[48px] font-[500] ">Global impact report</h1>
                     <p class="md:w-[646px] text-center">We empower farmers and miners with warehouse digitization, commodity aggregation, and export fulfillment services, enhancing yields and expanding market access</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 lg:flex gap-[20px] justify-between">

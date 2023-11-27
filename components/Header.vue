@@ -10,11 +10,11 @@
             </NuxtLink>
             <div class="hidden text-dark-2 md:flex gap-[32px] text-[16px]">
                 <NuxtLink to="/about">About Us</NuxtLink>
-                <NuxtLink to="/services">
+                <NuxtLink to="#" class="flex items-center gap-[2px]">
                     Services
                     <span><i class="pi pi-angle-down"></i></span>
                 </NuxtLink>
-                <NuxtLink>Contact Us</NuxtLink>
+                <NuxtLink to="#">Contact Us</NuxtLink>
             </div>
             <div @click="changeIsOpen" class="md:hidden  text-primaryGreen">
                 <span><i class="pi pi-bars text-[20px]"></i></span>

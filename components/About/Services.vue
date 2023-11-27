@@ -3,7 +3,7 @@
         <div class="card overflow-hidden lg:w-[617px] h-[519px] bg-faintGreen h-[542px] pt-[64px] pl-[14px] pr-[11px] rounded-tl-[20px] rounded-bl-[20px] flex flex-col justify-between">
             <div class="">
                     <div class="lg:w-[449px] h-[137px] gap-[20px] mx-auto">
-                        <h1 class="text-maroon text-[24px] font-[800] ">Agro Services:</h1>
+                        <h1 class="text-maroon text-[24px] font-[500] ">Agro Services:</h1>
                         <p class="lg:w-[449px] text-[12px] font-[400] leading-[23px] ">Discover our tech solutions, including warehouse digitization, uplifting farmers for increased productivity and profitability."</p>
                         <Nuxt-link>
                             <div class="flex gap-[4px]">
@@ -22,7 +22,7 @@
             <div class="">
                     <div class="md:w-[449px] h-[137px] gap-[20px]  mx-auto">
                         <div>
-                            <h1 class="text-maroon text-[24px] font-[800] ">Solid Mineral Services</h1>
+                            <h1 class="text-maroon text-[24px] font-[500] ">Solid Mineral Services</h1>
                             <p class="lg:w-[449px] text-[12px] font-[400] leading-[23px] ">We are Commited to miners through commodity aggregation and export fulfillment, driving sustainable growth in the mining industry.</p>
                         </div>
                         <Nuxt-link>

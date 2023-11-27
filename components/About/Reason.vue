@@ -3,7 +3,7 @@
         <div class="max-w-[1440px] mx-auto flex flex-col md:flex-row gap-[40px] md:gap-[80px]">
             <div class="md:w-[616px] flex flex-col gap-[23px]">
                     <h3 class="text-primaryGreen text-[20px] sans font-[400]">Why choose us</h3>
-                    <h1 class="text-[40px] leading-[55px] font-[700] ">Sustainable Agriculture Hub </h1>
+                    <h1 class="text-[40px] leading-[55px] font-[500] ">Sustainable Agriculture Hub </h1>
 
             </div>
             <div class="md:w-[616px]">

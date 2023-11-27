@@ -26,6 +26,7 @@
     "primeicons": "^6.0.1",
     "primevue": "^3.41.1",
     "sass": "^1.63.6",
+    "swiper": "^11.0.5",
     "vue3-lottie": "^3.0.0"
   }
 }

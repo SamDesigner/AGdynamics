@@ -7,6 +7,7 @@
        <GlobalCommerce />
         <Commodities />
         <CertifiedQuality />
+        <Testimonials />
         <FooterStats />
         <Footer />
     </div>

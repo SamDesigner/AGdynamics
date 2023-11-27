@@ -2,7 +2,7 @@
     <div class=" custom_radius relative">
        
         <div class="contain_div">
-            <div class="grid  md:h-[768px] bg-black grid-cols-3 lower ">
+            <div class="grid  md:h-[768px] bg-faintGreen grid-cols-3 lower ">
                 <div class="col-span-2 rounded-bl-[600px]">
                     <div class="grid grid-cols-2 overflow-hidden">
                         <div class="md:h-[393px]">
@@ -35,6 +35,7 @@
         overflow: hidden;
         border-bottom-left-radius: 600px;
         border-bottom-right-radius: 600px;
+        height:586px
     }
    .contain_div .lower{
         width: 100%; /* This makes the image fill the container */

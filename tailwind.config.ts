@@ -12,6 +12,7 @@ export default <Partial<Config>>{
         "customGray-3":"#4E6269",
         "customGray-4":"#676364",
         'customGray-5':"#475467",
+        'customGray-6':'#9CA0AC',
         dark:'#1A1A1A',
         "dark-1":"#131D30",
         "dark-2":"#090909",

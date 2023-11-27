@@ -4,14 +4,14 @@
             <div class="flex flex-col gap-[24px] md:w-[768px]">
                 <div class="flex flex-col gap-[16px]">
                     <h3 class="text-primaryGreen sans text-[16px] leading-[24px] ">What can be done</h3>
-                    <h1 class="text-[36px] font-[700] leading-[43px] ">The AGDynamaic Strategy</h1>
+                    <h1 class="text-[36px] font-[500] leading-[43px] ">The AGDynamaic Strategy</h1>
                 </div>
                 <p class="text-[18px] font-[400] leading-[27px] ">Explore our curated selection of highly traded commodities.</p>
             </div>
             <div class='grid grid-cols-1 md:grid-cols-2  lg:flex gap-[41px]'>
                 <div class="card lg:w-[409px] h-[390px] flex flex-col gap-[24px] justify-center ">
                     <div class="flex flex-col-reverse md:flex-row gap-[10px] pl-[20px]">
-                        <h3 class="text-[20px] text-primaryGreen font-[700] leading-[32px] ">Integrated Digitization for Agricultural Advancement</h3>
+                        <h3 class="text-[20px] text-primaryGreen font-[500] leading-[32px] ">Integrated Digitization for Agricultural Advancement</h3>
                         <img class="w-fit h-fit " src="/img/one.png" />
                     </div>
                     <div class="p-[20px]">
@@ -24,7 +24,7 @@
                 </div>
                 <div class="card lg:w-[409px] h-[390px] flex flex-col gap-[24px] justify-center ">
                     <div class="flex flex-col-reverse md:flex-row gap-[10px] pl-[20px]">
-                        <h3 class="text-[20px] text-primaryGreen font-[700] leading-[32px] ">Integrated Digitization for Agricultural Advancement</h3>
+                        <h3 class="text-[20px] text-primaryGreen font-[500] leading-[32px] ">Integrated Digitization for Agricultural Advancement</h3>
                         <img class="w-fit h-fit " src="/img/two.png" />
                     </div>
                     <div class="p-[20px]">
@@ -37,7 +37,7 @@
                 </div>
                 <div class="card lg:w-[409px] h-[390px] flex flex-col gap-[24px] justify-center ">
                     <div class="flex flex-col-reverse md:flex-row gap-[10px] pl-[20px]">
-                        <h3 class="text-[20px] text-primaryGreen font-[700] leading-[32px] ">Integrated Digitization for Agricultural Advancement</h3>
+                        <h3 class="text-[20px] text-primaryGreen font-[500] leading-[32px] ">Integrated Digitization for Agricultural Advancement</h3>
                         <img class="w-fit h-fit " src="/img/three.png" />
                     </div>
                     <div class="p-[20px]">

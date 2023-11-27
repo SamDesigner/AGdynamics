@@ -5,7 +5,7 @@
                 <div class="flex flex-col items-center gap-[14px]">
                     <div class="">
                         <h4 class="text-primaryGreen text-[18px] font-[400] sans ">Who we are?</h4>
-                        <h1 class="text-[32px] lg:w-[597px] font-[700] ">
+                        <h1 class="text-[32px] lg:w-[597px] font-[500] ">
                             Reinventing Global Commerce: Innovative Solutions for Export and Supply Chains
                         </h1>
                     </div>
@@ -17,7 +17,7 @@
                     <div class="border-[1px] bg-white border-faintGreen-1 h-[165px] flex flex-col gap-[24px] justify-center p-[16px] md:pl-[32px] rounded-tl-[24px]">
                         <div class="flex gap-[10px] items-center">
                             <img src="/svg/hand.svg" />
-                            <h3 class="text-primaryGreen sans font-[700] leading-[21px] text-[18px]">Agro Services</h3>
+                            <h3 class="text-primaryGreen sans font-[5   00] leading-[21px] text-[18px]">Agro Services</h3>
                         </div>
                         <div>
                             <p class="text-customGray-3 leading-[25px] sans font-[400] ">Discover our tech solutions, including warehouse digitization, uplifting farmers for increased productivity and profitability."</p>
@@ -26,7 +26,7 @@
                     <div class="border-[1px] bg-white border-faintGreen-1 h-[165px] flex flex-col gap-[24px] justify-center p-[16px] md:pl-[32px] rounded-bl-[24px]">
                         <div class="flex gap-[10px] items-center">
                             <img src="/svg/hand.svg" />
-                            <h3 class="text-primaryGreen sans font-[700] leading-[21px] text-[18px]">Mineral Market Expansion</h3>
+                            <h3 class="text-primaryGreen sans font-[500] leading-[21px] text-[18px]">Mineral Market Expansion</h3>
                         </div>
                         <div>
                             <p class="text-customGray-3 leading-[25px] sans font-[400] ">
@@ -41,7 +41,7 @@
                 <img src="/svg/trailer.svg" />
             </div>
         </div>
-        <div class="bg-white h-[116px] rounded-tr-[40%] rounded-tl-[40%]">
+        <div class="bg-white  h-[150px]  overflow-hidden mx-auto rounded-tr-[150%] rounded-tl-[150%]">
 
         </div>
     </div>

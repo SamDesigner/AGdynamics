@@ -4,7 +4,7 @@
         <div class="max-w-[1440px] mx-auto flex flex-col gap-[72px]">
                 <div class="flex flex-col gap-[29px] md:w-[614px]">
                     <h3 class="text-[20px] font-[400] sans text-primaryGreen">Our values</h3>
-                    <h1 class="leading-[44px] font-[700] text-[36px] text-maroon">The AGDynamaic Value</h1>
+                    <h1 class="leading-[44px] font-[500] text-[36px] text-maroon">The AGDynamaic Value</h1>
                     <p class="text-customGray-5">We strive to enhance their yields, provide unparalleled growth opportunities, and 
                         contribute to the sustainable development of agro and mineral sectors.</p>
                 </div>
