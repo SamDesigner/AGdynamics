@@ -14,6 +14,7 @@ export default <Partial<Config>>{
         'customGray-5':"#475467",
         dark:'#1A1A1A',
         "dark-1":"#131D30",
+        "dark-2":"#090909",
         specialBorder:'#CAC8C8',
         primaryYellow:'#FFCE44',
         lightYellow:'#FFF6DB',
