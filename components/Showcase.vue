@@ -18,17 +18,17 @@
                         data-aos-easing="ease-out-cubic"
                         data-aos-delay="300"
                         class="flex flex-col gap-[32px]">
-                            <h1 class="text-green-1 text-[32px] md:text-[56px] text-center font-[500] leading-[40px] md:leading-[67px] ">Embrace the Future of Export commodity and supply chain</h1>
+                            <h1 class="text-green-1 text-[32px] md:text-[56px] text-center font-[700] leading-[40px] md:leading-[67px] ">Embrace the Future of Export commodity and supply chain</h1>
                             <p class="text-black font-[400] text-[18px] leading-[27px] text-center">Discover a transparent and technology-driven trading experience for a wide range of commodities.</p>
                         </div>
                         <div 
                        
                         class="flex gap-[20px] md:gap-[36px] items-center pt-[16px]">
                             <Nuxtlink>
-                                <button class="bg-primaryYellow  py-[19.609px] px-[29.4px] md:w-[210px] rounded-[8px]">Get Started</button>
+                                <button class="bg-primaryYellow  text-dark py-[19.609px] px-[29.4px] md:w-[210px] rounded-[8px]">Get Started</button>
                             </Nuxtlink>
                             <Nuxtlink>
-                                <button class="bg-green-2 text-primaryGreen py-[19.609px] px-[29.4px] rounded-[2px]">Learn More</button>
+                                <button class="bg-green-2  text-primaryGreen py-[19.609px] px-[29.4px] rounded-[2px]">Learn More</button>
                             </Nuxtlink>
 
                         </div>

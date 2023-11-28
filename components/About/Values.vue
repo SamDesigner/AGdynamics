@@ -2,7 +2,9 @@
     <div class="bg-faintGreen">
         <div class="py-[64px] lg:py-[112px] px-[16px] lg:px-[64px] ">
         <div class="max-w-[1440px] mx-auto flex flex-col gap-[72px]">
-                <div class="flex flex-col gap-[29px] md:w-[614px]">
+                <div 
+                data-aos="fade-right"
+                class="flex flex-col gap-[29px] md:w-[614px]">
                     <h3 class="text-[20px] font-[400] sans text-primaryGreen">Our values</h3>
                     <h1 class="leading-[44px] font-[500] text-[36px] text-maroon">The AGDynamaic Value</h1>
                     <p class="text-customGray-5">We strive to enhance their yields, provide unparalleled growth opportunities, and 
@@ -10,7 +12,9 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:flex ">
-                    <div class="lg:w-[498px] custom_border md:h-[557px] bg-milk flex justify-center md:items-center flex-col gap-[32px] ">
+                    <div 
+                    data-aos="fade-left"
+                    class="lg:w-[498px] custom_border md:h-[557px] bg-milk flex justify-center md:items-center flex-col gap-[32px] ">
                         <div class="flex flex-col gap-[32px] ">
                             <img class="w-[108px] md:h-[73px]" src="/svg/recycle.svg" />
                             <h3 class="text-[20px] w-[271px] text-primaryGreen font-[700] leading-[30px] ">
@@ -25,7 +29,11 @@
                             </p>
                         </div>
                     </div>
-                    <div class="lg:w-[498px] p-[30px] md:h-[557px] lg:ml-[-40px] rounded-tl-[18px] rounded-bl-[18px]  bg-milkBrown flex justify-center md:items-center flex-col gap-[32px]">
+                    <div 
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                    class="lg:w-[498px] p-[30px] md:h-[557px] lg:ml-[-40px] rounded-tl-[18px] rounded-bl-[18px]  bg-milkBrown flex justify-center md:items-center flex-col gap-[32px]">
                         <div class="flex flex-col gap-[32px] ">
                             <img class="w-[108px] md:h-[73px]" src="/svg/plant.svg" />
                             <h3 class="text-[20px] w-[271px] text-primaryGreen font-[700] leading-[30px]">
@@ -39,7 +47,11 @@
                             </p>
                         </div>
                     </div>
-                    <div class=" lg:w-[498px] custom_border md:h-[557px] lg:ml-[-40px] rounded-tl-[18px] rounded-bl-[18px]  bg-milk flex justify-center md:items-center flex-col gap-[32px]">
+                    <div 
+                    data-aos="fade-left"
+                    data-aos-duration="1500"
+                    data-aos-delay="600"
+                    class=" lg:w-[498px] custom_border md:h-[557px] lg:ml-[-40px] higher_index rounded-tl-[18px] rounded-bl-[18px]  bg-milk flex justify-center md:items-center flex-col gap-[32px]">
                         <div class="flex flex-col gap-[32px] ">
                             <img class="w-[108px] md:h-[73px]" src="/svg/handshake.svg" />
                             <h3 class="text-[20px] w-[271px] text-primaryGreen font-[700] leading-[30px]">
@@ -71,5 +83,8 @@
     }
     .high_index{
         z-index: 100;
+    }
+    .higher_index{
+        z-index: 1000;
     }
 </style>

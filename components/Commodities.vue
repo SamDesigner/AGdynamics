@@ -18,12 +18,16 @@
             <div class="w-full lg:h-[477px] bg-faintYellow flex flex-col  gap-[25px] p-[16px] lg:flex-row justify-between rounded-tl-[83px] rounded-bl-[83px] rounded-br-[20px] lg:items-center">
                 <div class="flex-1 flex px-[16px]  flex-col lg:items-center ">
                     <div class=" lg:w-[495px] flex gap-[20px] flex-col">
-                        <div class="flex flex-col gap-[20px]">
-                            <h1 class="text-maroon text-[24px] font-[700] ">Warehouse Network Development:</h1>
+                        <div 
+                        data-aos="fade-left"
+                        class="flex flex-col gap-[20px]">
+                            <h1 class="text-maroon text-[24px] font-[500] ">Warehouse Network Development:</h1>
                             <p class="text-customGray-4 leading-[25px] text-[15px] ">Working collaboratively with the government to develop a network of warehouses</p>
                         </div>
                         <Nuxt-link>
-                            <div class="flex gap-[4px]">
+                            <div 
+                            data-aos="fade-left"
+                            class="flex gap-[4px]">
                                 <span class="text-primaryGreen font-[500] text-[19px]">Learn more</span>
                                 <img src="/svg/arrow-right.svg" />
                             </div>
@@ -32,7 +36,9 @@
 
                     
                 </div>
-                <div class="flex-1 w-full   flex lg:justify-end  lg:items-end">
+                <div 
+                data-aos="fade-left"
+                class="flex-1 w-full   flex lg:justify-end  lg:items-end">
                     <div class="w-full lg:w-[514px] h-[300px] md:h-[450px]">
                         <img class="w-full h-full" src="/img/factory.png" />
                     </div>

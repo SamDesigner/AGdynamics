@@ -14,7 +14,9 @@
                     </div>
             </div>
 
-            <div>
+            <div 
+            data-aos="fade-up"
+            >
                 <img src="/img/semi_circle.png" />
             </div>
         </div>
@@ -34,7 +36,9 @@
                     </div>
             </div>
 
-            <div class="flex items-center justify-center">
+            <div 
+            data-aos="fade-up"
+            class="flex items-center justify-center">
                 <img src="/img/bulb.png" />
             </div>
         </div>

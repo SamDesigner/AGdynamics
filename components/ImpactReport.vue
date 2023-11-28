@@ -22,7 +22,9 @@
                 </div>
             </div>
 
-            <div class="h-[577px]">
+            <div 
+            data-aos="zoom-in"
+            class="h-[577px]">
                 <img class="h-full object_fit" src="/img/map.png" />
             </div>
         </div>

@@ -22,10 +22,10 @@
             </div>
             <div class="flex gap-[44px] hidden lg:flex">
                 <NuxtLink>
-                    <button class="bg-customGray py-[19.609px] px-[29.4px]">Learn More</button>
+                    <button class="bg-customGray text-dark py-[19.609px] px-[29.4px]">Learn More</button>
                 </NuxtLink>
                 <NuxtLink>
-                    <button class="bg-primaryYellow  py-[19.609px] px-[29.4px]">Get Started</button>
+                    <button class="bg-primaryYellow  text-dark py-[19.609px] px-[29.4px]">Get Started</button>
                 </NuxtLink>
             </div>
             

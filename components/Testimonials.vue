@@ -12,8 +12,8 @@
                     :slides-per-view="4"
                     :loop="true"
                     :autoplay="{
-                    delay: 2000,
-                    disableOnInteraction: true,
+                        delay: 2000,
+                        disableOnInteraction: true,
                     }"
                     :pagination="{ clickable: true }"
                     @swiper="onSwiper"
@@ -183,9 +183,32 @@
                         </div>
                     </swiper-slide>
                   
+                 
+                   <SwiperControls
+                        class="hidden"
+                        :clickPrev="prevClicked"
+                        :clickNext="nextClicked"
+                        @resetBtnValues="resetBtnValues"
+                    />
+
+                    <div class="md:hidden gap-6 flex">
+                        <button
+                            @click="prevClicked = true"
+                            class="flex min-w-max bg-red-300"
+                        >
+                            Previous
+                        </button>
 
 
+                        <button
+                            @click="nextClicked = true"
+                            class="flex bg-black"
+                        >
+                            Next
+                        </button>
 
+                    </div>
+                
                   
                 </swiper>
                
@@ -195,10 +218,15 @@
     </div>
 </template>
 <style scoped>
-    .swiper-button-prev::after,
+    /* .swiper-button-prev::after,
     .swiper-button-next::after {
     display: none;
-    }
+    } */
+    .swiper-button-next {
+       height: 10vh !important; 
+        background-image: url("/svg/gooogle.svg") !important;
+        background-repeat: no-repeat;
+}
     .custom_card{
         box-shadow: 0px 0px 9.15529px 0px rgba(156, 160, 172, 0.40);
         border-radius: 32px 32px 0px 32px;
@@ -228,10 +256,12 @@
  
         }
     },
+
     setup() {
        
         const onSwiper = (swiper) => {
-        console.log(swiper);
+            console.log(swiper);
+   
         };
         const onSlideChange = () => {
            
@@ -244,6 +274,7 @@
         onSlideChange,
         modules: [Navigation, Scrollbar, A11y , Autoplay],
         };
+
     },
     };
 </script>

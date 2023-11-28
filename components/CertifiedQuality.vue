@@ -47,7 +47,11 @@
                         </div>
 
                     </div>
-                    <div class="h-[300px] md:h-[670px] w-full overflow-hidden rounded-tl-[50px] rounded-bl-[50px] rounded-br-[50px] rounded-tr-[2px]">
+                    <div 
+                    data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    class="h-[300px] md:h-[670px] w-full overflow-hidden rounded-tl-[50px] rounded-bl-[50px] rounded-br-[50px] rounded-tr-[2px]">
                         <img class="h-full w-full object_fit rounded-tl-[50px] rounded-bl-[50px] rounded-br-[50px] rounded-tr-[2px]" src="/img/doctors.jpeg" />
                     </div>
                 </div>
