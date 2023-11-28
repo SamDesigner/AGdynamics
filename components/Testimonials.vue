@@ -191,7 +191,7 @@
                         @resetBtnValues="resetBtnValues"
                     />
 
-                    <div class="md:hidden gap-6 flex">
+                    <div class=" gap-6 flex">
                         <button
                             @click="prevClicked = true"
                             class="flex min-w-max bg-red-300"
