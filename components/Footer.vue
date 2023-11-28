@@ -1,6 +1,6 @@
 <template>
     <footer class="px-[16px] bg-white py-[24px]">
-        <div class="bg-primaryGreen max-w-[1440px] mx-auto">
+        <div class="dark_bg max-w-[1440px] mx-auto">
             <div class="py-[100px] px-[16px] lg:px-[64px] grid grid-cols-1 lg:grid-cols-5 items-start gap-[40px] lg:gap-[100px]">
                 <div class="flex flex-col lg:col-span-2  gap-[30px]">
                     <NuxtLink to="/" class="flex justify-start">
@@ -85,3 +85,10 @@
     </footer>
 
 </template>
+
+
+<style scoped>
+    .dark_bg{
+        background-color: rgb(26, 74, 49);
+    }
+</style>
