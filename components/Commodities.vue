@@ -2,7 +2,11 @@
     <div class="max-w-[1440px] mx-auto md:pb-[112px] flex flex-col gap-[100px] ">
         <div class="  flex  flex-col gap-[80px]   lg:px-[64px] ">
             <div class="flex justify-center">
-                <div class="w-[724px] flex flex-col gap-[25px]">
+                <div 
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+                class="w-[724px] flex flex-col gap-[25px]">
                     <h3 class="text-primaryGreen text-center">What we do</h3>
                     <div class="flex flex-col gap-[24px]">
                         <h1 class="text-secondary text-[36px] md:text-[40px] font-[500] leading-[48px] text-center ">Trade Commodities with Ease and Transparency</h1>

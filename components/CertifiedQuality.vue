@@ -8,7 +8,9 @@
                 <div class="flex flex-col gap-[72px] ">
                     <div class="flex flex-col lg:flex-row gap-[73px] items-end">
                         <div>
-                            <div class="lg:w-[594px] flex flex-col gap-[19px]">
+                            <div 
+                            data-aos="fade-right"
+                            class="lg:w-[594px] flex flex-col gap-[19px]">
                                 <h3 class="sans text-[16px] font-[400] text-primaryGreen">Certified Quality Standards</h3>
                                 <div class="flex items-center gap-[40px]">
                                     <div>
@@ -28,7 +30,9 @@
                            
                         </div>
                         <div class="lg:w-[618px]">
-                            <div class="flex flex-col gap-[31px]">
+                            <div 
+                            data-aos="fade-left"
+                            class="flex flex-col gap-[31px]">
                                 <p class="text-customGray-3 leading-[31px]">
                                  We adhere to strict quality control standards set by regulatory bodies like the FDA and the UK Quality Assurance Company to ensure our products meet the highest quality benchmarks.
                                 </p>
