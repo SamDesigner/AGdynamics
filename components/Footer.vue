@@ -2,14 +2,19 @@
     <footer class="px-[16px] bg-white py-[24px]">
         <div class="dark_bg max-w-[1440px] mx-auto">
             <div class="py-[100px] px-[16px] lg:px-[64px] grid grid-cols-1 lg:grid-cols-5 items-start gap-[40px] lg:gap-[100px]">
-                <div class="flex flex-col lg:col-span-2  gap-[30px]">
-                    <NuxtLink to="/" class="flex justify-start">
-                        <img src="/img/newlogo.png" />
-                    </NuxtLink>
-                    <p class="leading-[21px] text-[14px] font-[400] text-white ">
-                        Welcome to AG Dynamics, a pioneering force in the convergence of technology and the agro and mineral sectors. Established with a vision to redefine the landscape of resource optimization, our journey is shaped by a commitment to innovation, sustainability, and global connectivity.
-                    </p>
+                <div class="lg:col-span-2 flex flex-col gap-[48px]">
+                    <div class="flex flex-col   gap-[30px]">
+                        <NuxtLink to="/" class="flex justify-start">
+                            <img src="/svg/footer_icon.svg" />
+                        </NuxtLink>
+                        <p class="leading-[21px] text-[14px] font-[400] text-white ">
+                            Welcome to AG Dynamics, a pioneering force in the convergence of technology and the agro and mineral sectors. Established with a vision to redefine the landscape of resource optimization, our journey is shaped by a commitment to innovation, sustainability, and global connectivity.
+                        </p>
+                    </div>
+                    <p class="text-[14px] font-[400] leading-[21px] text-white">© 2023 AGDynamics All rights reserved.</p>
                 </div>
+
+
                 <div class="grid grid-cols-2 gap-[40px] md:flex  md:flex-row justify-between lg:col-span-3 ">
 
                    

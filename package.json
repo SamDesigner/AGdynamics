@@ -22,7 +22,7 @@
     "click-outside-vue3": "^4.0.1",
     "nuxt-gsap-module": "^2.0.0",
     "nuxt-gtag": "^0.6.1",
-    "nuxt-swiper": "^1.1.1",
+    "nuxt-swiper": "^1.2.2",
     "pinia": "^2.1.6",
     "primeicons": "^6.0.1",
     "primevue": "^3.41.1",

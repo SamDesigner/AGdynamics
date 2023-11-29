@@ -2,9 +2,9 @@
     <div v-if="isOpen" class="h-screen md:hidden fixed w-[90%] custom_index bg-white">
         ldmlgldgmlm
     </div>
-    <div class="bg-greenBg px-[16px] lg:px-[64px] h-[177px] flex items-center w-full">
+    <div class="bg-greenBg relative px-[16px] lg:px-[64px] h-[177px] flex items-center w-full">
       
-        <nav class="fixed md:static bg-white h-[115px] max-w-[1440px] mx-auto flex justify-between items-center pr-[31px] rounded-[20px] w-8/10 md:w-full border-[0.5px] border-primaryGreen ">
+        <nav class="fixed md:sticky bg-white h-[115px] max-w-[1440px] mx-auto flex justify-between items-center pr-[31px] rounded-[20px] w-8/10 md:w-full border-[0.5px] border-primaryGreen ">
             <NuxtLink to='/'>
                 <img src="/svg/logo.svg" />
             </NuxtLink>
@@ -22,7 +22,7 @@
             </div>
             <div class="flex gap-[44px] hidden lg:flex">
                 <NuxtLink>
-                    <button class="bg-customGray text-dark py-[19.609px] px-[29.4px]">Learn More</button>
+                    <button class="bg-customGray learn_more text-dark py-[19.609px] px-[29.4px]">Learn More</button>
                 </NuxtLink>
                 <NuxtLink>
                     <button class="bg-primaryYellow  text-dark py-[19.609px] px-[29.4px]">Get Started</button>
@@ -52,5 +52,8 @@
 <style scoped>
     .custom_index{
         z-index:1000
+    }
+    .learn_more{
+        border: 1px solid #CAC8C8;
     }
 </style>

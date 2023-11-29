@@ -19,14 +19,14 @@
                 <div class="flex-1 flex px-[16px]  flex-col lg:items-center ">
                     <div class=" lg:w-[495px] flex gap-[20px] flex-col">
                         <div 
-                        data-aos="fade-left"
+                        data-aos="fade-right"
                         class="flex flex-col gap-[20px]">
                             <h1 class="text-maroon text-[24px] font-[500] ">Warehouse Network Development:</h1>
                             <p class="text-customGray-4 leading-[25px] text-[15px] ">Working collaboratively with the government to develop a network of warehouses</p>
                         </div>
                         <Nuxt-link>
                             <div 
-                            data-aos="fade-left"
+                            data-aos="fade-right"
                             class="flex gap-[4px]">
                                 <span class="text-primaryGreen font-[500] text-[19px]">Learn more</span>
                                 <img src="/svg/arrow-right.svg" />

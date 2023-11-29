@@ -34,7 +34,8 @@
                         data-aos="zoom-in"
                         data-aos-delay="600"
                         data-aos-duration="1600"
-                        src="/img/company5.png" />
+                        class="w-[120px]"
+                        src="/svg/decapolis.svg" />
                     </div>
                 </div>
             </div>

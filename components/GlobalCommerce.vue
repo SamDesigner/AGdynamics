@@ -9,7 +9,7 @@
                     data-aos-duration="1000"
                     class="">
                         <h4 class="text-primaryGreen text-[18px] font-[400] sans ">Who we are?</h4>
-                        <h1 class="text-[32px] lg:w-[597px] font-[500] ">
+                        <h1 class="commerce_header text-[32px] lg:w-[597px] font-[500] ">
                             Reinventing Global Commerce: Innovative Solutions for Export and Supply Chains
                         </h1>
                     </div>
@@ -65,8 +65,8 @@
 </template>
 
 <style scoped>
-    .global_section{
-      
-    }
+.commerce_header{
+    color:#1E1147;
+}
  
 </style>
