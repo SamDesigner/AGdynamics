@@ -40,6 +40,7 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxtjs/google-fonts",
     "nuxt-swiper",
+    "vue3-carousel-nuxt",
     "@pinia/nuxt",
     "nuxt-gtag",
   ],
@@ -61,4 +62,5 @@ export default defineNuxtConfig({
   build: {
     transpile: ["gsap"],
   },
+  
 });

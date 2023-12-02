@@ -56,7 +56,7 @@
         methods:{
             handleScroll(){
                 const scrollY = window.scrollY || window.pageYOffset;
-                const scrollThreshold = 240;
+                const scrollThreshold = 100;
                 this.isFixed = scrollY >= scrollThreshold;
                 
 

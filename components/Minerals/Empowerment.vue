@@ -29,5 +29,18 @@
 
 
         </div>
+        <div class="custom_curve">
+
+        </div>
     </div>
+
 </template>
+
+<style scoped>
+    .custom_curve{
+        height: 200px;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        background: white;
+    }
+</style>

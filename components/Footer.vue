@@ -1,8 +1,8 @@
 <template>
-    <footer class="px-[16px] bg-white py-[24px]">
-        <div class="dark_bg max-w-[1440px] mx-auto">
-            <div class="py-[100px] px-[16px] lg:px-[64px] grid grid-cols-1 lg:grid-cols-5 items-start gap-[40px] lg:gap-[100px]">
-                <div class="lg:col-span-2 flex flex-col gap-[48px]">
+    <footer class="px-[24px] bg-white py-[40px]">
+        <div class="dark_bg max-w-[1440px] mx-auto rounded-[20px]">
+            <div class="pt-[100px] pb-[200px] px-[120px] lg:px-[64px] flex justify-between  items-start gap-[40px] lg:gap-[100px]">
+                <div class="w-[399px] flex flex-col gap-[48px]">
                     <div class="flex flex-col   gap-[30px]">
                         <NuxtLink to="/" class="flex justify-start">
                             <img src="/svg/footer_icon.svg" />
@@ -15,7 +15,7 @@
                 </div>
 
 
-                <div class="grid grid-cols-2 gap-[40px] md:flex  md:flex-row justify-between lg:col-span-3 ">
+                <div class=" md:flex  md:flex-row gap-[100px] ">
 
                    
                     <ul class="flex flex-col gap-[20px] text-white whitespace-nowrap">
@@ -94,6 +94,6 @@
 
 <style scoped>
     .dark_bg{
-        background-color: rgb(26, 74, 49);
+        background-color: #1C734A;
     }
 </style>
