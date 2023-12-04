@@ -25,7 +25,7 @@
                     <button class="bg-customGray learn_more text-dark py-[19.609px] px-[29.4px]">Learn More</button>
                 </NuxtLink>
                 <NuxtLink>
-                    <button class="bg-primaryYellow  text-dark py-[19.609px] px-[29.4px]">Get Started</button>
+                    <button class="bg-primaryYellow  text_secondary py-[19.609px] px-[29.4px]">Get Started</button>
                 </NuxtLink>
             </div>
             
@@ -96,5 +96,8 @@
     }
     .router-link-exact-active{
         color:#04A44C
+    }
+    .text_secondary{
+        color:#1E1147;
     }
 </style>
