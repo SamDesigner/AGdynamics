@@ -57,7 +57,7 @@
         },
         // 1024 and up
         1024: {
-          itemsToShow: 3.5,
+          itemsToShow: 4,
           snapAlign: 'start',
         },
         1440:{
@@ -83,7 +83,7 @@
       <div >
         <Carousel 
         ref="carousel"  
-        :autoplay="2000"  
+        :wrapAround="true"
         :breakpoints="breakpoints"
         class="max-w-[1440px] mx-auto"
         
@@ -145,8 +145,8 @@
     </div>
     <div class="flex justify-end">
          <div class="flex gap-[25px]">
-            <button @click="prev"  class="bg-primaryGreen h-[48px] w-[48px] text-white rounded-full flex items-center justify-center "><span><i class="pi pi-chevron-left"></i></span></button>
-            <button @click="next" class= "bg-primaryGreen h-[48px] w-[48px] text-white rounded-full flex items-center justify-center "><span><i class="pi pi-chevron-right"></i></span></button>
+            <div @click="prev"  class=" carousel_btn bg-primaryGreen h-[38px] w-[38px] text-white rounded-[1000px] flex justify-center items-center "><span><i class="text-sm pi pi-chevron-left"></i></span></div>
+            <div @click="next" class= " carousel_btn bg-primaryGreen h-[38px] w-[38px] text-white rounded-[1000px] flex items-center justify-center "><span><i class="text-sm pi pi-chevron-right"></i></span></div>
            
           </div>
       </div>
@@ -163,5 +163,11 @@
 
 .carousel_height{
   height: 100% !important
+}
+.carousel_btn{
+  transition: all 0.3s ease;
+}
+.carousel_btn:active{
+  transform: scale(0.9);
 }
 </style>

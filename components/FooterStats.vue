@@ -8,15 +8,15 @@
 
                 </div>
                 <div class="w-full px-[16px] grid grid-cols-1 md:grid-cols-3 gap-[20px] lg:flex text-white lg:gap-[165px] lg:w-[1051px]">
-                    <div class="glass_card flex flex-col justify-center items-center gap-[24px] md:w-[227px]">
+                    <div class="glass_card rounded-tl-[40px] rounded-bl-[40px] rounded-br-[40px] flex flex-col justify-center items-center gap-[24px] md:w-[227px]">
                         <h1 class="text-[48px] font-[700] ">+200</h1>
                         <p class="text-[18px] font-[400] ">Jobs created</p>
                     </div>
-                    <div class="glass_card flex flex-col justify-center items-center gap-[24px] md:w-[227px]">
+                    <div class="glass_card flex rounded-[10px] flex-col justify-center items-center gap-[24px] md:w-[258px]">
                         <h1 class="text-[48px] font-[700] ">334565</h1>
                         <p class="text-[18px] font-[400] ">Hectares cultivated</p>
                     </div>
-                    <div class="glass_card flex flex-col justify-center items-center gap-[24px] md:w-[227px]">
+                    <div class="glass_card rounded-[10px] flex flex-col justify-center items-center gap-[24px] md:w-[236px]">
                         <h1 class="text-[48px] font-[700] ">+400</h1>
                         <p class="text-[18px] font-[400] ">Wear house available</p>
                     </div>
@@ -34,7 +34,7 @@
     .glass_card{
    
         padding: 24px;
-        border-radius: 40px 0px 40px 40px;
+      
         background: linear-gradient(220deg, rgba(192, 252, 212, 0.19) 15.01%, rgba(155, 248, 186, 0.11) 34.33%);
     }
 </style>
